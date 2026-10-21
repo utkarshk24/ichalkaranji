@@ -1,0 +1,148 @@
+{
+  "route": "festivals",
+  "summary": {
+    "en": "Ichalkaranji celebrates the festivals of western Maharashtra alongside local fairs. A dated event calendar will follow once venues and dates are confirmed each year.",
+    "mr": "इचलकरंजीत पश्चिम महाराष्ट्रातील सण आणि स्थानिक यात्रा साजऱ्या होतात. दरवर्षीची ठिकाणे व तारखा निश्चित झाल्यावर दिनांकित कार्यक्रम दिनदर्शिका दिली जाईल.",
+    "hi": "इचलकरंजी में पश्चिमी महाराष्ट्र के त्योहार और स्थानीय मेले मनाए जाते हैं। हर साल के स्थान और तारीखें तय होने पर दिनांकित कार्यक्रम कैलेंडर दिया जाएगा।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "cards",
+      "id": "local",
+      "title": {
+        "en": "Local fairs",
+        "mr": "स्थानिक यात्रा",
+        "hi": "स्थानीय मेले"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Shahapur's Mhasoba fair",
+            "mr": "शहापूरची म्हसोबा यात्रा",
+            "hi": "शहापुर का म्हसोबा मेला"
+          },
+          "body": {
+            "en": "Held on the first Tuesday after Gudi Padwa, the Marathi New Year, for the local deity Mhasoba.",
+            "mr": "ग्रामदैवत म्हसोबासाठी गुढीपाडव्यानंतरच्या पहिल्या मंगळवारी भरते.",
+            "hi": "स्थानीय देवता म्हसोबा के लिए गुढ़ी पाड़वा के बाद पहले मंगलवार को लगता है।"
+          },
+          "source": "Wikipedia: Shahapur, Ichalkaranji",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shahapur,_Ichalkaranji"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "regional",
+      "title": {
+        "en": "Festivals through the year",
+        "mr": "वर्षभरातील सण",
+        "hi": "साल भर के त्योहार"
+      },
+      "lead": {
+        "en": "Celebrated across the region; city-specific venues and dates are being compiled.",
+        "mr": "परिसरभर साजरे होणारे; शहरातील ठिकाणे व तारखा संकलित होत आहेत.",
+        "hi": "पूरे क्षेत्र में मनाए जाते हैं; शहर के स्थान और तारीखें संकलित की जा रही हैं।"
+      },
+      "items": [
+        {
+          "en": "Gudi Padwa (Marathi New Year)",
+          "mr": "गुढीपाडवा (मराठी नववर्ष)",
+          "hi": "गुढ़ी पाड़वा (मराठी नववर्ष)"
+        },
+        {
+          "en": "Ganesh Utsav",
+          "mr": "गणेशोत्सव",
+          "hi": "गणेशोत्सव"
+        },
+        {
+          "en": "Navratri and Dasara",
+          "mr": "नवरात्र व दसरा",
+          "hi": "नवरात्रि और दशहरा"
+        },
+        {
+          "en": "Diwali",
+          "mr": "दिवाळी",
+          "hi": "दिवाली"
+        },
+        {
+          "en": "Holi",
+          "mr": "होळी",
+          "hi": "होली"
+        },
+        {
+          "en": "Mahashivratri",
+          "mr": "महाशिवरात्री",
+          "hi": "महाशिवरात्रि"
+        },
+        {
+          "en": "Datta Jayanti",
+          "mr": "दत्त जयंती",
+          "hi": "दत्त जयंती"
+        },
+        {
+          "en": "Mahavir Jayanti",
+          "mr": "महावीर जयंती",
+          "hi": "महावीर जयंती"
+        },
+        {
+          "en": "Eid",
+          "mr": "ईद",
+          "hi": "ईद"
+        },
+        {
+          "en": "Christmas",
+          "mr": "नाताळ",
+          "hi": "क्रिसमस"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "safety",
+      "tone": "info",
+      "body": {
+        "en": "For large processions and fairs, follow police traffic advisories and keep the emergency numbers handy: 112 for any emergency.",
+        "mr": "मोठ्या मिरवणुका व यात्रांच्या वेळी पोलिसांच्या वाहतूक सूचनांचे पालन करा आणि आपत्कालीन क्रमांक जवळ ठेवा: कोणत्याही आपत्कालीन स्थितीसाठी 112.",
+        "hi": "बड़े जुलूसों और मेलों में पुलिस की यातायात सलाह का पालन करें और आपातकालीन नंबर पास रखें: किसी भी आपात स्थिति के लिए 112।"
+      }
+    },
+    {
+      "type": "awaited",
+      "id": "awaited",
+      "title": {
+        "en": "Coming next",
+        "mr": "पुढे येणार",
+        "hi": "आगे आने वाला"
+      },
+      "items": [
+        {
+          "en": "Dated event calendar",
+          "mr": "दिनांकित कार्यक्रम दिनदर्शिका",
+          "hi": "दिनांकित कार्यक्रम कैलेंडर"
+        },
+        {
+          "en": "Temple jatras",
+          "mr": "मंदिर यात्रा",
+          "hi": "मंदिर जत्राएँ"
+        },
+        {
+          "en": "Textile expos",
+          "mr": "वस्त्र प्रदर्शने",
+          "hi": "वस्त्र प्रदर्शनियाँ"
+        },
+        {
+          "en": "Sports events",
+          "mr": "क्रीडा स्पर्धा",
+          "hi": "खेल आयोजन"
+        },
+        {
+          "en": "Licensed photo gallery",
+          "mr": "परवानाधारक छायाचित्र दालन",
+          "hi": "लाइसेंसशुदा फ़ोटो दीर्घा"
+        }
+      ]
+    }
+  ]
+}

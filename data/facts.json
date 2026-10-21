@@ -1,0 +1,62 @@
+[
+  {
+    "id": "language",
+    "icon": "languages",
+    "label": { "en": "Main language", "mr": "मुख्य भाषा", "hi": "मुख्य भाषा" },
+    "value": { "en": "Marathi", "mr": "मराठी", "hi": "मराठी" },
+    "detail": {
+      "en": "Kannada is also heard, given the nearby state border; Hindi is widely used.",
+      "mr": "जवळच्या राज्य सीमेमुळे कन्नडही बोलली जाते; हिंदीचा वापर व्यापक आहे.",
+      "hi": "पास की राज्य सीमा के कारण कन्नड़ भी बोली जाती है; हिंदी का व्यापक उपयोग होता है।"
+    },
+    "year": null,
+    "status": "secondary",
+    "source": "IndiaNetzone: Ichalkaranji",
+    "sourceUrl": "https://www.indianetzone.com/ichalkaranji"
+  },
+  {
+    "id": "industry",
+    "icon": "factory",
+    "label": { "en": "Main industry", "mr": "प्रमुख उद्योग", "hi": "प्रमुख उद्योग" },
+    "value": { "en": "Powerlooms & textiles", "mr": "यंत्रमाग व वस्त्रोद्योग", "hi": "पावरलूम व वस्त्र उद्योग" },
+    "detail": {
+      "en": "Described as India's largest cotton greige-fabric hub.",
+      "mr": "देशातील सर्वांत मोठे सुती ग्रे कापड केंद्र म्हणून ओळखले जाते.",
+      "hi": "देश का सबसे बड़ा सूती ग्रे कपड़ा केंद्र माना जाता है।"
+    },
+    "year": 2025,
+    "status": "secondary",
+    "source": "Apparel Resources",
+    "sourceUrl": "https://apparelresources.com/business-news/manufacturing/ichalkaranjis-big-shift-greige-hub-value-added-powerhouse/"
+  },
+  {
+    "id": "civic_status",
+    "icon": "landmark",
+    "label": { "en": "Civic status", "mr": "नागरी दर्जा", "hi": "नगरीय दर्जा" },
+    "value": { "en": "Municipal Corporation", "mr": "महानगरपालिका", "hi": "महानगरपालिका" },
+    "detail": {
+      "en": "Upgraded from a municipal council by state GR of 5 May 2022; first election held 15 January 2026.",
+      "mr": "5 मे 2022 च्या शासन निर्णयाने नगरपरिषदेतून महानगरपालिकेत रूपांतर; पहिली निवडणूक 15 जानेवारी 2026 रोजी.",
+      "hi": "5 मई 2022 के शासन निर्णय से नगर परिषद से महानगरपालिका बनी; पहला चुनाव 15 जनवरी 2026 को हुआ।"
+    },
+    "year": 2022,
+    "status": "official",
+    "source": "UNI: first Ichalkaranji Municipal Corporation election",
+    "sourceUrl": "https://www.uniindia.com/news/states/west/page-5/"
+  },
+  {
+    "id": "pin",
+    "icon": "mail",
+    "label": { "en": "PIN code", "mr": "पिन कोड", "hi": "पिन कोड" },
+    "value": { "en": "416115", "mr": "416115", "hi": "416115" },
+    "detail": {
+      "en": "Main Road / Rajwada area. Other city PIN codes are awaited from India Post.",
+      "mr": "मेन रोड / राजवाडा परिसर. शहरातील इतर पिन कोड भारतीय टपाल विभागाकडून प्रतीक्षेत.",
+      "hi": "मेन रोड / राजवाड़ा क्षेत्र। शहर के अन्य पिन कोड भारतीय डाक से प्रतीक्षित।"
+    },
+    "year": null,
+    "status": "secondary",
+    "source": "Ichalkaranji Janata Sahakari Bank (registered address)",
+    "sourceUrl": "https://kaijs.bank.in/history"
+  }
+]

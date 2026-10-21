@@ -1,0 +1,215 @@
+{
+  "route": "directory",
+  "summary": {
+    "en": "Where to find contact details for public offices. Phone numbers are listed only after they are verified; until then each entry points to the office's official source.",
+    "mr": "सार्वजनिक कार्यालयांचे संपर्क तपशील कुठे मिळतील. फोन क्रमांक पडताळणीनंतरच दिले जातात; तोपर्यंत प्रत्येक नोंद कार्यालयाच्या अधिकृत स्रोताकडे नेते.",
+    "hi": "सार्वजनिक कार्यालयों के संपर्क विवरण कहाँ मिलेंगे। फ़ोन नंबर सत्यापन के बाद ही दिए जाते हैं; तब तक हर प्रविष्टि कार्यालय के आधिकारिक स्रोत की ओर ले जाती है।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "table",
+      "id": "offices",
+      "title": {
+        "en": "Public offices",
+        "mr": "सार्वजनिक कार्यालये",
+        "hi": "सार्वजनिक कार्यालय"
+      },
+      "columns": [
+        {
+          "en": "Office",
+          "mr": "कार्यालय",
+          "hi": "कार्यालय"
+        },
+        {
+          "en": "For",
+          "mr": "कशासाठी",
+          "hi": "किसके लिए"
+        },
+        {
+          "en": "Contact details",
+          "mr": "संपर्क तपशील",
+          "hi": "संपर्क विवरण"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Ichalkaranji Municipal Corporation",
+            "mr": "इचलकरंजी महानगरपालिका",
+            "hi": "इचलकरंजी महानगरपालिका"
+          },
+          {
+            "en": "Taxes, water, certificates, sanitation, roads",
+            "mr": "कर, पाणी, दाखले, स्वच्छता, रस्ते",
+            "hi": "कर, पानी, प्रमाणपत्र, स्वच्छता, सड़कें"
+          },
+          {
+            "en": "Corporation website (ichalkaranjimnp.in)",
+            "mr": "महापालिका संकेतस्थळ (ichalkaranjimnp.in)",
+            "hi": "महानगरपालिका वेबसाइट (ichalkaranjimnp.in)"
+          }
+        ],
+        [
+          {
+            "en": "Kolhapur District Collectorate",
+            "mr": "कोल्हापूर जिल्हाधिकारी कार्यालय",
+            "hi": "कोल्हापुर ज़िलाधिकारी कार्यालय"
+          },
+          {
+            "en": "Revenue, elections, disaster management",
+            "mr": "महसूल, निवडणुका, आपत्ती व्यवस्थापन",
+            "hi": "राजस्व, चुनाव, आपदा प्रबंधन"
+          },
+          {
+            "en": "District website (kolhapur.gov.in)",
+            "mr": "जिल्हा संकेतस्थळ (kolhapur.gov.in)",
+            "hi": "ज़िला वेबसाइट (kolhapur.gov.in)"
+          }
+        ],
+        [
+          {
+            "en": "Hatkanangale Tahsil office",
+            "mr": "हातकणंगले तहसील कार्यालय",
+            "hi": "हातकणंगले तहसील कार्यालय"
+          },
+          {
+            "en": "Land records, certificates",
+            "mr": "जमीन नोंदी, दाखले",
+            "hi": "भूमि अभिलेख, प्रमाणपत्र"
+          },
+          {
+            "en": "Listed on the district website",
+            "mr": "जिल्हा संकेतस्थळावर नोंद",
+            "hi": "ज़िला वेबसाइट पर सूचीबद्ध"
+          }
+        ],
+        [
+          {
+            "en": "Police",
+            "mr": "पोलीस",
+            "hi": "पुलिस"
+          },
+          {
+            "en": "Law and order, complaints",
+            "mr": "कायदा व सुव्यवस्था, तक्रारी",
+            "hi": "क़ानून व्यवस्था, शिकायतें"
+          },
+          {
+            "en": "112 in an emergency; station numbers on the district website",
+            "mr": "आपत्कालीन स्थितीत 112; ठाण्यांचे क्रमांक जिल्हा संकेतस्थळावर",
+            "hi": "आपात स्थिति में 112; थानों के नंबर ज़िला वेबसाइट पर"
+          }
+        ],
+        [
+          {
+            "en": "MSEDCL (Mahavitaran)",
+            "mr": "महावितरण",
+            "hi": "महावितरण"
+          },
+          {
+            "en": "Electricity supply and bills",
+            "mr": "वीजपुरवठा व देयके",
+            "hi": "बिजली आपूर्ति और बिल"
+          },
+          {
+            "en": "mahadiscom.in; 24×7 toll-free number listed there",
+            "mr": "mahadiscom.in; 24×7 टोल-फ्री क्रमांक तेथे",
+            "hi": "mahadiscom.in; 24×7 टोल-फ्री नंबर वहाँ"
+          }
+        ],
+        [
+          {
+            "en": "India Post",
+            "mr": "भारतीय टपाल",
+            "hi": "भारतीय डाक"
+          },
+          {
+            "en": "Post offices and PIN codes",
+            "mr": "टपाल कार्यालये व पिन कोड",
+            "hi": "डाकघर और पिन कोड"
+          },
+          {
+            "en": "indiapost.gov.in post office search",
+            "mr": "indiapost.gov.in टपाल कार्यालय शोध",
+            "hi": "indiapost.gov.in डाकघर खोज"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "links",
+      "id": "links",
+      "title": {
+        "en": "Official websites",
+        "mr": "अधिकृत संकेतस्थळे",
+        "hi": "आधिकारिक वेबसाइटें"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Ichalkaranji Municipal Corporation",
+            "mr": "इचलकरंजी महानगरपालिका",
+            "hi": "इचलकरंजी महानगरपालिका"
+          },
+          "href": "https://ichalkaranjimnp.in"
+        },
+        {
+          "title": {
+            "en": "Kolhapur district administration",
+            "mr": "कोल्हापूर जिल्हा प्रशासन",
+            "hi": "कोल्हापुर ज़िला प्रशासन"
+          },
+          "href": "https://kolhapur.gov.in"
+        },
+        {
+          "title": {
+            "en": "MSEDCL (Mahavitaran)",
+            "mr": "महावितरण",
+            "hi": "महावितरण"
+          },
+          "href": "https://www.mahadiscom.in"
+        },
+        {
+          "title": {
+            "en": "India Post: find a post office",
+            "mr": "भारतीय टपाल: टपाल कार्यालय शोधा",
+            "hi": "भारतीय डाक: डाकघर खोजें"
+          },
+          "href": "https://www.indiapost.gov.in"
+        }
+      ]
+    },
+    {
+      "type": "awaited",
+      "id": "awaited",
+      "title": {
+        "en": "Being verified",
+        "mr": "पडताळणी सुरू",
+        "hi": "सत्यापन जारी"
+      },
+      "items": [
+        {
+          "en": "Ward office addresses",
+          "mr": "प्रभाग कार्यालयांचे पत्ते",
+          "hi": "वार्ड कार्यालयों के पते"
+        },
+        {
+          "en": "Police station addresses",
+          "mr": "पोलीस ठाण्यांचे पत्ते",
+          "hi": "पुलिस थानों के पते"
+        },
+        {
+          "en": "Banks and ATMs",
+          "mr": "बँका व एटीएम",
+          "hi": "बैंक और एटीएम"
+        },
+        {
+          "en": "Textile associations",
+          "mr": "वस्त्रोद्योग संघटना",
+          "hi": "वस्त्र उद्योग संघ"
+        }
+      ]
+    }
+  ]
+}

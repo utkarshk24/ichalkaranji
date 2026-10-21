@@ -1,0 +1,126 @@
+{
+  "route": "culture",
+  "summary": {
+    "en": "Ichalkaranji's best-documented cultural legacy is Hindustani music: the Gwalior gharana reached Maharashtra through Balakrishnabuwa Ichalkaranjikar.",
+    "mr": "इचलकरंजीचा सर्वाधिक दस्तऐवजीकृत सांस्कृतिक वारसा म्हणजे हिंदुस्थानी संगीत: बाळकृष्णबुवा इचलकरंजीकर यांच्यामुळे ग्वाल्हेर घराणे महाराष्ट्रात आले.",
+    "hi": "इचलकरंजी की सबसे प्रलेखित सांस्कृतिक विरासत हिंदुस्तानी संगीत है: बालकृष्णबुवा इचलकरंजीकर के ज़रिए ग्वालियर घराना महाराष्ट्र पहुँचा।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "cards",
+      "id": "music",
+      "title": {
+        "en": "Music heritage",
+        "mr": "संगीत वारसा",
+        "hi": "संगीत विरासत"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Balakrishnabuwa Ichalkaranjikar (1849–1926)",
+            "mr": "बाळकृष्णबुवा इचलकरंजीकर (1849–1926)",
+            "hi": "बालकृष्णबुवा इचलकरंजीकर (1849–1926)"
+          },
+          "body": {
+            "en": "Khayal singer who trained in Gwalior under Vasudeorao Joshi and brought the Gwalior gharana to Maharashtra.",
+            "mr": "ग्वाल्हेरमध्ये वासुदेवराव जोशी यांच्याकडे शिकलेले ख्याल गायक; ग्वाल्हेर घराणे महाराष्ट्रात आणले.",
+            "hi": "ग्वालियर में वासुदेवराव जोशी से सीखे ख़याल गायक, जो ग्वालियर घराना महाराष्ट्र लाए।"
+          },
+          "source": "Wikipedia",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Balakrishnabuwa_Ichalkaranjikar"
+        },
+        {
+          "title": {
+            "en": "Mirashi Buwa (b. 1883)",
+            "mr": "मिराशीबुवा (जन्म 1883)",
+            "hi": "मिराशीबुवा (जन्म 1883)"
+          },
+          "body": {
+            "en": "Born in Ichalkaranji; a disciple of Balakrishnabuwa known for fast taans.",
+            "mr": "इचलकरंजीत जन्म; जलद तानांसाठी प्रसिद्ध असलेले बाळकृष्णबुवांचे शिष्य.",
+            "hi": "इचलकरंजी में जन्मे; तेज़ तानों के लिए प्रसिद्ध बालकृष्णबुवा के शिष्य।"
+          },
+          "source": "Wikipedia",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mirashi_Buwa"
+        },
+        {
+          "title": {
+            "en": "The state music school (1930)",
+            "mr": "संस्थानाची संगीत शाळा (1930)",
+            "hi": "राज्य संगीत विद्यालय (1930)"
+          },
+          "body": {
+            "en": "Founded by Narayanrao Ghorpade; Keshavbuwa Ingale was court singer and taught there from 1931 to 1950.",
+            "mr": "नारायणराव घोरपडे यांनी स्थापन केली; केशवबुवा इंगळे 1931–1950 दरबार गायक होते व तेथे शिकवत.",
+            "hi": "नारायणराव घोरपड़े द्वारा स्थापित; केशवबुवा इंगले 1931–1950 तक दरबारी गायक रहे और वहाँ पढ़ाया।"
+          },
+          "source": "SwarGanga",
+          "sourceUrl": "https://www.swarganga.org/artist_details.php?id=775"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "everyday",
+      "title": {
+        "en": "Language, food and dress",
+        "mr": "भाषा, खाद्यपदार्थ आणि पेहराव",
+        "hi": "भाषा, खान-पान और पहनावा"
+      },
+      "paragraphs": [
+        {
+          "en": "Marathi is the everyday language, with Kannada heard because of the nearby border and Hindi widely understood.",
+          "mr": "मराठी ही रोजची भाषा; जवळच्या सीमेमुळे कन्नडही ऐकू येते आणि हिंदी सर्वत्र समजली जाते.",
+          "hi": "रोज़मर्रा की भाषा मराठी है; पास की सीमा के कारण कन्नड़ भी सुनाई देती है और हिंदी व्यापक रूप से समझी जाती है।"
+        },
+        {
+          "en": "The table is that of the Kolhapur region: misal, tambda (red) and pandhra (white) rassa, pithla-bhakri and Kolhapuri thalis. Claims about dishes specific to Ichalkaranji, and named eateries, are still being verified.",
+          "mr": "खाद्यसंस्कृती कोल्हापूर परिसराची: मिसळ, तांबडा व पांढरा रस्सा, पिठलं-भाकरी आणि कोल्हापुरी थाळी. इचलकरंजीच्या खास पदार्थांचे दावे आणि नामांकित उपाहारगृहे अद्याप पडताळली जात आहेत.",
+          "hi": "खान-पान कोल्हापुर क्षेत्र का है: मिसल, तांबड़ा (लाल) और पांढरा (सफ़ेद) रस्सा, पिठला-भाकरी और कोल्हापुरी थाली। इचलकरंजी के विशेष व्यंजनों और नामी भोजनालयों के दावे अभी सत्यापित किए जा रहे हैं।"
+        },
+        {
+          "en": "Traditional dress follows western Maharashtra: the nauvari sari, dhoti and pheta, and Kolhapuri chappals. The town was first known for cotton dhotis and saris before its looms diversified.",
+          "mr": "पारंपरिक पेहराव पश्चिम महाराष्ट्राचा: नऊवारी साडी, धोतर, फेटा आणि कोल्हापुरी चप्पल. मागांनी विविधता आणण्यापूर्वी गाव सुती धोतर व साड्यांसाठी ओळखले जात असे.",
+          "hi": "पारंपरिक पहनावा पश्चिमी महाराष्ट्र का है: नौवारी साड़ी, धोती और फेटा, और कोल्हापुरी चप्पल। करघों के विविध होने से पहले कस्बा सूती धोती और साड़ियों के लिए जाना जाता था।"
+        }
+      ]
+    },
+    {
+      "type": "awaited",
+      "id": "awaited",
+      "title": {
+        "en": "Being documented",
+        "mr": "दस्तऐवजीकरण सुरू",
+        "hi": "दस्तावेज़ीकरण जारी"
+      },
+      "items": [
+        {
+          "en": "Local dialect and phrases",
+          "mr": "स्थानिक बोली व वाक्प्रचार",
+          "hi": "स्थानीय बोली और मुहावरे"
+        },
+        {
+          "en": "Wrestling (kusti) akhadas",
+          "mr": "कुस्ती आखाडे",
+          "hi": "कुश्ती अखाड़े"
+        },
+        {
+          "en": "Temples, mosques and churches",
+          "mr": "मंदिरे, मशिदी व चर्च",
+          "hi": "मंदिर, मस्जिद और चर्च"
+        },
+        {
+          "en": "Cultural organisations",
+          "mr": "सांस्कृतिक संस्था",
+          "hi": "सांस्कृतिक संस्थाएँ"
+        },
+        {
+          "en": "Notable eateries",
+          "mr": "प्रसिद्ध उपाहारगृहे",
+          "hi": "प्रसिद्ध भोजनालय"
+        }
+      ]
+    }
+  ]
+}

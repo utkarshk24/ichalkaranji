@@ -1,0 +1,195 @@
+[
+  {
+    "id": "powerlooms",
+    "label": {
+      "en": "Powerlooms",
+      "mr": "यंत्रमाग",
+      "hi": "पावरलूम"
+    },
+    "unit": {
+      "en": "looms",
+      "mr": "माग",
+      "hi": "करघे"
+    },
+    "scope": "city",
+    "series": [
+      {
+        "year": 1954,
+        "value": 1521,
+        "status": "secondary",
+        "source": "Arthavijnana journal: The Weaving Industry of Ichalkaranji",
+        "sourceUrl": "https://www.i-scholar.in/index.php/ArthaVij/article/view/116972",
+        "method": "",
+        "retrieved": "2026-10-21"
+      },
+      {
+        "year": 2018,
+        "value": 150000,
+        "status": "estimate",
+        "source": "PDEXCIL via Textile Excellence",
+        "sourceUrl": "https://news.textileexcellence.com/iitexpo-ichalkaranji-2018-to-promote-textile-requirements",
+        "method": "Industry body figure stated as 'over 150,000'.",
+        "retrieved": "2026-10-21"
+      }
+    ],
+    "note": {
+      "en": "No official loom census found; treat as approximate.",
+      "mr": "यंत्रमागांची अधिकृत गणना सापडली नाही; आकडा अंदाजे समजावा.",
+      "hi": "करघों की कोई आधिकारिक गणना नहीं मिली; आँकड़ा अनुमानित मानें।"
+    }
+  },
+  {
+    "id": "shuttleless_looms",
+    "label": {
+      "en": "Shuttleless looms",
+      "mr": "शटललेस माग",
+      "hi": "शटललेस करघे"
+    },
+    "unit": {
+      "en": "looms",
+      "mr": "माग",
+      "hi": "करघे"
+    },
+    "scope": "city",
+    "series": [
+      {
+        "year": 2022,
+        "value": 25000,
+        "status": "official",
+        "source": "Lok Sabha, matter raised by MP Dhairyasheel Mane",
+        "sourceUrl": "https://eparlib.sansad.in/bitstream/123456789/1039638/1/8393.pdf",
+        "method": "",
+        "retrieved": "2026-10-21"
+      }
+    ]
+  },
+  {
+    "id": "spinning_mills",
+    "label": {
+      "en": "Spinning mills",
+      "mr": "सूतगिरण्या",
+      "hi": "कताई मिलें"
+    },
+    "unit": {
+      "en": "mills",
+      "mr": "गिरण्या",
+      "hi": "मिलें"
+    },
+    "scope": "city",
+    "series": [
+      {
+        "year": 2018,
+        "value": 35,
+        "status": "secondary",
+        "source": "PDEXCIL via Textile Excellence",
+        "sourceUrl": "https://news.textileexcellence.com/iitexpo-ichalkaranji-2018-to-promote-textile-requirements",
+        "method": "",
+        "retrieved": "2026-10-21"
+      }
+    ]
+  },
+  {
+    "id": "fabric_output",
+    "label": {
+      "en": "Fabric output",
+      "mr": "कापड उत्पादन",
+      "hi": "कपड़ा उत्पादन"
+    },
+    "unit": {
+      "en": "million metres a year",
+      "mr": "दशलक्ष मीटर प्रति वर्ष",
+      "hi": "मिलियन मीटर प्रति वर्ष"
+    },
+    "scope": "city",
+    "series": [
+      {
+        "year": 2025,
+        "value": 4296,
+        "status": "estimate",
+        "source": "Apparel Resources",
+        "sourceUrl": "https://apparelresources.com/business-news/manufacturing/ichalkaranjis-big-shift-greige-hub-value-added-powerhouse/",
+        "method": "Trade press figure; reference year approximate.",
+        "retrieved": "2026-10-21"
+      }
+    ]
+  },
+  {
+    "id": "city_gdp",
+    "label": {
+      "en": "City economic output",
+      "mr": "शहराचे आर्थिक उत्पादन",
+      "hi": "शहर का आर्थिक उत्पादन"
+    },
+    "unit": {
+      "en": "₹ crore",
+      "mr": "₹ कोटी",
+      "hi": "₹ करोड़"
+    },
+    "scope": "city",
+    "series": [
+      {
+        "year": 2025,
+        "value": null,
+        "status": "awaited",
+        "source": "No official city-level estimate",
+        "sourceUrl": "",
+        "method": "",
+        "retrieved": "2026-10-21"
+      }
+    ],
+    "fallback": {
+      "scope": "district",
+      "indicatorId": "kolhapur_gddp"
+    }
+  },
+  {
+    "id": "sizing_units",
+    "label": {
+      "en": "Sizing units",
+      "mr": "सायझिंग युनिट",
+      "hi": "साइज़िंग इकाइयाँ"
+    },
+    "unit": {
+      "en": "units",
+      "mr": "युनिट",
+      "hi": "इकाइयाँ"
+    },
+    "scope": "city",
+    "series": [
+      {
+        "year": 2022,
+        "value": 225,
+        "status": "official",
+        "source": "Lok Sabha, matter raised by MP Dhairyasheel Mane",
+        "sourceUrl": "https://eparlib.sansad.in/bitstream/123456789/1039638/1/8393.pdf",
+        "method": "",
+        "retrieved": "2026-10-21"
+      }
+    ]
+  },
+  {
+    "id": "processing_units",
+    "label": {
+      "en": "Processing units",
+      "mr": "प्रक्रिया युनिट",
+      "hi": "प्रोसेसिंग इकाइयाँ"
+    },
+    "unit": {
+      "en": "units",
+      "mr": "युनिट",
+      "hi": "इकाइयाँ"
+    },
+    "scope": "city",
+    "series": [
+      {
+        "year": 2022,
+        "value": 100,
+        "status": "official",
+        "source": "Lok Sabha, matter raised by MP Dhairyasheel Mane",
+        "sourceUrl": "https://eparlib.sansad.in/bitstream/123456789/1039638/1/8393.pdf",
+        "method": "",
+        "retrieved": "2026-10-21"
+      }
+    ]
+  }
+]

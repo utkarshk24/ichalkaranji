@@ -1,0 +1,143 @@
+{
+  "route": "demographics",
+  "summary": {
+    "en": "Census 2011 counted 287,570 people in the city and 325,709 in the urban agglomeration. Detailed tables are being pulled from the Census before they are published here.",
+    "mr": "2011 च्या जनगणनेत शहराची लोकसंख्या 2,87,570 आणि नागरी समूहाची 3,25,709 नोंदली गेली. सविस्तर तक्ते जनगणनेतून घेऊन नंतर येथे प्रसिद्ध केले जातील.",
+    "hi": "जनगणना 2011 में शहर की आबादी 2,87,570 और नगरीय समूह की 3,25,709 दर्ज हुई। विस्तृत तालिकाएँ जनगणना से लेकर बाद में यहाँ प्रकाशित की जाएँगी।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "indicators",
+      "id": "headline",
+      "title": {
+        "en": "Headline figures",
+        "mr": "मुख्य आकडे",
+        "hi": "मुख्य आँकड़े"
+      },
+      "ids": [
+        {
+          "id": "population_total",
+          "year": 2011
+        },
+        {
+          "id": "population_ua"
+        },
+        {
+          "id": "density"
+        },
+        {
+          "id": "sex_ratio"
+        },
+        {
+          "id": "literacy_rate"
+        },
+        {
+          "id": "area"
+        }
+      ]
+    },
+    {
+      "type": "chart",
+      "id": "trend",
+      "indicatorId": "population_total",
+      "title": {
+        "en": "Population over time",
+        "mr": "कालानुसार लोकसंख्या",
+        "hi": "समय के साथ जनसंख्या"
+      },
+      "subtitle": {
+        "en": "City, persons",
+        "mr": "शहर, व्यक्ती",
+        "hi": "शहर, व्यक्ति"
+      },
+      "body": {
+        "en": "The 2025 bar is a planning figure used by the state pollution board, not a census count. The 2001 value is awaited because secondary sources disagree.",
+        "mr": "2025 चा स्तंभ राज्य प्रदूषण नियंत्रण मंडळाने वापरलेला नियोजन आकडा आहे, जनगणना नव्हे. 2001 चा आकडा दुय्यम स्रोतांत मतभेद असल्याने प्रतीक्षेत आहे.",
+        "hi": "2025 का स्तंभ राज्य प्रदूषण बोर्ड द्वारा प्रयुक्त योजना आँकड़ा है, जनगणना नहीं। 2001 का मान द्वितीयक स्रोतों में मतभेद के कारण प्रतीक्षित है।"
+      }
+    },
+    {
+      "type": "prose",
+      "id": "community",
+      "title": {
+        "en": "Communities and data limits",
+        "mr": "समाज आणि आकडेवारीच्या मर्यादा",
+        "hi": "समुदाय और आँकड़ों की सीमाएँ"
+      },
+      "paragraphs": [
+        {
+          "en": "The Census publishes counts for Scheduled Castes and Scheduled Tribes, religion and mother tongue, but not city-level counts for individual castes. This portal shows only published aggregates and does not estimate community sizes.",
+          "mr": "जनगणना अनुसूचित जाती व जमाती, धर्म आणि मातृभाषा यांचे आकडे प्रसिद्ध करते, पण स्वतंत्र जातींचे शहरस्तरीय आकडे देत नाही. हे पोर्टल केवळ प्रसिद्ध झालेले एकत्रित आकडे दाखवते आणि समाजांच्या संख्येचा अंदाज बांधत नाही.",
+          "hi": "जनगणना अनुसूचित जाति व जनजाति, धर्म और मातृभाषा के आँकड़े प्रकाशित करती है, पर अलग-अलग जातियों के शहर-स्तरीय आँकड़े नहीं। यह पोर्टल केवल प्रकाशित समग्र आँकड़े दिखाता है और समुदायों के आकार का अनुमान नहीं लगाता।"
+        },
+        {
+          "en": "Marathi is the main language; Kannada is also heard given the nearby state border, and Hindi is widely used. Tribal and nomadic communities will be described using the official Scheduled Tribe and VJNT/NT classifications for Kolhapur district.",
+          "mr": "मराठी ही मुख्य भाषा; जवळच्या राज्य सीमेमुळे कन्नडही बोलली जाते आणि हिंदीचा वापर व्यापक आहे. आदिवासी व भटक्या समाजांची माहिती कोल्हापूर जिल्ह्यासाठीच्या अधिकृत अनुसूचित जमाती व वि.जा./भ.ज. वर्गीकरणानुसार दिली जाईल.",
+          "hi": "मराठी मुख्य भाषा है; पास की राज्य सीमा के कारण कन्नड़ भी बोली जाती है और हिंदी का व्यापक उपयोग है। आदिवासी और घुमंतू समुदायों का विवरण कोल्हापुर जिले के आधिकारिक अनुसूचित जनजाति और वि.जा./घु.ज. वर्गीकरण के अनुसार दिया जाएगा।"
+        }
+      ]
+    },
+    {
+      "type": "awaited",
+      "id": "awaited",
+      "title": {
+        "en": "Census tables still to be added",
+        "mr": "अद्याप जोडायचे जनगणना तक्ते",
+        "hi": "अभी जोड़ी जाने वाली जनगणना तालिकाएँ"
+      },
+      "lead": {
+        "en": "From the 2011 Primary Census Abstract and C-series tables for Ichalkaranji.",
+        "mr": "इचलकरंजीसाठीच्या 2011 प्राथमिक जनगणना सारांश व C-मालिका तक्त्यांतून.",
+        "hi": "इचलकरंजी के लिए 2011 प्राथमिक जनगणना सार और C-श्रृंखला तालिकाओं से।"
+      },
+      "items": [
+        {
+          "en": "Male and female literacy",
+          "mr": "पुरुष व स्त्री साक्षरता",
+          "hi": "पुरुष व महिला साक्षरता"
+        },
+        {
+          "en": "Child sex ratio",
+          "mr": "बाल लिंग गुणोत्तर",
+          "hi": "बाल लिंगानुपात"
+        },
+        {
+          "en": "Households and household size",
+          "mr": "कुटुंबे व कुटुंबाचा आकार",
+          "hi": "परिवार और परिवार का आकार"
+        },
+        {
+          "en": "SC and ST population",
+          "mr": "अनुसूचित जाती व जमाती लोकसंख्या",
+          "hi": "अनुसूचित जाति व जनजाति जनसंख्या"
+        },
+        {
+          "en": "Religion",
+          "mr": "धर्म",
+          "hi": "धर्म"
+        },
+        {
+          "en": "Mother tongue",
+          "mr": "मातृभाषा",
+          "hi": "मातृभाषा"
+        },
+        {
+          "en": "Age pyramid",
+          "mr": "वयोगट रचना",
+          "hi": "आयु पिरामिड"
+        },
+        {
+          "en": "Workers by sector",
+          "mr": "क्षेत्रनिहाय कामगार",
+          "hi": "क्षेत्रवार श्रमिक"
+        },
+        {
+          "en": "Housing, water, sanitation and electricity",
+          "mr": "घरे, पाणी, स्वच्छता व वीज",
+          "hi": "आवास, पानी, स्वच्छता और बिजली"
+        }
+      ]
+    }
+  ]
+}

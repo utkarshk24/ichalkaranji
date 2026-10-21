@@ -1,0 +1,200 @@
+{
+  "route": "faq",
+  "summary": {
+    "en": "Short answers to common questions about Ichalkaranji and this portal, each pointing to the page with the full, sourced detail.",
+    "mr": "इचलकरंजी व या पोर्टलविषयीच्या नेहमीच्या प्रश्नांची थोडक्यात उत्तरे; सविस्तर व संदर्भासह माहिती संबंधित पानावर.",
+    "hi": "इचलकरंजी और इस पोर्टल से जुड़े आम सवालों के संक्षिप्त उत्तर; पूरी, स्रोत सहित जानकारी संबंधित पृष्ठ पर।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "faq",
+      "id": "city",
+      "title": {
+        "en": "About the city",
+        "mr": "शहराविषयी",
+        "hi": "शहर के बारे में"
+      },
+      "items": [
+        {
+          "q": {
+            "en": "Why is Ichalkaranji called the Manchester of Maharashtra?",
+            "mr": "इचलकरंजीला महाराष्ट्राचे मँचेस्टर का म्हणतात?",
+            "hi": "इचलकरंजी को महाराष्ट्र का मैनचेस्टर क्यों कहते हैं?"
+          },
+          "a": {
+            "en": "Because of its powerloom industry. The first powerloom was installed in 1904; by 1954 the town had 1,521 looms, and trade bodies now put the count at over 1.5 lakh. See the Textile page.",
+            "mr": "यंत्रमाग उद्योगामुळे. पहिला यंत्रमाग 1904 मध्ये बसवला गेला; 1954 पर्यंत 1,521 माग होते आणि आज व्यापार संस्थांनुसार ही संख्या 1.5 लाखांहून अधिक आहे. वस्त्रोद्योग पान पाहा.",
+            "hi": "पावरलूम उद्योग के कारण। पहला पावरलूम 1904 में लगा; 1954 तक 1,521 करघे थे और आज व्यापार संगठनों के अनुसार संख्या 1.5 लाख से अधिक है। वस्त्र उद्योग पृष्ठ देखें।"
+          }
+        },
+        {
+          "q": {
+            "en": "What is the population of Ichalkaranji?",
+            "mr": "इचलकरंजीची लोकसंख्या किती?",
+            "hi": "इचलकरंजी की जनसंख्या कितनी है?"
+          },
+          "a": {
+            "en": "2,87,570 in the city and 3,25,709 in the urban agglomeration at the 2011 Census. Later figures are estimates, not counts.",
+            "mr": "2011 च्या जनगणनेनुसार शहर 2,87,570 व नागरी समूह 3,25,709. नंतरचे आकडे अंदाज आहेत, गणना नव्हे.",
+            "hi": "2011 की जनगणना में शहर 2,87,570 और नगरीय समूह 3,25,709। बाद के आँकड़े अनुमान हैं, गणना नहीं।"
+          }
+        },
+        {
+          "q": {
+            "en": "Is Ichalkaranji a municipal corporation?",
+            "mr": "इचलकरंजी महानगरपालिका आहे का?",
+            "hi": "क्या इचलकरंजी महानगरपालिका है?"
+          },
+          "a": {
+            "en": "Yes. It was upgraded from a municipal council by a state resolution of 5 May 2022, and its first corporation election was held in January 2026.",
+            "mr": "होय. 5 मे 2022 च्या शासन निर्णयाने नगरपरिषदेची महानगरपालिका झाली; पहिली निवडणूक जानेवारी 2026 मध्ये झाली.",
+            "hi": "हाँ। 5 मई 2022 के शासन निर्णय से नगर परिषद को महानगरपालिका बनाया गया; पहला चुनाव जनवरी 2026 में हुआ।"
+          }
+        },
+        {
+          "q": {
+            "en": "Which district and taluka is it in?",
+            "mr": "हे कोणत्या जिल्ह्यात व तालुक्यात आहे?",
+            "hi": "यह किस ज़िले और तालुका में है?"
+          },
+          "a": {
+            "en": "Hatkanangale taluka of Kolhapur district, Maharashtra.",
+            "mr": "महाराष्ट्रातील कोल्हापूर जिल्ह्याचा हातकणंगले तालुका.",
+            "hi": "महाराष्ट्र के कोल्हापुर ज़िले का हातकणंगले तालुका।"
+          }
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "visit",
+      "title": {
+        "en": "Visiting",
+        "mr": "भेट देताना",
+        "hi": "यात्रा"
+      },
+      "items": [
+        {
+          "q": {
+            "en": "What is the nearest railway station?",
+            "mr": "सर्वांत जवळचे रेल्वे स्थानक कोणते?",
+            "hi": "निकटतम रेलवे स्टेशन कौन-सा है?"
+          },
+          "a": {
+            "en": "Hatkanangale (HTK), about 7–8 km away. Kolhapur has the nearest mainline station.",
+            "mr": "सुमारे 7–8 किमीवरील हातकणंगले (HTK). मुख्य मार्गावरील सर्वांत जवळचे स्थानक कोल्हापूर.",
+            "hi": "लगभग 7–8 किमी दूर हातकणंगले (HTK)। मुख्य लाइन का निकटतम स्टेशन कोल्हापुर है।"
+          }
+        },
+        {
+          "q": {
+            "en": "What is the nearest airport?",
+            "mr": "सर्वांत जवळचा विमानतळ कोणता?",
+            "hi": "निकटतम हवाई अड्डा कौन-सा है?"
+          },
+          "a": {
+            "en": "Kolhapur Airport (KLH), about 30 km away. Belagavi and Pune are the larger alternatives.",
+            "mr": "सुमारे 30 किमीवरील कोल्हापूर विमानतळ (KLH). बेळगावी व पुणे हे मोठे पर्याय.",
+            "hi": "लगभग 30 किमी दूर कोल्हापुर हवाई अड्डा (KLH)। बेलगावी और पुणे बड़े विकल्प हैं।"
+          }
+        },
+        {
+          "q": {
+            "en": "When is the best time to visit?",
+            "mr": "भेटीसाठी उत्तम काळ कोणता?",
+            "hi": "घूमने का सबसे अच्छा समय कब है?"
+          },
+          "a": {
+            "en": "December to February, when the weather is mild and dry.",
+            "mr": "डिसेंबर ते फेब्रुवारी, जेव्हा हवा सौम्य व कोरडी असते.",
+            "hi": "दिसंबर से फरवरी, जब मौसम हल्का और सूखा रहता है।"
+          }
+        },
+        {
+          "q": {
+            "en": "Is Ichalkaranji near the sea?",
+            "mr": "इचलकरंजी समुद्राजवळ आहे का?",
+            "hi": "क्या इचलकरंजी समुद्र के पास है?"
+          },
+          "a": {
+            "en": "No. It is inland on the Deccan Plateau; the coast lies across the Western Ghats.",
+            "mr": "नाही. हे दख्खनच्या पठारावर अंतर्गत भागात आहे; किनारा पश्चिम घाटापलीकडे.",
+            "hi": "नहीं। यह दक्कन पठार पर भीतरी भाग में है; तट पश्चिमी घाट के पार है।"
+          }
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "portal",
+      "title": {
+        "en": "About this portal",
+        "mr": "या पोर्टलविषयी",
+        "hi": "इस पोर्टल के बारे में"
+      },
+      "items": [
+        {
+          "q": {
+            "en": "Is this the official website of the corporation?",
+            "mr": "हे महापालिकेचे अधिकृत संकेतस्थळ आहे का?",
+            "hi": "क्या यह महानगरपालिका की आधिकारिक वेबसाइट है?"
+          },
+          "a": {
+            "en": "No. This is an independent information portal. For official services, use the Ichalkaranji Municipal Corporation's own website, linked on the Civic services page.",
+            "mr": "नाही. हे स्वतंत्र माहिती पोर्टल आहे. अधिकृत सेवांसाठी इचलकरंजी महानगरपालिकेचे स्वतःचे संकेतस्थळ वापरा; दुवा नागरी सेवा पानावर.",
+            "hi": "नहीं। यह एक स्वतंत्र सूचना पोर्टल है। आधिकारिक सेवाओं के लिए इचलकरंजी महानगरपालिका की अपनी वेबसाइट देखें, जिसका लिंक नागरिक सेवाएँ पृष्ठ पर है।"
+          }
+        },
+        {
+          "q": {
+            "en": "Can I pay property tax or bills here?",
+            "mr": "येथे मालमत्ता कर किंवा देयके भरता येतात का?",
+            "hi": "क्या मैं यहाँ संपत्ति कर या बिल भर सकता हूँ?"
+          },
+          "a": {
+            "en": "No. This portal never takes payments. It links to the official portals where you can pay.",
+            "mr": "नाही. हे पोर्टल कधीही पैसे स्वीकारत नाही. पैसे भरता येतील अशा अधिकृत पोर्टलचे दुवे येथे आहेत.",
+            "hi": "नहीं। यह पोर्टल कभी भुगतान नहीं लेता। यहाँ उन आधिकारिक पोर्टलों के लिंक हैं जहाँ आप भुगतान कर सकते हैं।"
+          }
+        },
+        {
+          "q": {
+            "en": "Where do the numbers come from?",
+            "mr": "आकडे कुठून येतात?",
+            "hi": "आँकड़े कहाँ से आते हैं?"
+          },
+          "a": {
+            "en": "Every figure shows its source, year and status: official, secondary, estimate or awaited. Tap the source badge on any card, or see the Sources page.",
+            "mr": "प्रत्येक आकड्यासोबत स्रोत, वर्ष व स्थिती (अधिकृत, दुय्यम, अंदाज किंवा प्रतीक्षेत) दिली आहे. कोणत्याही कार्डवरील स्रोत चिन्हावर टॅप करा किंवा स्रोत पान पाहा.",
+            "hi": "हर आँकड़े के साथ स्रोत, वर्ष और स्थिति (आधिकारिक, द्वितीयक, अनुमान या प्रतीक्षित) दी गई है। किसी भी कार्ड पर स्रोत बैज टैप करें या स्रोत पृष्ठ देखें।"
+          }
+        },
+        {
+          "q": {
+            "en": "Why do some figures say “Data awaited”?",
+            "mr": "काही आकड्यांवर “माहिती प्रतीक्षेत” का लिहिले आहे?",
+            "hi": "कुछ आँकड़ों पर “डेटा प्रतीक्षित” क्यों लिखा है?"
+          },
+          "a": {
+            "en": "Because no reliable source was found yet. The portal leaves a gap rather than guess.",
+            "mr": "कारण अद्याप विश्वसनीय स्रोत मिळालेला नाही. अंदाज करण्याऐवजी पोर्टल जागा रिकामी ठेवते.",
+            "hi": "क्योंकि अभी तक कोई विश्वसनीय स्रोत नहीं मिला। अनुमान लगाने के बजाय पोर्टल जगह खाली छोड़ता है।"
+          }
+        },
+        {
+          "q": {
+            "en": "How do I report a mistake?",
+            "mr": "चूक कशी कळवावी?",
+            "hi": "गलती की सूचना कैसे दें?"
+          },
+          "a": {
+            "en": "Use the Contact page and include the page address and, if you can, a source for the correct figure.",
+            "mr": "संपर्क पान वापरा; पानाचा पत्ता आणि शक्य असल्यास योग्य आकड्याचा स्रोत द्या.",
+            "hi": "संपर्क पृष्ठ का उपयोग करें; पृष्ठ का पता और हो सके तो सही आँकड़े का स्रोत दें।"
+          }
+        }
+      ]
+    }
+  ]
+}

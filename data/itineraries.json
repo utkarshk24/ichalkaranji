@@ -1,0 +1,44 @@
+[
+  {
+    "id": "one-day",
+    "title": { "en": "One day: the textile city and the confluence", "mr": "एक दिवस: वस्त्रनगरी आणि संगम", "hi": "एक दिन: वस्त्र नगरी और संगम" },
+    "days": [
+      {
+        "label": { "en": "Day 1", "mr": "दिवस 1", "hi": "दिन 1" },
+        "stops": ["rajwada", "panchganga-ghat", "narsobawadi", "kurundwad-ghat"]
+      }
+    ]
+  },
+  {
+    "id": "two-days",
+    "title": { "en": "Two days: add Kolhapur", "mr": "दोन दिवस: कोल्हापूरसह", "hi": "दो दिन: कोल्हापुर के साथ" },
+    "days": [
+      {
+        "label": { "en": "Day 1", "mr": "दिवस 1", "hi": "दिन 1" },
+        "stops": ["rajwada", "panchganga-ghat", "narsobawadi"]
+      },
+      {
+        "label": { "en": "Day 2", "mr": "दिवस 2", "hi": "दिन 2" },
+        "stops": ["mahalaxmi", "rankala"]
+      }
+    ]
+  },
+  {
+    "id": "weekend",
+    "title": { "en": "Long weekend: temples and forts", "mr": "मोठा शनिवार-रविवार: मंदिरे व किल्ले", "hi": "लंबा सप्ताहांत: मंदिर और किले" },
+    "days": [
+      {
+        "label": { "en": "Day 1", "mr": "दिवस 1", "hi": "दिन 1" },
+        "stops": ["rajwada", "panchganga-ghat", "narsobawadi", "kurundwad-ghat"]
+      },
+      {
+        "label": { "en": "Day 2", "mr": "दिवस 2", "hi": "दिन 2" },
+        "stops": ["mahalaxmi", "rankala"]
+      },
+      {
+        "label": { "en": "Day 3", "mr": "दिवस 3", "hi": "दिन 3" },
+        "stops": ["jyotiba", "panhala"]
+      }
+    ]
+  }
+]

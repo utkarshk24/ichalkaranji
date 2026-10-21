@@ -1,0 +1,218 @@
+[
+  {
+    "id": "city-centre",
+    "category": "landmark",
+    "lat": 16.7,
+    "lng": 74.47,
+    "approximate": true,
+    "name": { "en": "Ichalkaranji city centre", "mr": "इचलकरंजी शहर केंद्र", "hi": "इचलकरंजी शहर केंद्र" },
+    "description": {
+      "en": "Reference point for the city (16°42′N 74°28′E). The city lies about half a mile north of the Panchganga.",
+      "mr": "शहराचा संदर्भ बिंदू (16°42′ उ. 74°28′ पू.). शहर पंचगंगेच्या उत्तरेस सुमारे अर्धा मैल अंतरावर आहे.",
+      "hi": "शहर का संदर्भ बिंदु (16°42′ उ. 74°28′ पू.)। शहर पंचगंगा से लगभग आधा मील उत्तर में है।"
+    },
+    "source": "Wikipedia: Ichalkaranji (infobox)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji",
+    "verified": "2026-10-21"
+  },
+  {
+    "id": "rajwada",
+    "category": "tourism",
+    "lat": null,
+    "lng": null,
+    "approximate": false,
+    "tourism": { "group": "in-city" },
+    "name": { "en": "Rajwada palace", "mr": "राजवाडा", "hi": "राजवाड़ा" },
+    "description": {
+      "en": "Seat of the Ghorpade chiefs, today the campus of the DKTE Textile & Engineering Institute. Visiting arrangements: awaited.",
+      "mr": "घोरपडे जहागीरदारांचे निवासस्थान; आज डीकेटीई वस्त्र व अभियांत्रिकी संस्थेचा परिसर. भेटीची व्यवस्था: प्रतीक्षेत.",
+      "hi": "घोरपड़े शासकों का निवास, आज डीकेटीई वस्त्र व अभियांत्रिकी संस्थान का परिसर। भ्रमण व्यवस्था: प्रतीक्षित।"
+    },
+    "source": "Wikipedia: Ichalkaranji; DKTE address (Rajwada)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji",
+    "verified": "2026-10-21"
+  },
+  {
+    "id": "panchganga-ghat",
+    "category": "tourism",
+    "lat": null,
+    "lng": null,
+    "approximate": false,
+    "tourism": { "group": "in-city" },
+    "name": { "en": "Panchganga ghat", "mr": "पंचगंगा घाट", "hi": "पंचगंगा घाट" },
+    "description": {
+      "en": "The city's riverside near Shiradhwad, where the state pollution board monitors river water quality (station 1311).",
+      "mr": "शिरदवाडजवळील शहराचा नदीकाठ; येथे राज्य प्रदूषण नियंत्रण मंडळ नदीच्या पाण्याची गुणवत्ता तपासते (केंद्र 1311).",
+      "hi": "शिरदवाड के पास शहर का नदी तट, जहाँ राज्य प्रदूषण बोर्ड नदी जल गुणवत्ता की निगरानी करता है (केंद्र 1311)।"
+    },
+    "source": "MPCB Panchganga action plan (station 1311)",
+    "sourceUrl": "https://mpcb.gov.in/sites/default/files/river-polluted/action-plan-priority/PriorityVRiverspanchganga05022021.pdf",
+    "verified": "2026-10-21"
+  },
+  {
+    "id": "narsobawadi",
+    "category": "tourism",
+    "lat": 16.69,
+    "lng": 74.6,
+    "approximate": true,
+    "tourism": { "group": "nearby" },
+    "name": { "en": "Narsobawadi (Nrusinhawadi) Datta temple", "mr": "नृसिंहवाडी दत्त मंदिर", "hi": "नृसिंहवाड़ी दत्त मंदिर" },
+    "description": {
+      "en": "Pilgrimage town of Shri Nrusinha Saraswati, an avatar of Dattatreya, near the Krishna–Panchganga confluence. Kurundwad is about 2 km away.",
+      "mr": "दत्तावतार श्री नृसिंह सरस्वतींचे तीर्थक्षेत्र, कृष्णा-पंचगंगा संगमाजवळ. कुरुंदवाड सुमारे 2 किमी.",
+      "hi": "दत्तात्रेय के अवतार श्री नृसिंह सरस्वती का तीर्थ, कृष्णा-पंचगंगा संगम के पास। कुरुंदवाड लगभग 2 किमी।"
+    },
+    "source": "Wikipedia: Narsobawadi",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Narsobawadi",
+    "verified": "2026-10-21"
+  },
+  {
+    "id": "kurundwad-ghat",
+    "category": "tourism",
+    "lat": null,
+    "lng": null,
+    "approximate": false,
+    "tourism": { "group": "nearby" },
+    "name": { "en": "Kurundwad ghat", "mr": "कुरुंदवाड घाट", "hi": "कुरुंदवाड घाट" },
+    "description": {
+      "en": "Riverside ghat on the Krishna built around 1795 by Raja Raghunathrao Patwardhan.",
+      "mr": "राजा रघुनाथराव पटवर्धन यांनी सुमारे 1795 मध्ये बांधलेला कृष्णाकाठचा घाट.",
+      "hi": "राजा रघुनाथराव पटवर्धन द्वारा लगभग 1795 में बनवाया गया कृष्णा तट का घाट।"
+    },
+    "source": "Wikipedia: Kurundwad",
+    "sourceUrl": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Kurundvad.html",
+    "verified": "2026-10-21"
+  },
+  {
+    "id": "mahalaxmi",
+    "category": "tourism",
+    "lat": 16.7,
+    "lng": 74.2333,
+    "approximate": true,
+    "tourism": { "group": "nearby" },
+    "name": { "en": "Mahalaxmi temple, Kolhapur", "mr": "श्री महालक्ष्मी (अंबाबाई) मंदिर, कोल्हापूर", "hi": "महालक्ष्मी मंदिर, कोल्हापुर" },
+    "description": {
+      "en": "Kolhapur's principal temple, dedicated to Mahalaxmi (Ambabai).",
+      "mr": "कोल्हापूरचे प्रमुख मंदिर, श्री महालक्ष्मी (अंबाबाई) यांचे.",
+      "hi": "कोल्हापुर का प्रमुख मंदिर, महालक्ष्मी (अंबाबाई) को समर्पित।"
+    },
+    "source": "Wikipedia: Mahalakshmi Temple, Kolhapur",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple,_Kolhapur",
+    "verified": "2026-10-21"
+  },
+  {
+    "id": "rankala",
+    "category": "tourism",
+    "lat": null,
+    "lng": null,
+    "approximate": false,
+    "tourism": { "group": "nearby" },
+    "name": { "en": "Rankala Lake, Kolhapur", "mr": "रंकाळा तलाव, कोल्हापूर", "hi": "रंकाळा झील, कोल्हापुर" },
+    "description": {
+      "en": "Kolhapur's best-known lake and promenade.",
+      "mr": "कोल्हापूरचा सर्वांत प्रसिद्ध तलाव आणि फिरण्याची जागा.",
+      "hi": "कोल्हापुर की सबसे प्रसिद्ध झील और सैरगाह।"
+    },
+    "source": "Incredible India: Rankala Lake",
+    "sourceUrl": "https://incredibleindia.gov.in/en/maharashtra/kolhapur/rankala-lake",
+    "verified": "2026-10-21"
+  },
+  {
+    "id": "jyotiba",
+    "category": "tourism",
+    "lat": 16.7947,
+    "lng": 74.1764,
+    "approximate": false,
+    "tourism": { "group": "nearby" },
+    "name": { "en": "Jyotiba temple", "mr": "श्री जोतिबा मंदिर", "hi": "ज्योतिबा मंदिर" },
+    "description": {
+      "en": "Hilltop temple at Wadi Ratnagiri, north-west of Kolhapur.",
+      "mr": "कोल्हापूरच्या वायव्येस वाडी रत्नागिरी येथील डोंगरावरील मंदिर.",
+      "hi": "कोल्हापुर के उत्तर-पश्चिम में वाडी रत्नागिरी की पहाड़ी पर स्थित मंदिर।"
+    },
+    "source": "Wikipedia: Jyotiba Temple",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jyotiba_Temple",
+    "verified": "2026-10-21"
+  },
+  {
+    "id": "panhala",
+    "category": "tourism",
+    "lat": 16.8089,
+    "lng": 74.1092,
+    "approximate": false,
+    "tourism": { "group": "nearby" },
+    "name": { "en": "Panhala Fort", "mr": "पन्हाळा किल्ला", "hi": "पन्हाला किला" },
+    "description": {
+      "en": "Hill fort at about 845 m, north-west of Kolhapur.",
+      "mr": "कोल्हापूरच्या वायव्येस सुमारे 845 मी उंचीवरील डोंगरी किल्ला.",
+      "hi": "कोल्हापुर के उत्तर-पश्चिम में लगभग 845 मीटर ऊँचाई पर पहाड़ी किला।"
+    },
+    "source": "Wikipedia: Panhala Fort",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Panhala_Fort",
+    "verified": "2026-10-21"
+  },
+  {
+    "id": "kolhapur-airport",
+    "category": "transport",
+    "lat": 16.6647,
+    "lng": 74.2894,
+    "approximate": false,
+    "name": { "en": "Kolhapur Airport (KLH)", "mr": "कोल्हापूर विमानतळ (KLH)", "hi": "कोल्हापुर हवाई अड्डा (KLH)" },
+    "description": {
+      "en": "Chhatrapati Rajaram Maharaj Airport at Ujalaiwadi, the nearest airport. Ichalkaranji has no airport of its own.",
+      "mr": "उजळाईवाडी येथील छत्रपती राजाराम महाराज विमानतळ, सर्वांत जवळचा. इचलकरंजीत स्वतःचा विमानतळ नाही.",
+      "hi": "उजळाईवाडी स्थित छत्रपति राजाराम महाराज हवाई अड्डा, सबसे निकट। इचलकरंजी में अपना हवाई अड्डा नहीं है।"
+    },
+    "source": "Wikipedia: Kolhapur Airport",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kolhapur_Airport",
+    "verified": "2026-10-21"
+  },
+  {
+    "id": "kolhapur-csmt",
+    "category": "transport",
+    "lat": 16.7027,
+    "lng": 74.2377,
+    "approximate": false,
+    "name": { "en": "Kolhapur railway station (CSMT)", "mr": "कोल्हापूर रेल्वे स्थानक (छ. शाहू महाराज टर्मिनस)", "hi": "कोल्हापुर रेलवे स्टेशन (छ. शाहू महाराज टर्मिनस)" },
+    "description": {
+      "en": "Chhatrapati Shahu Maharaj Terminus, the main railhead for long-distance trains.",
+      "mr": "छत्रपती शाहू महाराज टर्मिनस — लांब पल्ल्याच्या गाड्यांचे प्रमुख स्थानक.",
+      "hi": "छत्रपति शाहू महाराज टर्मिनस — लंबी दूरी की गाड़ियों का प्रमुख स्टेशन।"
+    },
+    "source": "Wikipedia: Chhatrapati Shahu Maharaj Terminus",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chhatrapati_Shahu_Maharaj_Terminus",
+    "verified": "2026-10-21"
+  },
+  {
+    "id": "hatkanangale",
+    "category": "neighbourhood",
+    "lat": 16.7482,
+    "lng": 74.4175,
+    "approximate": false,
+    "name": { "en": "Hatkanangale", "mr": "हातकणंगले", "hi": "हातकणंगले" },
+    "description": {
+      "en": "Taluka headquarters. Its railway station (HTK) is the nearest to Ichalkaranji, about 6–8 km by road; the station itself is not pinned until its position is verified.",
+      "mr": "तालुक्याचे मुख्यालय. येथील रेल्वे स्थानक (HTK) इचलकरंजीपासून सर्वांत जवळ, रस्त्याने सुमारे 6–8 किमी; स्थानकाचे नेमके ठिकाण पडताळल्यानंतर नकाशावर दाखवले जाईल.",
+      "hi": "तालुका मुख्यालय। यहाँ का रेलवे स्टेशन (HTK) इचलकरंजी से सबसे निकट है, सड़क से लगभग 6–8 किमी; स्टेशन की सटीक स्थिति सत्यापित होने पर नक्शे पर दिखाई जाएगी।"
+    },
+    "source": "Wikipedia: Hatkanangale",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hatkanangale",
+    "verified": "2026-10-21"
+  },
+  {
+    "id": "korochi",
+    "category": "neighbourhood",
+    "lat": 16.73,
+    "lng": 74.4382,
+    "approximate": false,
+    "name": { "en": "Korochi", "mr": "कोरोची", "hi": "कोरोची" },
+    "description": {
+      "en": "Census town 1–2 km from the city border, largely tied to the powerloom economy.",
+      "mr": "शहर हद्दीपासून 1–2 किमीवरील जनगणना शहर; अर्थव्यवस्था मुख्यतः यंत्रमागाशी जोडलेली.",
+      "hi": "शहर सीमा से 1–2 किमी पर जनगणना नगर, अर्थव्यवस्था मुख्यतः पावरलूम से जुड़ी।"
+    },
+    "source": "Wikipedia: Korochi",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Korochi",
+    "verified": "2026-10-21"
+  }
+]

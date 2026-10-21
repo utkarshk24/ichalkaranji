@@ -1,0 +1,265 @@
+{
+  "route": "transport",
+  "summary": {
+    "en": "Ichalkaranji has no airport, metro or railway station of its own. The nearest station is Hatkanangale, about 7–8 km away, and the nearest airport is Kolhapur.",
+    "mr": "इचलकरंजीत स्वतःचा विमानतळ, मेट्रो किंवा रेल्वे स्थानक नाही. सर्वांत जवळचे स्थानक सुमारे 7–8 किमीवरील हातकणंगले आणि सर्वांत जवळचा विमानतळ कोल्हापूर.",
+    "hi": "इचलकरंजी का अपना हवाई अड्डा, मेट्रो या रेलवे स्टेशन नहीं है। निकटतम स्टेशन लगभग 7–8 किमी दूर हातकणंगले है और निकटतम हवाई अड्डा कोल्हापुर।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "table",
+      "id": "modes",
+      "title": {
+        "en": "Getting here and around",
+        "mr": "येथे कसे यावे व फिरावे",
+        "hi": "यहाँ कैसे पहुँचें और घूमें"
+      },
+      "columns": [
+        {
+          "en": "Mode",
+          "mr": "साधन",
+          "hi": "साधन"
+        },
+        {
+          "en": "Details",
+          "mr": "तपशील",
+          "hi": "विवरण"
+        },
+        {
+          "en": "Source",
+          "mr": "स्रोत",
+          "hi": "स्रोत"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Rail",
+            "mr": "रेल्वे",
+            "hi": "रेल"
+          },
+          {
+            "en": "Hatkanangale (HTK), Central Railway: 2 platforms, single diesel line, about 7–8 km from the city",
+            "mr": "हातकणंगले (HTK), मध्य रेल्वे: 2 फलाट, एकेरी डिझेल मार्ग, शहरापासून सुमारे 7–8 किमी",
+            "hi": "हातकणंगले (HTK), मध्य रेलवे: 2 प्लेटफ़ॉर्म, एकल डीज़ल लाइन, शहर से लगभग 7–8 किमी"
+          },
+          {
+            "en": "Wikipedia; Cleartrip",
+            "mr": "विकिपीडिया; क्लिअरट्रिप",
+            "hi": "विकिपीडिया; क्लियरट्रिप"
+          }
+        ],
+        [
+          {
+            "en": "Mainline rail",
+            "mr": "मुख्य रेल्वे मार्ग",
+            "hi": "मुख्य रेल मार्ग"
+          },
+          {
+            "en": "Kolhapur (CSMT) and Miraj Junction: road distances awaited",
+            "mr": "कोल्हापूर (CSMT) व मिरज जंक्शन: रस्ता अंतरे प्रतीक्षेत",
+            "hi": "कोल्हापुर (CSMT) और मिरज जंक्शन: सड़क दूरी प्रतीक्षित"
+          },
+          {
+            "en": "—",
+            "mr": "—",
+            "hi": "—"
+          }
+        ],
+        [
+          {
+            "en": "Air",
+            "mr": "विमान",
+            "hi": "हवाई"
+          },
+          {
+            "en": "Kolhapur Airport (KLH), Chhatrapati Rajaram Maharaj Airport, at Ujalaiwadi on the Hupari–Kolhapur road; about 30 km; being rebuilt",
+            "mr": "कोल्हापूर विमानतळ (KLH), छत्रपती राजाराम महाराज विमानतळ, हुपरी–कोल्हापूर रस्त्यावर उजळाईवाडी; सुमारे 30 किमी; पुनर्बांधणी सुरू",
+            "hi": "कोल्हापुर हवाई अड्डा (KLH), छत्रपति राजाराम महाराज हवाई अड्डा, हुपरी–कोल्हापुर रोड पर उजलाईवाड़ी; लगभग 30 किमी; पुनर्निर्माण जारी"
+          },
+          {
+            "en": "Wikipedia",
+            "mr": "विकिपीडिया",
+            "hi": "विकिपीडिया"
+          }
+        ],
+        [
+          {
+            "en": "Other airports",
+            "mr": "इतर विमानतळ",
+            "hi": "अन्य हवाई अड्डे"
+          },
+          {
+            "en": "Belagavi (IXG) about 119 km by road; Pune (PNQ) about 237 km; Goa Mopa (GOX), distance awaited",
+            "mr": "बेळगावी (IXG) रस्त्याने सुमारे 119 किमी; पुणे (PNQ) सुमारे 237 किमी; गोवा मोपा (GOX), अंतर प्रतीक्षेत",
+            "hi": "बेलगावी (IXG) सड़क से लगभग 119 किमी; पुणे (PNQ) लगभग 237 किमी; गोवा मोपा (GOX), दूरी प्रतीक्षित"
+          },
+          {
+            "en": "Cleartrip",
+            "mr": "क्लिअरट्रिप",
+            "hi": "क्लियरट्रिप"
+          }
+        ],
+        [
+          {
+            "en": "Bus",
+            "mr": "बस",
+            "hi": "बस"
+          },
+          {
+            "en": "About 40 minutes to Kolhapur; MSRTC services to Kolhapur and Pune",
+            "mr": "कोल्हापूरला सुमारे 40 मिनिटे; कोल्हापूर व पुण्यासाठी एसटी (MSRTC) सेवा",
+            "hi": "कोल्हापुर तक लगभग 40 मिनट; कोल्हापुर और पुणे के लिए MSRTC सेवाएँ"
+          },
+          {
+            "en": "Cleartrip",
+            "mr": "क्लिअरट्रिप",
+            "hi": "क्लियरट्रिप"
+          }
+        ],
+        [
+          {
+            "en": "Highways",
+            "mr": "महामार्ग",
+            "hi": "राजमार्ग"
+          },
+          {
+            "en": "State highway numbers and distance to NH-48 awaited",
+            "mr": "राज्य महामार्ग क्रमांक व NH-48 पर्यंतचे अंतर प्रतीक्षेत",
+            "hi": "राज्य राजमार्ग संख्या और NH-48 तक दूरी प्रतीक्षित"
+          },
+          {
+            "en": "—",
+            "mr": "—",
+            "hi": "—"
+          }
+        ],
+        [
+          {
+            "en": "Metro",
+            "mr": "मेट्रो",
+            "hi": "मेट्रो"
+          },
+          {
+            "en": "None, and no proposal found",
+            "mr": "नाही; कोणताही प्रस्ताव आढळला नाही",
+            "hi": "नहीं; कोई प्रस्ताव नहीं मिला"
+          },
+          {
+            "en": "—",
+            "mr": "—",
+            "hi": "—"
+          }
+        ],
+        [
+          {
+            "en": "City roads",
+            "mr": "शहरातील रस्ते",
+            "hi": "शहर की सड़कें"
+          },
+          {
+            "en": "421.78 km of roads within city limits",
+            "mr": "शहर हद्दीत 421.78 किमी रस्ते",
+            "hi": "शहर सीमा में 421.78 किमी सड़कें"
+          },
+          {
+            "en": "Wikipedia",
+            "mr": "विकिपीडिया",
+            "hi": "विकिपीडिया"
+          }
+        ]
+      ],
+      "cite": {
+        "source": "Wikipedia: Hatkanangale railway station; Wikipedia: Kolhapur Airport; Cleartrip",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hatkanangale_railway_station"
+      }
+    },
+    {
+      "type": "map",
+      "id": "map",
+      "title": {
+        "en": "Stations and airport",
+        "mr": "स्थानके व विमानतळ",
+        "hi": "स्टेशन और हवाई अड्डा"
+      },
+      "categories": [
+        "transport",
+        "landmark"
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "schedules",
+      "tone": "info",
+      "body": {
+        "en": "Flight routes and bus and train timetables change often, so this portal does not copy them. Check the airline, MSRTC or Indian Railways before you travel.",
+        "mr": "विमान मार्ग, बस व रेल्वे वेळापत्रके वारंवार बदलतात, म्हणून हे पोर्टल ती देत नाही. प्रवासापूर्वी विमान कंपनी, एसटी महामंडळ किंवा भारतीय रेल्वेकडे तपासा.",
+        "hi": "उड़ान मार्ग और बस व ट्रेन समय-सारिणी अक्सर बदलती हैं, इसलिए यह पोर्टल उन्हें नहीं दोहराता। यात्रा से पहले एयरलाइन, MSRTC या भारतीय रेल से जाँच लें।"
+      }
+    },
+    {
+      "type": "links",
+      "id": "official",
+      "title": {
+        "en": "Timetables and bookings",
+        "mr": "वेळापत्रके व आरक्षण",
+        "hi": "समय-सारिणी और बुकिंग"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "MSRTC (state transport buses)",
+            "mr": "एसटी महामंडळ (MSRTC)",
+            "hi": "MSRTC (राज्य परिवहन बसें)"
+          },
+          "href": "https://msrtc.maharashtra.gov.in",
+          "body": {
+            "en": "Routes, timetables and reservations.",
+            "mr": "मार्ग, वेळापत्रके व आरक्षण.",
+            "hi": "मार्ग, समय-सारिणी और आरक्षण।"
+          }
+        },
+        {
+          "title": {
+            "en": "Indian Railways enquiry",
+            "mr": "भारतीय रेल्वे चौकशी",
+            "hi": "भारतीय रेल पूछताछ"
+          },
+          "href": "https://enquiry.indianrail.gov.in",
+          "body": {
+            "en": "Train running status and schedules.",
+            "mr": "गाड्यांची स्थिती व वेळापत्रके.",
+            "hi": "ट्रेन की स्थिति और समय-सारिणी।"
+          }
+        },
+        {
+          "title": {
+            "en": "IRCTC (train tickets)",
+            "mr": "IRCTC (रेल्वे तिकीट)",
+            "hi": "IRCTC (रेल टिकट)"
+          },
+          "href": "https://www.irctc.co.in",
+          "body": {
+            "en": "Official ticket booking.",
+            "mr": "अधिकृत तिकीट आरक्षण.",
+            "hi": "आधिकारिक टिकट बुकिंग।"
+          }
+        },
+        {
+          "title": {
+            "en": "Airports Authority of India",
+            "mr": "भारतीय विमानतळ प्राधिकरण",
+            "hi": "भारतीय विमानपत्तन प्राधिकरण"
+          },
+          "href": "https://www.aai.aero",
+          "body": {
+            "en": "Kolhapur Airport information.",
+            "mr": "कोल्हापूर विमानतळ माहिती.",
+            "hi": "कोल्हापुर हवाई अड्डा जानकारी।"
+          }
+        }
+      ]
+    }
+  ]
+}

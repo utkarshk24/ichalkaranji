@@ -1,0 +1,120 @@
+{
+  "route": "privacy",
+  "summary": {
+    "en": "This portal collects no accounts, payments or forms. Here is exactly what is stored and what third parties see when you use it.",
+    "mr": "हे पोर्टल खाती, पैसे किंवा अर्ज घेत नाही. वापरताना नेमके काय साठवले जाते आणि बाह्य सेवांना काय दिसते ते येथे.",
+    "hi": "यह पोर्टल कोई खाता, भुगतान या फ़ॉर्म नहीं लेता। उपयोग करते समय ठीक क्या संग्रहीत होता है और बाहरी सेवाओं को क्या दिखता है, यहाँ बताया गया है।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "table",
+      "id": "stored",
+      "title": {
+        "en": "What is stored on your device",
+        "mr": "तुमच्या उपकरणावर काय साठवले जाते",
+        "hi": "आपके उपकरण पर क्या संग्रहीत होता है"
+      },
+      "columns": [
+        {
+          "en": "Item",
+          "mr": "घटक",
+          "hi": "मद"
+        },
+        {
+          "en": "Purpose",
+          "mr": "उद्देश",
+          "hi": "उद्देश्य"
+        },
+        {
+          "en": "Kept for",
+          "mr": "कालावधी",
+          "hi": "अवधि"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "ICH_LOCALE cookie",
+            "mr": "ICH_LOCALE कुकी",
+            "hi": "ICH_LOCALE कुकी"
+          },
+          {
+            "en": "Remembers your language",
+            "mr": "तुमची भाषा लक्षात ठेवते",
+            "hi": "आपकी भाषा याद रखती है"
+          },
+          {
+            "en": "Up to one year",
+            "mr": "एक वर्षापर्यंत",
+            "hi": "एक वर्ष तक"
+          }
+        ],
+        [
+          {
+            "en": "Theme setting (browser storage)",
+            "mr": "थीम निवड (ब्राउझर साठवण)",
+            "hi": "थीम सेटिंग (ब्राउज़र भंडारण)"
+          },
+          {
+            "en": "Remembers light or dark mode",
+            "mr": "प्रकाश किंवा गडद मोड लक्षात ठेवते",
+            "hi": "लाइट या डार्क मोड याद रखती है"
+          },
+          {
+            "en": "Until you clear it",
+            "mr": "तुम्ही हटवेपर्यंत",
+            "hi": "जब तक आप न हटाएँ"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "third",
+      "title": {
+        "en": "Third-party services",
+        "mr": "बाह्य सेवा",
+        "hi": "बाहरी सेवाएँ"
+      },
+      "paragraphs": [
+        {
+          "en": "Weather and air-quality figures are loaded by your browser from Open-Meteo, and map tiles from OpenStreetMap. These services receive your IP address and the request, as any website does. No other trackers, analytics or advertising scripts are used.",
+          "mr": "हवामान व हवा गुणवत्तेचे आकडे तुमचा ब्राउझर ओपन-मेटिओवरून आणि नकाशाचे भाग ओपनस्ट्रीटमॅपवरून आणतो. कोणत्याही संकेतस्थळाप्रमाणे या सेवांना तुमचा आयपी पत्ता व विनंती मिळते. इतर कोणतेही ट्रॅकर, विश्लेषण किंवा जाहिरात स्क्रिप्ट वापरले जात नाहीत.",
+          "hi": "मौसम और वायु गुणवत्ता के आँकड़े आपका ब्राउज़र ओपन-मीटियो से और नक्शे के टाइल ओपनस्ट्रीटमैप से लाता है। किसी भी वेबसाइट की तरह इन सेवाओं को आपका आईपी पता और अनुरोध मिलता है। कोई अन्य ट्रैकर, एनालिटिक्स या विज्ञापन स्क्रिप्ट उपयोग नहीं होती।"
+        },
+        {
+          "en": "The web host may keep standard server logs (IP address, time, page requested) for security. If you write to the portal team from the Contact page, your message is sent from your own email app and is used only to reply.",
+          "mr": "सुरक्षेसाठी वेब होस्ट नेहमीच्या सर्व्हर नोंदी (आयपी पत्ता, वेळ, मागवलेले पान) ठेवू शकतो. संपर्क पानावरून तुम्ही पोर्टल चमूला लिहिल्यास संदेश तुमच्या स्वतःच्या ईमेल ॲपमधून जातो आणि केवळ उत्तर देण्यासाठी वापरला जातो.",
+          "hi": "सुरक्षा के लिए वेब होस्ट सामान्य सर्वर लॉग (आईपी पता, समय, माँगा गया पृष्ठ) रख सकता है। संपर्क पृष्ठ से पोर्टल टीम को लिखने पर संदेश आपके अपने ईमेल ऐप से जाता है और केवल उत्तर देने के लिए उपयोग होता है।"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "never",
+      "title": {
+        "en": "What this portal never asks for",
+        "mr": "हे पोर्टल कधीही काय मागत नाही",
+        "hi": "यह पोर्टल कभी क्या नहीं माँगता"
+      },
+      "items": [
+        {
+          "en": "Payments or bank details",
+          "mr": "पैसे किंवा बँक तपशील",
+          "hi": "भुगतान या बैंक विवरण"
+        },
+        {
+          "en": "Passwords or one-time codes",
+          "mr": "पासवर्ड किंवा एकवेळ कोड",
+          "hi": "पासवर्ड या वन-टाइम कोड"
+        },
+        {
+          "en": "Aadhaar, PAN or other ID numbers",
+          "mr": "आधार, पॅन किंवा इतर ओळख क्रमांक",
+          "hi": "आधार, पैन या अन्य पहचान संख्या"
+        }
+      ]
+    }
+  ]
+}

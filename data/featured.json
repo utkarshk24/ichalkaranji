@@ -1,0 +1,80 @@
+[
+  {
+    "id": "rajwada",
+    "category": "heritage",
+    "href": "/history",
+    "title": { "en": "Rajwada palace", "mr": "राजवाडा", "hi": "राजवाड़ा" },
+    "body": {
+      "en": "Seat of the Ghorpade chiefs, today home to the DKTE Textile & Engineering Institute.",
+      "mr": "घोरपडे जहागीरदारांचे निवासस्थान; आज येथे डीकेटीई वस्त्र व अभियांत्रिकी संस्था आहे.",
+      "hi": "घोरपड़े शासकों का निवास, आज यहाँ डीकेटीई वस्त्र व अभियांत्रिकी संस्थान है।"
+    },
+    "source": "Wikipedia: Ichalkaranji",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji"
+  },
+  {
+    "id": "music",
+    "category": "music",
+    "href": "/culture",
+    "title": { "en": "Gwalior gharana's Maharashtra link", "mr": "ग्वाल्हेर घराण्याचा महाराष्ट्राशी दुवा", "hi": "ग्वालियर घराने का महाराष्ट्र से नाता" },
+    "body": {
+      "en": "Balakrishnabuwa Ichalkaranjikar (1849–1926) brought the Gwalior style of khayal singing to Maharashtra.",
+      "mr": "बाळकृष्णबुवा इचलकरंजीकर (1849–1926) यांनी ग्वाल्हेर घराण्याची ख्याल गायकी महाराष्ट्रात आणली.",
+      "hi": "बालकृष्णबुवा इचलकरंजीकर (1849–1926) ग्वालियर घराने की ख़याल गायकी महाराष्ट्र लाए।"
+    },
+    "source": "Wikipedia: Balakrishnabuwa Ichalkaranjikar",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Balakrishnabuwa_Ichalkaranjikar"
+  },
+  {
+    "id": "panchganga-ghat",
+    "category": "attraction",
+    "href": "/geography",
+    "title": { "en": "Panchganga ghat", "mr": "पंचगंगा घाट", "hi": "पंचगंगा घाट" },
+    "body": {
+      "en": "The city's riverside, on a tributary of the Krishna that rises in the Sahyadris.",
+      "mr": "सह्याद्रीत उगम पावणाऱ्या, कृष्णेच्या उपनदीकाठचा शहराचा घाट.",
+      "hi": "सह्याद्रि से निकलने वाली कृष्णा की सहायक नदी के तट पर शहर का घाट।"
+    },
+    "source": "MPCB monitoring station 1311",
+    "sourceUrl": "https://mpcb.gov.in/sites/default/files/river-polluted/action-plan-priority/PriorityVRiverspanchganga05022021.pdf"
+  },
+  {
+    "id": "narsobawadi",
+    "category": "attraction",
+    "href": "/tourism",
+    "title": { "en": "Narsobawadi Datta temple", "mr": "नृसिंहवाडी दत्त मंदिर", "hi": "नृसिंहवाड़ी दत्त मंदिर" },
+    "body": {
+      "en": "A major Datta pilgrimage town about 14 km east (straight line), near Kurundwad.",
+      "mr": "कुरुंदवाडजवळील प्रमुख दत्त तीर्थक्षेत्र, सुमारे 14 किमी पूर्वेस (सरळ अंतर).",
+      "hi": "कुरुंदवाड के पास प्रमुख दत्त तीर्थ, लगभग 14 किमी पूर्व (सीधी दूरी)।"
+    },
+    "source": "Wikipedia: Narsobawadi",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Narsobawadi"
+  },
+  {
+    "id": "mhasoba-fair",
+    "category": "festival",
+    "href": "/festivals",
+    "title": { "en": "Shahapur's Mhasoba fair", "mr": "शहापूरची म्हसोबा यात्रा", "hi": "शहापुर का म्हसोबा मेला" },
+    "body": {
+      "en": "Held on the first Tuesday after Gudi Padwa, the Marathi New Year.",
+      "mr": "गुढीपाडव्यानंतरच्या पहिल्या मंगळवारी भरते.",
+      "hi": "गुढ़ी पाड़वा (मराठी नववर्ष) के बाद पहले मंगलवार को लगता है।"
+    },
+    "source": "Wikipedia: Shahapur, Ichalkaranji",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Shahapur,_Ichalkaranji"
+  },
+  {
+    "id": "food",
+    "category": "food",
+    "href": "/culture",
+    "title": { "en": "Kolhapur-region food", "mr": "कोल्हापुरी खाद्यसंस्कृती", "hi": "कोल्हापुरी खान-पान" },
+    "body": {
+      "en": "Misal, tambda and pandhra rassa, pithla-bhakri: the regional table. City specialities are being verified.",
+      "mr": "मिसळ, तांबडा-पांढरा रस्सा, पिठलं-भाकरी — परिसराची खासियत. शहराचे विशेष पदार्थ पडताळले जात आहेत.",
+      "hi": "मिसल, तांबड़ा-पांढरा रस्सा, पिठला-भाकरी — क्षेत्र का स्वाद। शहर के विशेष व्यंजनों का सत्यापन जारी है।"
+    },
+    "source": "Regional cuisine; city specialities awaited",
+    "sourceUrl": ""
+  }
+]

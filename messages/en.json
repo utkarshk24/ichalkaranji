@@ -1,0 +1,732 @@
+{
+  "_meta": {
+    "locale": "en",
+    "reviewStatus": "source language"
+  },
+  "site": {
+    "name": "Ichalkaranji",
+    "fullName": "Ichalkaranji — The Manchester of Maharashtra",
+    "tagline": "Hub of textile innovation and cultural heritage",
+    "independentNotice": "Independent information portal — not affiliated with Ichalkaranji Municipal Corporation.",
+    "skipToContent": "Skip to main content",
+    "lastUpdated": "Last updated {date}",
+    "translationNotice": "This translation is pending native-speaker review."
+  },
+  "nav": {
+    "home": "Home",
+    "map": "Map",
+    "explore": "Explore",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNavigation": "Main navigation",
+    "mobileNavigation": "Quick navigation",
+    "groups": {
+      "discover": "Discover",
+      "economy": "Economy & Data",
+      "living": "Living Here",
+      "cityhall": "City & Governance"
+    }
+  },
+  "routes": {
+    "about": {
+      "title": "City Profile",
+      "description": "Name, location, area, civic status and distances."
+    },
+    "history": {
+      "title": "History & Heritage",
+      "description": "Ghorpade jagir, powerlooms and the cooperative era."
+    },
+    "map": {
+      "title": "Interactive Map",
+      "description": "Wards, river, roads, landmarks and services."
+    },
+    "demographics": {
+      "title": "Demographics",
+      "description": "Census population, literacy and sex ratio."
+    },
+    "geography": {
+      "title": "Geography & Environment",
+      "description": "Panchganga river, terrain and environmental issues."
+    },
+    "climate": {
+      "title": "Weather & Climate",
+      "description": "Live weather, seasons and climate normals."
+    },
+    "economy": {
+      "title": "Economy & Business",
+      "description": "Industries, clusters, finance and investment."
+    },
+    "textile": {
+      "title": "Textile Industry",
+      "description": "Powerlooms, value chain and the cluster's future."
+    },
+    "culture": {
+      "title": "Culture & Food",
+      "description": "Music heritage, language, cuisine and attire."
+    },
+    "festivals": {
+      "title": "Festivals & Events",
+      "description": "Local fairs, festivals and the event calendar."
+    },
+    "tourism": {
+      "title": "Tourism",
+      "description": "Heritage sites and nearby attractions."
+    },
+    "transport": {
+      "title": "Transport",
+      "description": "Rail, air, bus and road connectivity."
+    },
+    "governance": {
+      "title": "Governance & Politics",
+      "description": "Municipal Corporation and elected representatives."
+    },
+    "projects": {
+      "title": "Development Projects",
+      "description": "Water, sewerage, industry and urban projects."
+    },
+    "education": {
+      "title": "Education",
+      "description": "Schools, colleges and textile education."
+    },
+    "health": {
+      "title": "Health",
+      "description": "Hospitals, health posts and public health."
+    },
+    "civic-services": {
+      "title": "Civic Services",
+      "description": "Links to official citizen services and utilities."
+    },
+    "emergency": {
+      "title": "Emergency Contacts",
+      "description": "Helplines and disaster preparedness."
+    },
+    "data": {
+      "title": "City Data Dashboard",
+      "description": "Year-on-year indicators with sources."
+    },
+    "directory": {
+      "title": "Business Directory",
+      "description": "Verified local business listings."
+    },
+    "news": {
+      "title": "News & Notices",
+      "description": "Announcements, notices and events."
+    },
+    "gallery": {
+      "title": "Photo Gallery",
+      "description": "Licensed photographs of the city."
+    },
+    "faq": {
+      "title": "FAQ",
+      "description": "Common questions about Ichalkaranji and this portal."
+    },
+    "sources": {
+      "title": "Data Sources & Disclaimer",
+      "description": "Where every number comes from."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How this portal handles your data."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "description": "Conditions for using this portal."
+    },
+    "accessibility": {
+      "title": "Accessibility",
+      "description": "Our accessibility statement and support."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Reach the portal team."
+    }
+  },
+  "header": {
+    "search": "Search",
+    "searchLabel": "Search the portal",
+    "searchPlaceholder": "Search pages, places, data…",
+    "searchHint": "Press {key} to search",
+    "noResults": "No results for “{query}”",
+    "closeSearch": "Close search",
+    "language": "Language",
+    "changeLanguage": "Change language",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "toggleTheme": "Switch to {mode} mode"
+  },
+  "emergency": {
+    "label": "Emergency helplines",
+    "call": "Call {name} on {number}",
+    "items": {
+      "e112": "Emergency",
+      "police": "Police",
+      "fire": "Fire",
+      "ambulance": "Ambulance",
+      "women": "Women helpline",
+      "child": "Child helpline"
+    },
+    "viewAll": "All helplines"
+  },
+  "breadcrumb": {
+    "label": "Breadcrumb",
+    "home": "Home"
+  },
+  "footer": {
+    "about": "An independent, trilingual guide to Ichalkaranji's history, economy, culture and civic life, with every figure sourced.",
+    "explore": "Explore",
+    "resources": "Resources",
+    "official": "Official websites",
+    "corporation": "Ichalkaranji Municipal Corporation",
+    "district": "Kolhapur District Administration",
+    "maharashtra": "Government of Maharashtra",
+    "newsletter": "Newsletter",
+    "newsletterBody": "Monthly updates on new data and pages. No spam; unsubscribe any time.",
+    "emailLabel": "Email address",
+    "subscribe": "Subscribe",
+    "newsletterConsent": "By subscribing you agree to receive emails from the portal team. We never share your address.",
+    "newsletterSoon": "Newsletter sign-up opens with the launch release.",
+    "dataNotice": "Data sourced from the Census of India, Ichalkaranji Municipal Corporation, IMD, MPCB, the Election Commission and other cited sources.",
+    "rights": "© {year} Ichalkaranji City Portal. Content licensed CC BY 4.0 unless noted.",
+    "externalLink": "opens in a new tab"
+  },
+  "common": {
+    "backToTop": "Back to top",
+    "comingSoonTitle": "This page is being built",
+    "comingSoonBody": "The content for this section has been researched and is scheduled for an upcoming release. Sources and data notes are already on the Data Sources page.",
+    "comingSoonCta": "See data sources",
+    "goHome": "Go to home page",
+    "source": "Source",
+    "status": {
+      "official": "Official",
+      "secondary": "Secondary",
+      "estimate": "Estimate",
+      "projection": "Projection",
+      "awaited": "Data awaited"
+    },
+    "dataAwaited": "Data awaited — no official city-level figure.",
+    "opensOfficial": "Opens the official website",
+    "scope": {
+      "city": "City",
+      "urban_agglomeration": "Urban agglomeration",
+      "taluka": "Taluka",
+      "district": "District",
+      "state": "State"
+    },
+    "year": "Year",
+    "value": "Value",
+    "method": "Method",
+    "retrieved": "Checked {date}",
+    "noSourceLink": "No link available",
+    "fallbackNote": "Nearest available: {scope} data, when published.",
+    "statusLabel": "Status",
+    "onThisPage": "On this page",
+    "note": "Note",
+    "downloadPdf": "Download as PDF"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Kolhapur district · Maharashtra",
+      "title": "Ichalkaranji",
+      "subtitle": "The Manchester of Maharashtra",
+      "body": "A textile city on the Panchganga river, home to one of India's largest powerloom clusters and a Hindustani music tradition reaching back to the 1800s.",
+      "ctaExplore": "Explore the city",
+      "ctaMap": "Open the map",
+      "imageNote": "Illustration · licensed photograph pending",
+      "scroll": "Scroll to city at a glance"
+    },
+    "live": {
+      "title": "Right now",
+      "time": "Local time (IST)",
+      "feelsLike": "Feels like {value}",
+      "humidity": "Humidity",
+      "wind": "Wind",
+      "aqi": "Air quality",
+      "aqiValue": "AQI {value}",
+      "pm25": "PM2.5 {value} µg/m³",
+      "aqiNote": "Modelled US AQI from Open-Meteo (CAMS), not the CPCB national index.",
+      "loading": "Loading live conditions…",
+      "error": "Live weather is unavailable right now.",
+      "source": "Weather: Open-Meteo",
+      "updated": "Updated {time}"
+    },
+    "forecast": {
+      "title": "7-day forecast",
+      "lead": "Model forecast for the city centre. For warnings, follow IMD.",
+      "today": "Today",
+      "rain": "{value}% chance of rain",
+      "high": "High {value}",
+      "low": "Low {value}",
+      "imdLink": "IMD Kolhapur forecast"
+    },
+    "glance": {
+      "title": "City at a glance",
+      "lead": "Every figure carries its source, year and status. Use the info button on a card to see them.",
+      "info": "Source details for {label}",
+      "close": "Close",
+      "openDashboard": "Open the data dashboard"
+    },
+    "services": {
+      "title": "Citizen services",
+      "lead": "These open official government websites. This portal never collects payments, passwords or ID numbers."
+    },
+    "map": {
+      "title": "Find your way around",
+      "lead": "Wards, the river, roads and services are being mapped. The full map adds layers you can switch on and off.",
+      "cta": "Open the full map",
+      "centre": "City centre (approximate)",
+      "loading": "Loading map…",
+      "label": "Map preview of Ichalkaranji"
+    },
+    "snapshot": {
+      "title": "Data snapshot",
+      "lead": "Only years with a sourced value are drawn. Missing years are data still awaited, never filled in.",
+      "populationTitle": "Population",
+      "populationSub": "City, persons",
+      "powerloomsTitle": "Powerlooms",
+      "powerloomsSub": "Looms in the city",
+      "estimateKey": "Hatched bar = estimate",
+      "showTable": "Show as table",
+      "hideTable": "Hide table",
+      "chartLabel": "{title} by year",
+      "awaitedYears": "Awaited: {years}"
+    },
+    "news": {
+      "title": "News & notices",
+      "lead": "Dated summaries from cited reports.",
+      "viewAll": "All news",
+      "readSource": "Read the source",
+      "categories": {
+        "civic": "Civic",
+        "election": "Election",
+        "water": "Water",
+        "environment": "Environment"
+      }
+    },
+    "emergency": {
+      "title": "Emergency helplines",
+      "lead": "Tap to call. Local police and fire station numbers will be added from official sources only."
+    },
+    "featured": {
+      "title": "Discover Ichalkaranji",
+      "lead": "Heritage, music, faith and food — a starting point for the city's stories.",
+      "learnMore": "Learn more",
+      "categories": {
+        "heritage": "Heritage",
+        "music": "Music",
+        "attraction": "Place to visit",
+        "festival": "Festival",
+        "food": "Food"
+      }
+    },
+    "invest": {
+      "eyebrow": "Invest in Ichalkaranji",
+      "title": "A textile city at industrial scale",
+      "body": "Spinning, sizing, weaving and processing sit within a few kilometres, backed by cooperative banks and a textile engineering institute.",
+      "cta": "Explore the economy",
+      "cta2": "Textile industry deep-dive"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for does not exist or has moved."
+  },
+  "seo": {
+    "homeTitle": "Ichalkaranji — The Manchester of Maharashtra | City Portal",
+    "homeDescription": "Independent trilingual guide to Ichalkaranji, Kolhapur district: history, powerloom and textile industry, demographics, governance, tourism and sourced city data.",
+    "titleTemplate": "%s | Ichalkaranji City Portal",
+    "keywords": "Ichalkaranji, Manchester of Maharashtra, powerloom, textile cluster, Kolhapur, Panchganga, Ichalkaranji Municipal Corporation"
+  },
+  "weather": {
+    "codes": {
+      "clear": "Clear sky",
+      "mainlyClear": "Mainly clear",
+      "partlyCloudy": "Partly cloudy",
+      "overcast": "Overcast",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "showers": "Rain showers",
+      "thunderstorm": "Thunderstorm",
+      "unknown": "Conditions unavailable"
+    },
+    "aqi": {
+      "good": "Good",
+      "moderate": "Moderate",
+      "usg": "Unhealthy for sensitive groups",
+      "unhealthy": "Unhealthy",
+      "veryUnhealthy": "Very unhealthy",
+      "hazardous": "Hazardous"
+    }
+  },
+  "history": {
+    "summary": "Ichalkaranji grew from a Ghorpade jagir under the Kolhapur state into a powerloom town after 1904, and into a cooperative industrial city after independence.",
+    "origins": {
+      "title": "Origins and the name",
+      "p1": "Older accounts describe the town as formed of seven hamlets. Popular stories about how it got its name are not supported by any source found so far, so this portal presents them only as tradition."
+    },
+    "ghorpade": {
+      "title": "The Ghorpade jagir",
+      "p1": "A Brahmin widow named Joshi left Mhapan, near Vengurla, and crossed the Ghats to Kapshi with her son, Naro Mahadeo. He served the Maratha general Santaji Ghorpade, rose through the ranks, earned land grants and took his patron's surname in gratitude. The rulers of Ichalkaranji kept that name.",
+      "p2": "The Kolhapur State Gazetteer describes the chief of Ichalkaranji, styled Ghorpade, as Konkanastha Brahmin by origin with the family name Joshi. A marriage alliance with the Peshwas raised the family's standing.",
+      "p3": "Ichalkaranji was a jagir within the Kolhapur state. One secondary source gives it 78 villages and 622 sq km; that figure is not yet verified."
+    },
+    "narayanrao": {
+      "title": "Narayanrao Babasaheb and the industrial town",
+      "p1": "Narayanrao Babasaheb Ghorpade, chief from 1892 to 1943, is remembered as the architect of modern Ichalkaranji. He encouraged trade and industry, backed the cooperative movement, and supported the town's first powerloom, installed by Vitthalrao Datar in 1904."
+    },
+    "manchester": {
+      "title": "Why “Manchester of Maharashtra”?",
+      "p1": "By 1954 the town had 1,521 powerlooms and 1,409 handlooms and was already called the “Little Manchester of Maharashtra”. The industry grew decentralised: thousands of small loom owners rather than a few large mills.",
+      "p2": "By 2018 the powerloom export council counted over 1.5 lakh looms in the cluster."
+    },
+    "cooperative": {
+      "title": "The cooperative era",
+      "p1": "In the 1950s Dattajirao Kadam led a cooperative movement that shaped the industrial town. The Ichalkaranji Janata Sahakari Bank, which he founded to fund small industry, was registered on 5 November 1962. The Deccan Co-operative Spinning Mill was founded the same year; claims that it was Asia's first are unverified, and a Shivaji University study records its later closure.",
+      "p2": "In 1981 local cooperatives formed an education society named after Dattajirao Kadam. Its Textile & Engineering Institute (DKTE) began in 1982 to train the technical staff the industry lacked."
+    },
+    "music": {
+      "title": "A home of Hindustani music",
+      "p1": "Balakrishnabuwa Ichalkaranjikar (1849–1926) trained in Gwalior and brought the Gwalior gharana of khayal singing to Maharashtra. His disciple Mirashi Buwa was born in Ichalkaranji in 1883.",
+      "p2": "Narayanrao Ghorpade founded a state music school in 1930; Keshavbuwa Ingale was court singer and taught there from 1931 to 1950."
+    },
+    "civic": {
+      "title": "From council to corporation",
+      "p1": "The municipal council dates to 1904 in most sources (one says 1893). A state government resolution of 5 May 2022 made Ichalkaranji a municipal corporation. Its first general election was held on 15 January 2026, and Uday Dhatunde became the first mayor in February 2026."
+    },
+    "heritage": {
+      "title": "Heritage places",
+      "p1": "The Rajwada, seat of the Ghorpade chiefs, now houses the DKTE institute. A verified list of the town's old temples, wadas and markets is still being compiled."
+    },
+    "readMore": {
+      "title": "Read more",
+      "franks": "H. G. Franks, The Story of Ichalkaranji (1929)",
+      "gazetteer": "Maharashtra State Gazetteers: Kolhapur"
+    },
+    "timeline": {
+      "title": "Timeline, 1700–2026",
+      "lead": "Events marked unverified or disputed are shown on purpose, so you can see what is still being checked.",
+      "filter": "Show",
+      "all": "All",
+      "count": "{count, plural, one {{count} event} other {{count} events}}",
+      "eras": {
+        "princely": "Princely era",
+        "industry": "Industry",
+        "culture": "Culture",
+        "civic": "Civic"
+      },
+      "status": {
+        "official": "Documented",
+        "secondary": "Secondary source",
+        "unverified": "Unverified",
+        "disputed": "Disputed"
+      }
+    }
+  },
+  "mapPage": {
+    "lead": "Only places whose position comes from a cited source are pinned. Each layer can be switched on and off.",
+    "mapLabel": "Interactive map of Ichalkaranji and its surroundings",
+    "layers": "Layers",
+    "categories": {
+      "landmark": "Landmarks",
+      "transport": "Transport",
+      "tourism": "Places to visit",
+      "neighbourhood": "Nearby towns"
+    },
+    "filterLabel": "Filter places",
+    "filterPlaceholder": "Type a place name…",
+    "shown": "{count, plural, one {{count} place shown} other {{count} places shown}}",
+    "none": "No places match your filter.",
+    "fit": "Show all",
+    "approx": "Approximate position",
+    "distance": "{km} km from the city centre (straight line)",
+    "directions": "Directions",
+    "openOsm": "OpenStreetMap",
+    "source": "Source",
+    "listTitle": "Places on the map",
+    "download": "Download places (GeoJSON)",
+    "downloadNote": "Coordinates come from Wikipedia and are shared under CC BY-SA 4.0.",
+    "awaitingTitle": "Layers awaiting verified data",
+    "awaitingNote": "These appear as positions are verified. The base map already shows roads, the railway and the Panchganga from OpenStreetMap.",
+    "awaiting": {
+      "wards": "Ward boundaries",
+      "industrial": "MIDC and powerloom areas",
+      "busStops": "Bus stand and stops",
+      "hospitals": "Hospitals",
+      "schools": "Schools and colleges",
+      "police": "Police stations",
+      "fire": "Fire station",
+      "offices": "Municipal offices",
+      "markets": "Markets",
+      "parks": "Parks and ghats",
+      "station": "Hatkanangale railway station"
+    },
+    "loading": "Loading map…"
+  },
+  "economy": {
+    "summary": "Ichalkaranji's economy is built on cotton textiles: a decentralised cluster of loom owners, spinning mills, sizing and processing units, backed by cooperative banks.",
+    "figuresTitle": "Key figures",
+    "figuresLead": "Sourced figures for the city. City-level GDP and per-capita income are not published; the district figures will be added, labelled as district.",
+    "sectorsTitle": "What the city makes",
+    "sectors": {
+      "textiles": {
+        "title": "Textiles and powerlooms",
+        "body": "The core of the economy, from yarn to finished fabric. Described as India's largest cotton greige-fabric hub, with about 90% of output sold in India."
+      },
+      "cooperatives": {
+        "title": "Cooperative finance",
+        "body": "The Ichalkaranji Janata Sahakari Bank, registered in 1962, was founded to lend to small industry and entrepreneurs."
+      },
+      "sugar": {
+        "title": "Sugar and energy nearby",
+        "body": "A cooperative sugar factory and a 30 MW cogeneration plant of Shree Renuka Sugars are listed in the area (secondary source)."
+      },
+      "engineering": {
+        "title": "Engineering and foundry",
+        "body": "Often mentioned alongside textiles (machinery, foundry, auto parts), but no sourced count or list yet: data awaited."
+      },
+      "skills": {
+        "title": "Skills and education",
+        "body": "DKTE's Textile & Engineering Institute, started by local cooperatives in 1982, trains engineers and technicians for the cluster."
+      }
+    },
+    "policyTitle": "Policy, parks and competition",
+    "policy": {
+      "pmMitra": "In 2022 the Hatkanangle MP asked Parliament for a PM MITRA mega textile park at Ichalkaranji. No selection has been found.",
+      "processing": "A mega processing cluster was described as “coming up” in 2018; its current status is awaited.",
+      "competition": "Trade press reports that Karnataka's incentives are drawing some investment out of the cluster, and that labour is short.",
+      "exports": "The powerloom export council held a reverse buyer–seller meet in Ichalkaranji in December 2018 to promote exports."
+    },
+    "gapsTitle": "What we still don't know",
+    "gapsLead": "These figures are not yet available from an official source. They will appear here, sourced, as they are found.",
+    "gaps": {
+      "gdp": "City economic output (GDP)",
+      "pci": "Per-capita income",
+      "employment": "Employment by sector",
+      "exports": "Export value",
+      "msme": "Number of registered MSMEs",
+      "estates": "Names and sizes of industrial estates (MIDC)"
+    },
+    "textileCta": "Read the textile industry deep-dive"
+  },
+  "textile": {
+    "summary": "About 4,296 million metres of fabric a year, made on more than 1.5 lakh looms: Ichalkaranji is one of India's largest powerloom clusters.",
+    "chainTitle": "From yarn to fabric",
+    "chainLead": "The whole value chain sits within a few kilometres. Counts come from the sources shown; steps without a count are awaited.",
+    "chain": {
+      "spinning": {
+        "title": "Spinning",
+        "body": "Mills turn cotton and blends into yarn; many are export-oriented."
+      },
+      "sizing": {
+        "title": "Sizing",
+        "body": "Warp yarn is coated so it survives weaving."
+      },
+      "weaving": {
+        "title": "Weaving",
+        "body": "Plain powerlooms and faster shuttleless looms weave greige (unfinished) fabric."
+      },
+      "processing": {
+        "title": "Processing",
+        "body": "Dyeing, printing and finishing add value; this is also the main source of effluent."
+      },
+      "trade": {
+        "title": "Trade and garments",
+        "body": "Fabric is sold across India; a smaller share is made into garments or exported."
+      }
+    },
+    "historyTitle": "A century of looms",
+    "historyBody": "The first powerloom arrived in 1904. By 1954 there were 1,521; by 2018, over 1.5 lakh. Only these sourced years are charted.",
+    "chartTitle": "Powerlooms",
+    "chartSub": "Looms in the city",
+    "marketTitle": "Output and markets",
+    "marketBody": "Trade press puts output at about 4,296 million metres a year, with roughly 90% sold in India. Mills report supplying institutional buyers such as schools, railways and defence, and selling through the Government e-Marketplace.",
+    "challengesTitle": "Challenges",
+    "challenges": {
+      "effluent": "Untreated sewage and processing effluent reaching the Panchganga, now under National Green Tribunal oversight.",
+      "labour": "Shortage of workers, with some stitching outsourced to other cities.",
+      "competition": "Neighbouring states offering stronger incentives to new units.",
+      "data": "No official, up-to-date census of looms or employment."
+    },
+    "opportunitiesTitle": "Opportunities",
+    "opportunities": {
+      "valueAdded": "Moving from greige to dyed, printed and finished fabric.",
+      "institutional": "Institutional and technical fabrics: uniforms, railways, defence.",
+      "modern": "Replacing plain looms with shuttleless looms (10,000+ reported, 25,000 by 2022).",
+      "clean": "Common effluent treatment and cleaner processing to protect the river."
+    },
+    "economyCta": "Back to the economy overview"
+  },
+  "tourism": {
+    "summary": "Ichalkaranji is a working textile city rather than a resort, but heritage, river ghats and some of Kolhapur district's best-known temples and forts are within an hour.",
+    "inCityTitle": "In the city",
+    "nearbyTitle": "Nearby",
+    "distance": "{km} km away (straight line)",
+    "noPin": "Position not yet verified",
+    "mapTitle": "Places on the map",
+    "itinerariesTitle": "Suggested itineraries",
+    "itinerariesLead": "Suggested by this portal. Check opening hours and road conditions before you travel.",
+    "bestTimeTitle": "Best time to visit",
+    "bestTimeBody": "December to February is the most comfortable, with mild temperatures and little rain. April is the hottest month. The monsoon (June–September) brings most of the year's rain to the region. Climate figures are for the Kolhapur station.",
+    "practicalTitle": "Before you go",
+    "practical": {
+      "fees": "Entry fees and opening hours are being verified; check with each site.",
+      "dress": "At temples, dress modestly and remove footwear where asked.",
+      "monsoon": "In the monsoon, check road conditions before driving up to Panhala or Jyotiba.",
+      "stay": "A verified accommodation list will be added in a later release.",
+      "transport": "Getting here: see the transport page."
+    },
+    "transportLink": "Transport options"
+  },
+  "dataPage": {
+    "summary": "Every indicator on the portal in one place, with its latest figure, the one before it, the change and the source. Filter, compare and download.",
+    "filters": "Filters",
+    "topic": "Topic",
+    "topics": {
+      "all": "All",
+      "people": "People",
+      "city": "City",
+      "textile": "Textile"
+    },
+    "status": "Status",
+    "statusAll": "Any status",
+    "search": "Search indicators",
+    "searchPlaceholder": "e.g. population, looms",
+    "showing": "Showing {shown} of {total} indicators",
+    "view": "View",
+    "viewCards": "Cards",
+    "viewTable": "Table",
+    "downloadCsv": "Download CSV",
+    "csvNote": "The CSV lists every year for the indicators shown, with status and source.",
+    "latest": "Latest",
+    "previous": "Previous",
+    "change": "Change",
+    "changeSince": "{change} since {year}",
+    "increase": "Increase",
+    "decrease": "Decrease",
+    "noPrevious": "No earlier figure to compare",
+    "mixedNote": "Compares figures with different status — read with care.",
+    "trendTitle": "Trend",
+    "trendLead": "Pick an indicator to see every year that has a figure.",
+    "trendSelect": "Indicator",
+    "trendButton": "Show trend",
+    "empty": "No indicators match these filters.",
+    "reset": "Clear filters",
+    "indicator": "Indicator",
+    "scope": "Scope",
+    "readTitle": "How to read this dashboard",
+    "read": {
+      "p1": "“Latest” is the most recent year with a figure. “Previous” is the year before it that also has one, so the gap between them can be many years.",
+      "p2": "Estimates and projections are not counts. When a change compares an estimate with an official count, the card says so.",
+      "p3": "“Data awaited” means no reliable figure was found. The portal leaves the gap rather than fill it with a guess."
+    }
+  },
+  "projectsPage": {
+    "summary": "Civic and infrastructure projects that affect Ichalkaranji, with the status each source reports. Costs appear only where a source states them.",
+    "statusFilter": "Filter by status",
+    "all": "All",
+    "category": "Category",
+    "allCategories": "All categories",
+    "categories": {
+      "water": "Water",
+      "sewerage": "Sewerage",
+      "industry": "Industry",
+      "connectivity": "Connectivity",
+      "urban": "Roads and urban"
+    },
+    "statuses": {
+      "proposed": "Proposed",
+      "ongoing": "Ongoing",
+      "delayed": "Delayed",
+      "completed": "Completed",
+      "awaited": "Status awaited"
+    },
+    "count": "{count, plural, one {{count} project} other {{count} projects}}",
+    "cost": "Cost",
+    "noCost": "Not published",
+    "asOf": "Status as of {date}",
+    "noDate": "Date not stated",
+    "noSource": "No source found yet",
+    "empty": "No projects match these filters.",
+    "gapsTitle": "What is missing",
+    "gapsBody": "Costs, contractors and progress percentages are missing for most projects. They will be added from corporation tender notices and budget documents, not estimated."
+  },
+  "newsPage": {
+    "summary": "Dated summaries of published reports about Ichalkaranji, each linked to its source. This portal does not publish its own news.",
+    "filter": "Filter by topic",
+    "all": "All",
+    "count": "{count, plural, one {{count} item} other {{count} items}}",
+    "empty": "No items in this topic yet.",
+    "officialTitle": "Official notices",
+    "officialBody": "Tenders, public notices and orders are published by the municipal corporation. Check its website for the full, current list.",
+    "officialCta": "Corporation website"
+  },
+  "contactPage": {
+    "summary": "Write to the team that runs this independent portal about corrections, accessibility or ideas. For civic complaints, use the official portals.",
+    "notOfficialTitle": "This is not a government office",
+    "notOfficialBody": "Messages here reach the portal team only. They cannot register complaints, process applications or take payments.",
+    "officialTitle": "For civic matters",
+    "officialLinks": {
+      "corporation": "Ichalkaranji Municipal Corporation",
+      "grievance": "Maharashtra grievance portal",
+      "rti": "RTI Online, Maharashtra"
+    },
+    "formTitle": "Message the portal team",
+    "topic": "Topic",
+    "topics": {
+      "correction": "Correct a fact or figure",
+      "accessibility": "Accessibility problem",
+      "suggestion": "Suggest a source or page",
+      "other": "Something else"
+    },
+    "pageUrl": "Page address (optional)",
+    "pageUrlHelp": "The page your message is about.",
+    "name": "Your name (optional)",
+    "message": "Message",
+    "messageHelp": "Do not include ID numbers, bank details or passwords.",
+    "messageError": "Please write at least 10 characters.",
+    "required": "required",
+    "submit": "Open in your email app",
+    "how": "Your email app opens with this message filled in. Nothing is sent until you press Send there, and this site keeps no copy.",
+    "subject": "Ichalkaranji portal: {topic}",
+    "disabledTitle": "The contact address is not published yet",
+    "disabledBody": "The form opens once the portal team publishes its address. Until then, the official portals on this page handle civic matters."
+  },
+  "sourcesPage": {
+    "summary": "Every source this portal cites, gathered automatically from its data files, with the pages that use it, and how figures are labelled.",
+    "stats": "{sources} sources cited across {pages} pages",
+    "statusTitle": "What the labels mean",
+    "statusHelp": {
+      "official": "Published by a government body: the Census, the Election Commission, a ministry, the pollution control board or the courts.",
+      "secondary": "Reported by reputable press, trade bodies, academic work or Wikipedia citing official records.",
+      "estimate": "A figure produced by a stated method or used for planning, not a count.",
+      "projection": "A forward-looking figure from a stated model.",
+      "awaited": "No reliable figure found yet. The gap is left open rather than guessed."
+    },
+    "principlesTitle": "Principles",
+    "principles": {
+      "p1": "No figure, date, name or phone number is published without a source.",
+      "p2": "Where sources disagree, the conflict is shown, or the figure is held back until it is resolved.",
+      "p3": "Every figure records when it was last checked against its source."
+    },
+    "listTitle": "All cited sources",
+    "listLead": "Grouped by source. Where a source has several documents, each is listed.",
+    "filter": "Show",
+    "filterAll": "All sources",
+    "filterOfficial": "Official only",
+    "colSource": "Source",
+    "colUsedOn": "Used on",
+    "colStatus": "Labelled as",
+    "home": "Home",
+    "noLink": "no link",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimer": {
+      "p1": "This is an independent information portal. It is not affiliated with the Ichalkaranji Municipal Corporation, the Government of Maharashtra or the Government of India, and it does not use their emblems.",
+      "p2": "Information is provided for general reference. For anything with legal, financial or safety consequences, rely on the body that issued it.",
+      "p3": "Spotted an error or a better source? Tell the team on the Contact page."
+    },
+    "contactCta": "Report an error"
+  }
+}

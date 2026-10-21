@@ -1,0 +1,170 @@
+{
+  "route": "emergency",
+  "summary": {
+    "en": "For any emergency in India, call 112. National helplines below work from any phone, free of charge.",
+    "mr": "भारतात कोणत्याही आपत्कालीन स्थितीसाठी 112 वर कॉल करा. खालील राष्ट्रीय हेल्पलाइन कोणत्याही फोनवरून मोफत वापरता येतात.",
+    "hi": "भारत में किसी भी आपात स्थिति के लिए 112 पर कॉल करें। नीचे दी गई राष्ट्रीय हेल्पलाइन किसी भी फ़ोन से निःशुल्क काम करती हैं।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "emergency",
+      "id": "numbers",
+      "title": {
+        "en": "Emergency numbers",
+        "mr": "आपत्कालीन क्रमांक",
+        "hi": "आपातकालीन नंबर"
+      },
+      "lead": {
+        "en": "Tap a number to call.",
+        "mr": "कॉल करण्यासाठी क्रमांकावर टॅप करा.",
+        "hi": "कॉल करने के लिए नंबर पर टैप करें।"
+      }
+    },
+    {
+      "type": "table",
+      "id": "more",
+      "title": {
+        "en": "More helplines",
+        "mr": "इतर हेल्पलाइन",
+        "hi": "अन्य हेल्पलाइन"
+      },
+      "columns": [
+        {
+          "en": "Service",
+          "mr": "सेवा",
+          "hi": "सेवा"
+        },
+        {
+          "en": "Number",
+          "mr": "क्रमांक",
+          "hi": "नंबर"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Women's helpline (police)",
+            "mr": "महिला हेल्पलाइन (पोलीस)",
+            "hi": "महिला हेल्पलाइन (पुलिस)"
+          },
+          {
+            "en": "1091",
+            "mr": "1091",
+            "hi": "1091"
+          }
+        ],
+        [
+          {
+            "en": "Disaster management (district control room)",
+            "mr": "आपत्ती व्यवस्थापन (जिल्हा नियंत्रण कक्ष)",
+            "hi": "आपदा प्रबंधन (ज़िला नियंत्रण कक्ष)"
+          },
+          {
+            "en": "1077",
+            "mr": "1077",
+            "hi": "1077"
+          }
+        ],
+        [
+          {
+            "en": "Senior citizens' helpline",
+            "mr": "ज्येष्ठ नागरिक हेल्पलाइन",
+            "hi": "वरिष्ठ नागरिक हेल्पलाइन"
+          },
+          {
+            "en": "14567",
+            "mr": "14567",
+            "hi": "14567"
+          }
+        ],
+        [
+          {
+            "en": "Cyber crime",
+            "mr": "सायबर गुन्हे",
+            "hi": "साइबर अपराध"
+          },
+          {
+            "en": "1930",
+            "mr": "1930",
+            "hi": "1930"
+          }
+        ],
+        [
+          {
+            "en": "Medical advice (Government of Maharashtra)",
+            "mr": "वैद्यकीय सल्ला (महाराष्ट्र शासन)",
+            "hi": "चिकित्सा सलाह (महाराष्ट्र सरकार)"
+          },
+          {
+            "en": "104",
+            "mr": "104",
+            "hi": "104"
+          }
+        ],
+        [
+          {
+            "en": "Railway accidents",
+            "mr": "रेल्वे अपघात",
+            "hi": "रेल दुर्घटना"
+          },
+          {
+            "en": "1072",
+            "mr": "1072",
+            "hi": "1072"
+          }
+        ]
+      ],
+      "cite": {
+        "source": "Washim district administration (Govt. of Maharashtra) helpline list; india.gov.in helpline directory",
+        "sourceUrl": "https://washim.gov.in/?p=30101"
+      }
+    },
+    {
+      "type": "awaited",
+      "id": "local",
+      "title": {
+        "en": "Local numbers being verified",
+        "mr": "पडताळणीतील स्थानिक क्रमांक",
+        "hi": "सत्यापनाधीन स्थानीय नंबर"
+      },
+      "lead": {
+        "en": "Until verified, use 112 or the corporation's official website.",
+        "mr": "पडताळणी होईपर्यंत 112 किंवा महापालिकेचे अधिकृत संकेतस्थळ वापरा.",
+        "hi": "सत्यापन तक 112 या महानगरपालिका की आधिकारिक वेबसाइट का उपयोग करें।"
+      },
+      "items": [
+        {
+          "en": "Police stations in the city",
+          "mr": "शहरातील पोलीस ठाणी",
+          "hi": "शहर के पुलिस थाने"
+        },
+        {
+          "en": "Corporation fire station",
+          "mr": "महापालिका अग्निशमन केंद्र",
+          "hi": "महानगरपालिका अग्निशमन केंद्र"
+        },
+        {
+          "en": "Flood control room",
+          "mr": "पूर नियंत्रण कक्ष",
+          "hi": "बाढ़ नियंत्रण कक्ष"
+        },
+        {
+          "en": "Hospitals with 24-hour casualty",
+          "mr": "24 तास अपघात विभाग असलेली रुग्णालये",
+          "hi": "24 घंटे आपातकालीन विभाग वाले अस्पताल"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "flood",
+      "tone": "warning",
+      "body": {
+        "en": "During monsoon floods on the Panchganga, follow instructions from the district administration and avoid river ghats and low-lying roads.",
+        "mr": "पंचगंगेच्या पावसाळी पुराच्या वेळी जिल्हा प्रशासनाच्या सूचनांचे पालन करा आणि नदीघाट व सखल रस्ते टाळा.",
+        "hi": "पंचगंगा में मानसूनी बाढ़ के दौरान ज़िला प्रशासन के निर्देशों का पालन करें और नदी घाटों व निचली सड़कों से बचें।"
+      }
+    }
+  ]
+}

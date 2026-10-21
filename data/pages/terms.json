@@ -1,0 +1,137 @@
+{
+  "route": "terms",
+  "summary": {
+    "en": "This is an independent, non-commercial information portal about Ichalkaranji. It is not run by, or speaking for, any government body.",
+    "mr": "हे इचलकरंजीविषयीचे स्वतंत्र, अव्यावसायिक माहिती पोर्टल आहे. ते कोणत्याही शासकीय संस्थेद्वारे चालवले जात नाही किंवा तिच्या वतीने बोलत नाही.",
+    "hi": "यह इचलकरंजी के बारे में एक स्वतंत्र, गैर-व्यावसायिक सूचना पोर्टल है। इसे कोई सरकारी संस्था नहीं चलाती और न ही यह उसकी ओर से बोलता है।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "use",
+      "title": {
+        "en": "Using this site",
+        "mr": "संकेतस्थळाचा वापर",
+        "hi": "साइट का उपयोग"
+      },
+      "paragraphs": [
+        {
+          "en": "Information is provided as-is for general reference. Every figure is labelled with its source and status, but sources can be wrong or out of date. For anything with legal, financial or safety consequences, rely on the official body that issues it.",
+          "mr": "माहिती सर्वसाधारण संदर्भासाठी जशी आहे तशी दिली आहे. प्रत्येक आकड्यावर स्रोत व स्थिती दिली असली तरी स्रोत चुकीचे किंवा जुने असू शकतात. कायदेशीर, आर्थिक किंवा सुरक्षाविषयक परिणाम असलेल्या बाबींसाठी संबंधित अधिकृत संस्थेवर विसंबून राहा.",
+          "hi": "जानकारी सामान्य संदर्भ के लिए जैसी है वैसी दी गई है। हर आँकड़े पर स्रोत और स्थिति दी गई है, फिर भी स्रोत गलत या पुराने हो सकते हैं। क़ानूनी, वित्तीय या सुरक्षा परिणाम वाले मामलों में जारी करने वाली आधिकारिक संस्था पर ही भरोसा करें।"
+        },
+        {
+          "en": "Links to official portals are provided for convenience. Those sites have their own terms, and this portal is not responsible for their content or availability.",
+          "mr": "अधिकृत पोर्टलचे दुवे सोयीसाठी दिले आहेत. त्या संकेतस्थळांच्या स्वतःच्या अटी आहेत आणि त्यांच्या मजकुरासाठी किंवा उपलब्धतेसाठी हे पोर्टल जबाबदार नाही.",
+          "hi": "आधिकारिक पोर्टलों के लिंक सुविधा के लिए दिए गए हैं। उन साइटों की अपनी शर्तें हैं और उनकी सामग्री या उपलब्धता के लिए यह पोर्टल ज़िम्मेदार नहीं है।"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "licences",
+      "title": {
+        "en": "Content and data licences",
+        "mr": "मजकूर व माहितीचे परवाने",
+        "hi": "सामग्री और डेटा लाइसेंस"
+      },
+      "columns": [
+        {
+          "en": "Material",
+          "mr": "साहित्य",
+          "hi": "सामग्री"
+        },
+        {
+          "en": "Licence",
+          "mr": "परवाना",
+          "hi": "लाइसेंस"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "This portal's own text and charts",
+            "mr": "या पोर्टलचा स्वतःचा मजकूर व आलेख",
+            "hi": "इस पोर्टल की अपनी सामग्री और चार्ट"
+          },
+          {
+            "en": "CC BY 4.0 unless noted",
+            "mr": "अन्यथा नमूद नसल्यास CC BY 4.0",
+            "hi": "अन्यथा उल्लेख न हो तो CC BY 4.0"
+          }
+        ],
+        [
+          {
+            "en": "Map data",
+            "mr": "नकाशा माहिती",
+            "hi": "नक्शा डेटा"
+          },
+          {
+            "en": "© OpenStreetMap contributors, ODbL",
+            "mr": "© ओपनस्ट्रीटमॅप योगदानकर्ते, ODbL",
+            "hi": "© ओपनस्ट्रीटमैप योगदानकर्ता, ODbL"
+          }
+        ],
+        [
+          {
+            "en": "Weather and air quality",
+            "mr": "हवामान व हवा गुणवत्ता",
+            "hi": "मौसम और वायु गुणवत्ता"
+          },
+          {
+            "en": "Open-Meteo, CC BY 4.0",
+            "mr": "ओपन-मेटिओ, CC BY 4.0",
+            "hi": "ओपन-मीटियो, CC BY 4.0"
+          }
+        ],
+        [
+          {
+            "en": "Text drawn from Wikipedia",
+            "mr": "विकिपीडियावरून घेतलेला मजकूर",
+            "hi": "विकिपीडिया से ली गई सामग्री"
+          },
+          {
+            "en": "CC BY-SA 4.0, credited on each page",
+            "mr": "CC BY-SA 4.0, प्रत्येक पानावर श्रेय",
+            "hi": "CC BY-SA 4.0, हर पृष्ठ पर श्रेय"
+          }
+        ],
+        [
+          {
+            "en": "Place coordinates file (/geo/places.geojson)",
+            "mr": "स्थळ निर्देशांक फाइल (/geo/places.geojson)",
+            "hi": "स्थान निर्देशांक फ़ाइल (/geo/places.geojson)"
+          },
+          {
+            "en": "CC BY-SA 4.0",
+            "mr": "CC BY-SA 4.0",
+            "hi": "CC BY-SA 4.0"
+          }
+        ],
+        [
+          {
+            "en": "Government data",
+            "mr": "शासकीय माहिती",
+            "hi": "सरकारी डेटा"
+          },
+          {
+            "en": "As published by the issuing body",
+            "mr": "जारी करणाऱ्या संस्थेनुसार",
+            "hi": "जारी करने वाली संस्था के अनुसार"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "names",
+      "tone": "info",
+      "body": {
+        "en": "This portal does not use any government emblem, seal or logo. Names of public bodies are used only to identify them.",
+        "mr": "हे पोर्टल कोणतेही शासकीय बोधचिन्ह, मुद्रा किंवा लोगो वापरत नाही. सार्वजनिक संस्थांची नावे केवळ ओळखीसाठी वापरली आहेत.",
+        "hi": "यह पोर्टल किसी सरकारी प्रतीक, मुहर या लोगो का उपयोग नहीं करता। सार्वजनिक संस्थाओं के नाम केवल पहचान के लिए उपयोग किए गए हैं।"
+      }
+    }
+  ]
+}

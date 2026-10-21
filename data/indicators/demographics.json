@@ -1,0 +1,184 @@
+[
+  {
+    "id": "population_total",
+    "label": {
+      "en": "Population",
+      "mr": "लोकसंख्या",
+      "hi": "जनसंख्या"
+    },
+    "unit": {
+      "en": "persons",
+      "mr": "व्यक्ती",
+      "hi": "व्यक्ति"
+    },
+    "scope": "city",
+    "series": [
+      {
+        "year": 2001,
+        "value": null,
+        "status": "awaited",
+        "source": "Census of India 2001",
+        "sourceUrl": "https://censusindia.gov.in",
+        "method": "Secondary sources disagree (257,572 vs 307,572); awaiting the census table.",
+        "retrieved": "2026-10-21"
+      },
+      {
+        "year": 2011,
+        "value": 287570,
+        "status": "official",
+        "source": "Census of India 2011 (provisional)",
+        "sourceUrl": "https://censusindia.gov.in",
+        "method": "",
+        "retrieved": "2026-10-21"
+      },
+      {
+        "year": 2025,
+        "value": 391000,
+        "status": "estimate",
+        "source": "MPCB Panchganga River Action Plan 2025",
+        "sourceUrl": "https://mpcb.gov.in/sites/default/files/Establishment%20of%20MPCB/Seniority%20list/2014/Panchaganga%20River%206.0_%20Action%20Plan%202025.pdf",
+        "method": "Planning figure used by MPCB; method not stated.",
+        "retrieved": "2026-10-21"
+      }
+    ],
+    "note": {
+      "en": "2011 figure is the provisional Census count for the city; verify against the final Primary Census Abstract.",
+      "mr": "2011 चा आकडा शहराचा तात्पुरता जनगणना आकडा आहे; अंतिम प्राथमिक जनगणना सारांशाशी पडताळणी करावी.",
+      "hi": "2011 का आँकड़ा शहर की अनंतिम जनगणना गणना है; अंतिम प्राथमिक जनगणना सार से सत्यापन करें।"
+    },
+    "fallback": {
+      "scope": "urban_agglomeration",
+      "indicatorId": "population_ua"
+    }
+  },
+  {
+    "id": "population_ua",
+    "label": {
+      "en": "Population (urban agglomeration)",
+      "mr": "लोकसंख्या (नागरी समूह)",
+      "hi": "जनसंख्या (नगरीय समूह)"
+    },
+    "unit": {
+      "en": "persons",
+      "mr": "व्यक्ती",
+      "hi": "व्यक्ति"
+    },
+    "scope": "urban_agglomeration",
+    "series": [
+      {
+        "year": 2011,
+        "value": 325709,
+        "status": "official",
+        "source": "Census of India 2011 (provisional)",
+        "sourceUrl": "https://censusindia.gov.in",
+        "method": "",
+        "retrieved": "2026-10-21"
+      }
+    ]
+  },
+  {
+    "id": "sex_ratio",
+    "label": {
+      "en": "Sex ratio",
+      "mr": "लिंग गुणोत्तर",
+      "hi": "लिंगानुपात"
+    },
+    "unit": {
+      "en": "females per 1,000 males",
+      "mr": "दर 1,000 पुरुषांमागे स्त्रिया",
+      "hi": "प्रति 1,000 पुरुषों पर महिलाएँ"
+    },
+    "scope": "city",
+    "series": [
+      {
+        "year": 2011,
+        "value": 921,
+        "status": "official",
+        "source": "Derived from Census of India 2011 male and female counts",
+        "sourceUrl": "https://censusindia.gov.in",
+        "method": "137,879 females ÷ 149,691 males × 1,000",
+        "retrieved": "2026-10-21"
+      }
+    ]
+  },
+  {
+    "id": "literacy_rate",
+    "label": {
+      "en": "Literacy rate",
+      "mr": "साक्षरता दर",
+      "hi": "साक्षरता दर"
+    },
+    "unit": {
+      "en": "%",
+      "mr": "%",
+      "hi": "%"
+    },
+    "scope": "city",
+    "series": [
+      {
+        "year": 2011,
+        "value": 85.98,
+        "status": "official",
+        "source": "Census of India 2011",
+        "sourceUrl": "https://censusindia.gov.in",
+        "method": "",
+        "retrieved": "2026-10-21"
+      }
+    ]
+  },
+  {
+    "id": "area",
+    "label": {
+      "en": "Area",
+      "mr": "क्षेत्रफळ",
+      "hi": "क्षेत्रफल"
+    },
+    "unit": {
+      "en": "sq km",
+      "mr": "चौ. किमी",
+      "hi": "वर्ग किमी"
+    },
+    "scope": "city",
+    "series": [
+      {
+        "year": 2011,
+        "value": 29.84,
+        "status": "secondary",
+        "source": "Municipal limits before the 2022 corporation upgrade",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji",
+        "method": "",
+        "retrieved": "2026-10-21"
+      }
+    ],
+    "note": {
+      "en": "Post-2022 corporation limits not yet confirmed.",
+      "mr": "2022 नंतरची महानगरपालिका हद्द अद्याप निश्चित झालेली नाही.",
+      "hi": "2022 के बाद की महानगरपालिका सीमा अभी पुष्ट नहीं।"
+    }
+  },
+  {
+    "id": "density",
+    "label": {
+      "en": "Population density",
+      "mr": "लोकसंख्येची घनता",
+      "hi": "जनसंख्या घनत्व"
+    },
+    "unit": {
+      "en": "persons per sq km",
+      "mr": "व्यक्ती प्रति चौ. किमी",
+      "hi": "व्यक्ति प्रति वर्ग किमी"
+    },
+    "scope": "city",
+    "series": [
+      {
+        "year": 2011,
+        "value": 9637,
+        "status": "official",
+        "source": "Derived from Census of India 2011 population and municipal area",
+        "sourceUrl": "https://censusindia.gov.in",
+        "method": "287,570 ÷ 29.84 sq km",
+        "retrieved": "2026-10-21"
+      }
+    ]
+  }
+]

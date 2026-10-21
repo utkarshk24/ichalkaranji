@@ -1,0 +1,366 @@
+{
+  "route": "about",
+  "summary": {
+    "en": "Ichalkaranji is a textile city of about 2.9 lakh people (Census 2011) on the Panchganga river in Hatkanangale taluka, Kolhapur district, governed since 2022 by a municipal corporation.",
+    "mr": "इचलकरंजी हे कोल्हापूर जिल्ह्यातील हातकणंगले तालुक्यात, पंचगंगेच्या काठावरील सुमारे 2.9 लाख लोकसंख्येचे (जनगणना 2011) वस्त्रनगर आहे; 2022 पासून येथे महानगरपालिका आहे.",
+    "hi": "इचलकरंजी कोल्हापुर जिले के हातकणंगले तालुका में पंचगंगा नदी पर बसा लगभग 2.9 लाख आबादी (जनगणना 2011) का वस्त्र नगर है, जहाँ 2022 से महानगरपालिका है।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "facts",
+      "id": "profile",
+      "title": {
+        "en": "City profile",
+        "mr": "शहराची ओळख",
+        "hi": "शहर परिचय"
+      },
+      "rows": [
+        {
+          "label": {
+            "en": "Name",
+            "mr": "नाव",
+            "hi": "नाम"
+          },
+          "value": {
+            "en": "Ichalkaranji · इचलकरंजी",
+            "mr": "इचलकरंजी (Ichalkaranji)",
+            "hi": "इचलकरंजी (Ichalkaranji)"
+          },
+          "status": "secondary",
+          "source": "Wikipedia: Ichalkaranji",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji"
+        },
+        {
+          "label": {
+            "en": "Nicknames",
+            "mr": "टोपणनावे",
+            "hi": "उपनाम"
+          },
+          "value": {
+            "en": "Manchester of Maharashtra; The Textile Hub",
+            "mr": "महाराष्ट्राचे मँचेस्टर; वस्त्रनगरी",
+            "hi": "महाराष्ट्र का मैनचेस्टर; वस्त्र नगरी"
+          },
+          "status": "secondary",
+          "source": "Wikipedia: Ichalkaranji",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji"
+        },
+        {
+          "label": {
+            "en": "Location",
+            "mr": "स्थान",
+            "hi": "स्थान"
+          },
+          "value": {
+            "en": "Hatkanangale taluka, Kolhapur district, Maharashtra, India",
+            "mr": "हातकणंगले तालुका, कोल्हापूर जिल्हा, महाराष्ट्र, भारत",
+            "hi": "हातकणंगले तालुका, कोल्हापुर जिला, महाराष्ट्र, भारत"
+          },
+          "status": "official",
+          "source": "Election Commission delimitation (via Wikipedia)",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji_Assembly_constituency"
+        },
+        {
+          "label": {
+            "en": "Coordinates",
+            "mr": "निर्देशांक",
+            "hi": "निर्देशांक"
+          },
+          "value": {
+            "en": "16°42′N 74°28′E (16.70, 74.47)",
+            "mr": "16°42′ उ. 74°28′ पू. (16.70, 74.47)",
+            "hi": "16°42′ उ. 74°28′ पू. (16.70, 74.47)"
+          },
+          "status": "secondary",
+          "source": "Wikipedia: Ichalkaranji",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji"
+        },
+        {
+          "label": {
+            "en": "Elevation",
+            "mr": "उंची",
+            "hi": "ऊँचाई"
+          },
+          "value": {
+            "en": "About 538 m above sea level",
+            "mr": "समुद्रसपाटीपासून सुमारे 538 मी",
+            "hi": "समुद्र तल से लगभग 538 मीटर"
+          },
+          "status": "secondary",
+          "source": "Wikipedia: Ichalkaranji",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji"
+        },
+        {
+          "label": {
+            "en": "Area",
+            "mr": "क्षेत्रफळ",
+            "hi": "क्षेत्रफल"
+          },
+          "value": {
+            "en": "29.84 sq km (municipal limits before the 2022 upgrade; current limits awaited)",
+            "mr": "29.84 चौ. किमी (2022 पूर्वीची हद्द; सध्याची हद्द प्रतीक्षेत)",
+            "hi": "29.84 वर्ग किमी (2022 से पहले की सीमा; वर्तमान सीमा प्रतीक्षित)"
+          },
+          "status": "secondary",
+          "source": "Wikipedia: Ichalkaranji",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji"
+        },
+        {
+          "label": {
+            "en": "River",
+            "mr": "नदी",
+            "hi": "नदी"
+          },
+          "value": {
+            "en": "Panchganga, a tributary of the Krishna; the city lies about half a mile north of it",
+            "mr": "पंचगंगा, कृष्णेची उपनदी; शहर तिच्या उत्तरेस सुमारे अर्धा मैल",
+            "hi": "पंचगंगा, कृष्णा की सहायक नदी; शहर इससे लगभग आधा मील उत्तर में"
+          },
+          "status": "secondary",
+          "source": "Wikipedia: Ichalkaranji",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji"
+        },
+        {
+          "label": {
+            "en": "Civic body",
+            "mr": "नागरी संस्था",
+            "hi": "नगरीय निकाय"
+          },
+          "value": {
+            "en": "Ichalkaranji Municipal Corporation, 65 seats (since 2022; council from 1904)",
+            "mr": "इचलकरंजी महानगरपालिका, 65 जागा (2022 पासून; नगरपरिषद 1904 पासून)",
+            "hi": "इचलकरंजी महानगरपालिका, 65 सीटें (2022 से; नगर परिषद 1904 से)"
+          },
+          "status": "official",
+          "source": "UNI; Wikipedia: Ichalkaranji Municipal Corporation",
+          "sourceUrl": "https://www.uniindia.com/news/states/west/page-5/"
+        },
+        {
+          "label": {
+            "en": "PIN code",
+            "mr": "पिन कोड",
+            "hi": "पिन कोड"
+          },
+          "value": {
+            "en": "416115 (Main Road / Rajwada); other PIN codes awaited",
+            "mr": "416115 (मेन रोड / राजवाडा); इतर पिन कोड प्रतीक्षेत",
+            "hi": "416115 (मेन रोड / राजवाड़ा); अन्य पिन कोड प्रतीक्षित"
+          },
+          "status": "secondary",
+          "source": "Ichalkaranji Janata Sahakari Bank",
+          "sourceUrl": "https://kaijs.bank.in/history"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "distances",
+      "title": {
+        "en": "Distances",
+        "mr": "अंतरे",
+        "hi": "दूरियाँ"
+      },
+      "lead": {
+        "en": "Approximate road distances from route planners. Others are awaited rather than estimated.",
+        "mr": "मार्ग नियोजकांवरील अंदाजे रस्ता अंतरे. उर्वरित अंतरे अंदाजाने न देता प्रतीक्षेत ठेवली आहेत.",
+        "hi": "रूट प्लानर से अनुमानित सड़क दूरी। बाकी दूरियाँ अनुमान के बजाय प्रतीक्षित हैं।"
+      },
+      "columns": [
+        {
+          "en": "To",
+          "mr": "कुठे",
+          "hi": "कहाँ"
+        },
+        {
+          "en": "Distance",
+          "mr": "अंतर",
+          "hi": "दूरी"
+        },
+        {
+          "en": "Note",
+          "mr": "टीप",
+          "hi": "टिप्पणी"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Hatkanangale railway station",
+            "mr": "हातकणंगले रेल्वे स्थानक",
+            "hi": "हातकणंगले रेलवे स्टेशन"
+          },
+          {
+            "en": "6–8 km",
+            "mr": "6–8 किमी",
+            "hi": "6–8 किमी"
+          },
+          {
+            "en": "Nearest station",
+            "mr": "सर्वांत जवळचे स्थानक",
+            "hi": "सबसे निकट स्टेशन"
+          }
+        ],
+        [
+          {
+            "en": "Kolhapur",
+            "mr": "कोल्हापूर",
+            "hi": "कोल्हापुर"
+          },
+          {
+            "en": "About 28 km",
+            "mr": "सुमारे 28 किमी",
+            "hi": "लगभग 28 किमी"
+          },
+          {
+            "en": "District headquarters",
+            "mr": "जिल्हा मुख्यालय",
+            "hi": "जिला मुख्यालय"
+          }
+        ],
+        [
+          {
+            "en": "Kolhapur Airport",
+            "mr": "कोल्हापूर विमानतळ",
+            "hi": "कोल्हापुर हवाई अड्डा"
+          },
+          {
+            "en": "About 30 km",
+            "mr": "सुमारे 30 किमी",
+            "hi": "लगभग 30 किमी"
+          },
+          {
+            "en": "Nearest airport",
+            "mr": "सर्वांत जवळचा विमानतळ",
+            "hi": "सबसे निकट हवाई अड्डा"
+          }
+        ],
+        [
+          {
+            "en": "Belagavi",
+            "mr": "बेळगावी",
+            "hi": "बेलगावी"
+          },
+          {
+            "en": "About 119 km",
+            "mr": "सुमारे 119 किमी",
+            "hi": "लगभग 119 किमी"
+          },
+          {
+            "en": "—",
+            "mr": "—",
+            "hi": "—"
+          }
+        ],
+        [
+          {
+            "en": "Pune",
+            "mr": "पुणे",
+            "hi": "पुणे"
+          },
+          {
+            "en": "About 237 km",
+            "mr": "सुमारे 237 किमी",
+            "hi": "लगभग 237 किमी"
+          },
+          {
+            "en": "About 3 h 20 min by car",
+            "mr": "मोटारीने सुमारे 3 तास 20 मिनिटे",
+            "hi": "कार से लगभग 3 घंटे 20 मिनट"
+          }
+        ],
+        [
+          {
+            "en": "Bengaluru",
+            "mr": "बंगळुरू",
+            "hi": "बेंगलुरु"
+          },
+          {
+            "en": "About 611 km",
+            "mr": "सुमारे 611 किमी",
+            "hi": "लगभग 611 किमी"
+          },
+          {
+            "en": "—",
+            "mr": "—",
+            "hi": "—"
+          }
+        ],
+        [
+          {
+            "en": "Sangli, Miraj, Mumbai, Goa",
+            "mr": "सांगली, मिरज, मुंबई, गोवा",
+            "hi": "सांगली, मिरज, मुंबई, गोवा"
+          },
+          {
+            "en": "Awaited",
+            "mr": "प्रतीक्षेत",
+            "hi": "प्रतीक्षित"
+          },
+          {
+            "en": "—",
+            "mr": "—",
+            "hi": "—"
+          }
+        ]
+      ],
+      "cite": {
+        "source": "Cleartrip route planner; Wikipedia: Ichalkaranji",
+        "sourceUrl": "https://www.cleartrip.com/tourism/routes/dd/ichalkaranji-to-pune-route.html"
+      }
+    },
+    {
+      "type": "cards",
+      "id": "neighbours",
+      "title": {
+        "en": "Neighbouring settlements",
+        "mr": "शेजारील गावे",
+        "hi": "पड़ोसी बस्तियाँ"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Korochi",
+            "mr": "कोरोची",
+            "hi": "कोरोची"
+          },
+          "body": {
+            "en": "Census town 1–2 km from the city border, tied to the powerloom economy.",
+            "mr": "शहर हद्दीपासून 1–2 किमीवरील जनगणना शहर; यंत्रमाग अर्थव्यवस्थेशी निगडित.",
+            "hi": "शहर सीमा से 1–2 किमी पर जनगणना नगर, पावरलूम अर्थव्यवस्था से जुड़ा।"
+          },
+          "source": "Wikipedia: Korochi",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Korochi"
+        },
+        {
+          "title": {
+            "en": "Shahapur",
+            "mr": "शहापूर",
+            "hi": "शहापुर"
+          },
+          "body": {
+            "en": "Northern neighbourhood, merged into the municipal area in 1982.",
+            "mr": "उत्तरेकडील भाग, 1982 मध्ये नगरपरिषद हद्दीत समाविष्ट.",
+            "hi": "उत्तरी इलाका, 1982 में नगर परिषद क्षेत्र में शामिल।"
+          },
+          "source": "Wikipedia: Shahapur, Ichalkaranji",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shahapur,_Ichalkaranji"
+        },
+        {
+          "title": {
+            "en": "Kabnur and Yadrav",
+            "mr": "कबनूर व यड्राव",
+            "hi": "कबनूर और यड्राव"
+          },
+          "body": {
+            "en": "Adjoining gram panchayat areas that function as part of the wider city.",
+            "mr": "शहराचा भाग म्हणून कार्य करणारे लगतचे ग्रामपंचायत क्षेत्र.",
+            "hi": "सटे हुए ग्राम पंचायत क्षेत्र, जो बड़े शहर का हिस्सा जैसे काम करते हैं।"
+          },
+          "source": "Wikipedia: Ichalkaranji",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji"
+        }
+      ]
+    }
+  ]
+}

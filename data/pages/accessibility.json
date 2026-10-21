@@ -1,0 +1,98 @@
+{
+  "route": "accessibility",
+  "summary": {
+    "en": "This portal aims to meet WCAG 2.1 level AA in English, Marathi and Hindi. Here is what has been built in, and the known gaps.",
+    "mr": "इंग्रजी, मराठी व हिंदीत WCAG 2.1 स्तर AA पूर्ण करण्याचे या पोर्टलचे उद्दिष्ट आहे. काय सुविधा आहेत आणि ज्ञात उणिवा कोणत्या, ते येथे.",
+    "hi": "यह पोर्टल अंग्रेज़ी, मराठी और हिंदी में WCAG 2.1 स्तर AA पूरा करने का लक्ष्य रखता है। यहाँ बताया गया है कि क्या सुविधाएँ हैं और कौन-सी कमियाँ ज्ञात हैं।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "features",
+      "title": {
+        "en": "Built in",
+        "mr": "उपलब्ध सुविधा",
+        "hi": "उपलब्ध सुविधाएँ"
+      },
+      "items": [
+        {
+          "en": "A “Skip to content” link and visible keyboard focus",
+          "mr": "“मजकुराकडे जा” दुवा व दिसणारा कीबोर्ड फोकस",
+          "hi": "“सामग्री पर जाएँ” लिंक और दिखाई देने वाला कीबोर्ड फ़ोकस"
+        },
+        {
+          "en": "Full keyboard use of menus, search (press / or Ctrl+K) and dialogs",
+          "mr": "मेनू, शोध (/ किंवा Ctrl+K दाबा) व संवाद पूर्णपणे कीबोर्डने",
+          "hi": "मेनू, खोज (/ या Ctrl+K दबाएँ) और संवाद पूरी तरह कीबोर्ड से"
+        },
+        {
+          "en": "Every chart has a table view",
+          "mr": "प्रत्येक आलेखासाठी तक्ता दृश्य",
+          "hi": "हर चार्ट के लिए तालिका दृश्य"
+        },
+        {
+          "en": "Data status is shown as text, never colour alone",
+          "mr": "माहितीची स्थिती मजकुराने, केवळ रंगाने नव्हे",
+          "hi": "डेटा स्थिति पाठ से दिखाई जाती है, केवल रंग से नहीं"
+        },
+        {
+          "en": "Light and dark themes with checked contrast",
+          "mr": "तपासलेल्या विरोधाभासासह प्रकाश व गडद थीम",
+          "hi": "जाँचे गए कंट्रास्ट के साथ लाइट और डार्क थीम"
+        },
+        {
+          "en": "Animations stop when your device asks for reduced motion",
+          "mr": "उपकरणावर कमी हालचाल निवडल्यास ॲनिमेशन थांबतात",
+          "hi": "उपकरण पर कम गति चुनने पर एनिमेशन रुक जाते हैं"
+        },
+        {
+          "en": "Correct language tags so screen readers pronounce Marathi and Hindi properly",
+          "mr": "स्क्रीन रीडरना मराठी व हिंदी योग्य उच्चारता यावी म्हणून योग्य भाषा चिन्हे",
+          "hi": "स्क्रीन रीडर मराठी और हिंदी सही उच्चारित करें, इसके लिए सही भाषा टैग"
+        },
+        {
+          "en": "Pages print cleanly or save as PDF, with sources kept",
+          "mr": "स्रोतांसह पाने स्वच्छ छापता येतात किंवा PDF म्हणून जतन करता येतात",
+          "hi": "स्रोतों सहित पृष्ठ साफ़ प्रिंट होते हैं या PDF में सहेजे जा सकते हैं"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "gaps",
+      "title": {
+        "en": "Known limitations",
+        "mr": "ज्ञात मर्यादा",
+        "hi": "ज्ञात सीमाएँ"
+      },
+      "items": [
+        {
+          "en": "The interactive map is hard to use with a screen reader; every place on it is also listed as text",
+          "mr": "परस्परसंवादी नकाशा स्क्रीन रीडरने वापरणे अवघड; त्यावरील प्रत्येक स्थळ मजकुरातही दिले आहे",
+          "hi": "इंटरैक्टिव नक्शा स्क्रीन रीडर से उपयोग करना कठिन है; उस पर हर स्थान पाठ में भी सूचीबद्ध है"
+        },
+        {
+          "en": "Linked government documents (often scanned PDFs) may not be accessible",
+          "mr": "जोडलेली शासकीय कागदपत्रे (बहुधा स्कॅन PDF) सुलभ नसू शकतात",
+          "hi": "लिंक किए गए सरकारी दस्तावेज़ (अक्सर स्कैन PDF) सुलभ न हों, ऐसा हो सकता है"
+        },
+        {
+          "en": "Some source titles are available only in English",
+          "mr": "काही स्रोतांची शीर्षके केवळ इंग्रजीत",
+          "hi": "कुछ स्रोतों के शीर्षक केवल अंग्रेज़ी में हैं"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "feedback",
+      "tone": "info",
+      "body": {
+        "en": "If something on this portal is hard to use, tell the team through the Contact page and say which page and device you were using.",
+        "mr": "या पोर्टलवरील काही वापरणे अवघड वाटल्यास संपर्क पानावरून चमूला कळवा आणि कोणते पान व उपकरण वापरत होता ते सांगा.",
+        "hi": "अगर इस पोर्टल पर कुछ उपयोग करना कठिन लगे, तो संपर्क पृष्ठ से टीम को बताएँ और कौन-सा पृष्ठ व उपकरण उपयोग कर रहे थे, यह भी बताएँ।"
+      }
+    }
+  ]
+}

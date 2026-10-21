@@ -1,0 +1,130 @@
+{
+  "route": "gallery",
+  "summary": {
+    "en": "The gallery will show only photographs with a clear licence and credit. None have been cleared yet, so it is empty for now.",
+    "mr": "दालनात केवळ स्पष्ट परवाना व श्रेय असलेली छायाचित्रे दाखवली जातील. अद्याप एकही मंजूर नाही, त्यामुळे सध्या दालन रिकामे आहे.",
+    "hi": "दीर्घा में केवल स्पष्ट लाइसेंस और श्रेय वाली तस्वीरें दिखाई जाएँगी। अभी तक कोई स्वीकृत नहीं है, इसलिए दीर्घा फ़िलहाल खाली है।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "callout",
+      "id": "empty",
+      "tone": "info",
+      "body": {
+        "en": "Rather than use stock or AI-generated images that could be mistaken for the real city, this portal waits for licensed photographs.",
+        "mr": "खऱ्या शहराचे वाटू शकतील अशी स्टॉक किंवा एआय-निर्मित चित्रे वापरण्याऐवजी हे पोर्टल परवानाधारक छायाचित्रांची वाट पाहते.",
+        "hi": "असली शहर समझी जा सकने वाली स्टॉक या एआई-निर्मित तस्वीरों के बजाय यह पोर्टल लाइसेंसशुदा तस्वीरों की प्रतीक्षा करता है।"
+      }
+    },
+    {
+      "type": "list",
+      "id": "rules",
+      "title": {
+        "en": "What a photo needs",
+        "mr": "छायाचित्रासाठी अटी",
+        "hi": "तस्वीर के लिए शर्तें"
+      },
+      "items": [
+        {
+          "en": "Taken in or around Ichalkaranji, with the place and date",
+          "mr": "इचलकरंजी किंवा परिसरात काढलेले; ठिकाण व दिनांकासह",
+          "hi": "इचलकरंजी या आसपास ली गई; स्थान और तारीख सहित"
+        },
+        {
+          "en": "An open licence such as CC BY or CC BY-SA, or written permission",
+          "mr": "CC BY किंवा CC BY-SA सारखा मुक्त परवाना, किंवा लेखी परवानगी",
+          "hi": "CC BY या CC BY-SA जैसा खुला लाइसेंस, या लिखित अनुमति"
+        },
+        {
+          "en": "The photographer's name for the credit line",
+          "mr": "श्रेयासाठी छायाचित्रकाराचे नाव",
+          "hi": "श्रेय के लिए फ़ोटोग्राफ़र का नाम"
+        },
+        {
+          "en": "No identifiable people without their consent",
+          "mr": "संमतीशिवाय ओळखता येणाऱ्या व्यक्ती नाहीत",
+          "hi": "सहमति के बिना पहचाने जा सकने वाले लोग नहीं"
+        },
+        {
+          "en": "Short alt text describing the image",
+          "mr": "चित्राचे वर्णन करणारा छोटा पर्यायी मजकूर",
+          "hi": "तस्वीर का वर्णन करने वाला छोटा वैकल्पिक पाठ"
+        }
+      ]
+    },
+    {
+      "type": "awaited",
+      "id": "albums",
+      "title": {
+        "en": "Planned albums",
+        "mr": "नियोजित संग्रह",
+        "hi": "नियोजित एल्बम"
+      },
+      "items": [
+        {
+          "en": "Looms and textile work",
+          "mr": "माग व वस्त्रकाम",
+          "hi": "करघे और वस्त्र कार्य"
+        },
+        {
+          "en": "Panchganga river and ghats",
+          "mr": "पंचगंगा नदी व घाट",
+          "hi": "पंचगंगा नदी और घाट"
+        },
+        {
+          "en": "Heritage buildings",
+          "mr": "वारसा इमारती",
+          "hi": "विरासत इमारतें"
+        },
+        {
+          "en": "Festivals",
+          "mr": "सण",
+          "hi": "त्योहार"
+        },
+        {
+          "en": "Old photographs and archives",
+          "mr": "जुनी छायाचित्रे व अभिलेख",
+          "hi": "पुरानी तस्वीरें और अभिलेख"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "commons",
+      "title": {
+        "en": "Open image libraries",
+        "mr": "मुक्त चित्रसंग्रह",
+        "hi": "खुले चित्र संग्रह"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Wikimedia Commons: search Ichalkaranji",
+            "mr": "विकिमीडिया कॉमन्स: इचलकरंजी शोधा",
+            "hi": "विकिमीडिया कॉमन्स: इचलकरंजी खोजें"
+          },
+          "href": "https://commons.wikimedia.org/w/index.php?search=Ichalkaranji",
+          "body": {
+            "en": "Freely licensed photos; check each file's licence.",
+            "mr": "मुक्त परवान्याची छायाचित्रे; प्रत्येक फाइलचा परवाना तपासा.",
+            "hi": "मुक्त लाइसेंस की तस्वीरें; हर फ़ाइल का लाइसेंस जाँचें।"
+          }
+        },
+        {
+          "title": {
+            "en": "The Story of Ichalkaranji (1929), Internet Archive",
+            "mr": "द स्टोरी ऑफ इचलकरंजी (1929), इंटरनेट अर्काइव्ह",
+            "hi": "द स्टोरी ऑफ़ इचलकरंजी (1929), इंटरनेट आर्काइव"
+          },
+          "href": "https://archive.org/details/StoryOfIchalkaranji",
+          "body": {
+            "en": "H. G. Franks' history, with period illustrations.",
+            "mr": "एच. जी. फ्रँक्स यांचा इतिहासग्रंथ, तत्कालीन चित्रांसह.",
+            "hi": "एच. जी. फ़्रैंक्स का इतिहास, तत्कालीन चित्रों सहित।"
+          }
+        }
+      ]
+    }
+  ]
+}

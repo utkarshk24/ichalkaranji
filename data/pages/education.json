@@ -1,0 +1,187 @@
+{
+  "route": "education",
+  "summary": {
+    "en": "Ichalkaranji's best-known institution is the DKTE Society's Textile & Engineering Institute, founded by local cooperatives. School and college counts are being compiled from official lists.",
+    "mr": "डीकेटीई सोसायटीचे टेक्स्टाईल अँड इंजिनिअरिंग इन्स्टिट्यूट ही इचलकरंजीतील सर्वांत प्रसिद्ध संस्था; तिची स्थापना स्थानिक सहकारी संस्थांनी केली. शाळा व महाविद्यालयांची संख्या अधिकृत यादीतून संकलित होत आहे.",
+    "hi": "इचलकरंजी का सबसे प्रसिद्ध संस्थान डीकेटीई सोसाइटी का टेक्सटाइल एंड इंजीनियरिंग इंस्टीट्यूट है, जिसे स्थानीय सहकारी संस्थाओं ने स्थापित किया। स्कूल और कॉलेजों की संख्या आधिकारिक सूचियों से संकलित की जा रही है।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "cards",
+      "id": "institutions",
+      "title": {
+        "en": "Higher education",
+        "mr": "उच्च शिक्षण",
+        "hi": "उच्च शिक्षा"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "DKTE Society's Textile & Engineering Institute",
+            "mr": "डीकेटीई सोसायटीचे टेक्स्टाईल अँड इंजिनिअरिंग इन्स्टिट्यूट",
+            "hi": "डीकेटीई सोसाइटी का टेक्सटाइल एंड इंजीनियरिंग इंस्टीट्यूट"
+          },
+          "body": {
+            "en": "Society formed in 1981 by local cooperatives and named after Dattajirao Kadam; the institute opened in 1982 with a textile diploma. Now autonomous, offering diploma, B.Tech, M.Tech, MBA and PhD programmes. Campus at Rajwada.",
+            "mr": "1981 मध्ये स्थानिक सहकारी संस्थांनी स्थापन केलेली, दत्ताजीराव कदम यांच्या नावाची संस्था; 1982 मध्ये वस्त्र पदविकेने सुरुवात. आता स्वायत्त; पदविका, बी.टेक, एम.टेक, एमबीए व पीएच.डी. अभ्यासक्रम. परिसर राजवाडा येथे.",
+            "hi": "1981 में स्थानीय सहकारी संस्थाओं द्वारा गठित, दत्ताजीराव कदम के नाम पर सोसाइटी; संस्थान 1982 में वस्त्र डिप्लोमा से शुरू हुआ। अब स्वायत्त; डिप्लोमा, बी.टेक, एम.टेक, एमबीए और पीएचडी कार्यक्रम। परिसर राजवाड़ा में।"
+          },
+          "source": "Careers360; Wikimedia Meta",
+          "sourceUrl": "https://www.careers360.com/colleges/dkte-societys-textile-and-engineering-institute-ichalkaranji/courses?degree=1"
+        },
+        {
+          "title": {
+            "en": "DKTE schools and colleges",
+            "mr": "डीकेटीईच्या शाळा व महाविद्यालये",
+            "hi": "डीकेटीई के स्कूल और कॉलेज"
+          },
+          "body": {
+            "en": "The society also runs schools, a junior college, commerce and management colleges and a CBSE school.",
+            "mr": "संस्था शाळा, कनिष्ठ महाविद्यालय, वाणिज्य व व्यवस्थापन महाविद्यालये आणि सीबीएसई शाळाही चालवते.",
+            "hi": "सोसाइटी स्कूल, जूनियर कॉलेज, वाणिज्य और प्रबंधन कॉलेज तथा एक सीबीएसई स्कूल भी चलाती है।"
+          },
+          "source": "Wikimedia Meta",
+          "sourceUrl": "https://meta.wikimedia.org/wiki/Marathi_Wikipedia_Workshop_at_DKTE_Society%27s_Textile_%26_Engineering_Institute"
+        },
+        {
+          "title": {
+            "en": "Sharad Institute of Technology, Yadrav",
+            "mr": "शरद इन्स्टिट्यूट ऑफ टेक्नॉलॉजी, यड्राव",
+            "hi": "शरद इंस्टीट्यूट ऑफ टेक्नोलॉजी, यड्राव"
+          },
+          "body": {
+            "en": "Engineering college in neighbouring Yadrav.",
+            "mr": "शेजारील यड्राव येथील अभियांत्रिकी महाविद्यालय.",
+            "hi": "पड़ोसी यड्राव में इंजीनियरिंग कॉलेज।"
+          },
+          "source": "Careers360",
+          "sourceUrl": "https://www.careers360.com/colleges/dkte-societys-textile-and-engineering-institute-ichalkaranji/compare"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "schools",
+      "title": {
+        "en": "Schools noted in sources",
+        "mr": "स्रोतांत नोंदलेल्या शाळा",
+        "hi": "स्रोतों में दर्ज स्कूल"
+      },
+      "items": [
+        {
+          "en": "Shahapur High School",
+          "mr": "शहापूर हायस्कूल",
+          "hi": "शहापुर हाई स्कूल"
+        },
+        {
+          "en": "Vinayak High School",
+          "mr": "विनायक हायस्कूल",
+          "hi": "विनायक हाई स्कूल"
+        },
+        {
+          "en": "Municipal primary schools",
+          "mr": "महापालिकेच्या प्राथमिक शाळा",
+          "hi": "महानगरपालिका प्राथमिक विद्यालय"
+        }
+      ],
+      "lead": {
+        "en": "Source: Wikipedia. This is not a complete list.",
+        "mr": "स्रोत: विकिपीडिया. ही संपूर्ण यादी नाही.",
+        "hi": "स्रोत: विकिपीडिया। यह पूरी सूची नहीं है।"
+      }
+    },
+    {
+      "type": "indicators",
+      "id": "literacy",
+      "title": {
+        "en": "Literacy",
+        "mr": "साक्षरता",
+        "hi": "साक्षरता"
+      },
+      "ids": [
+        {
+          "id": "literacy_rate"
+        }
+      ]
+    },
+    {
+      "type": "awaited",
+      "id": "awaited",
+      "title": {
+        "en": "Being compiled",
+        "mr": "संकलन सुरू",
+        "hi": "संकलन जारी"
+      },
+      "lead": {
+        "en": "From UDISE+ and Shivaji University affiliation lists.",
+        "mr": "UDISE+ व शिवाजी विद्यापीठ संलग्नता यादीतून.",
+        "hi": "UDISE+ और शिवाजी विश्वविद्यालय संबद्धता सूचियों से।"
+      },
+      "items": [
+        {
+          "en": "Schools by medium (Marathi, English, Urdu, Kannada)",
+          "mr": "माध्यमनिहाय शाळा (मराठी, इंग्रजी, उर्दू, कन्नड)",
+          "hi": "माध्यमवार स्कूल (मराठी, अंग्रेज़ी, उर्दू, कन्नड़)"
+        },
+        {
+          "en": "Arts, science and commerce colleges",
+          "mr": "कला, विज्ञान व वाणिज्य महाविद्यालये",
+          "hi": "कला, विज्ञान और वाणिज्य कॉलेज"
+        },
+        {
+          "en": "Law college",
+          "mr": "विधी महाविद्यालय",
+          "hi": "विधि महाविद्यालय"
+        },
+        {
+          "en": "ITIs and polytechnics",
+          "mr": "आयटीआय व तंत्रनिकेतने",
+          "hi": "आईटीआई और पॉलिटेक्निक"
+        },
+        {
+          "en": "Public libraries",
+          "mr": "सार्वजनिक ग्रंथालये",
+          "hi": "सार्वजनिक पुस्तकालय"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "official",
+      "title": {
+        "en": "Official education portals",
+        "mr": "अधिकृत शिक्षण पोर्टल",
+        "hi": "आधिकारिक शिक्षा पोर्टल"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "UDISE+ school directory",
+            "mr": "UDISE+ शाळा निर्देशिका",
+            "hi": "UDISE+ स्कूल निर्देशिका"
+          },
+          "href": "https://udiseplus.gov.in",
+          "body": {
+            "en": "National school data.",
+            "mr": "राष्ट्रीय शाळा माहिती.",
+            "hi": "राष्ट्रीय स्कूल आँकड़े।"
+          }
+        },
+        {
+          "title": {
+            "en": "Shivaji University, Kolhapur",
+            "mr": "शिवाजी विद्यापीठ, कोल्हापूर",
+            "hi": "शिवाजी विश्वविद्यालय, कोल्हापुर"
+          },
+          "href": "https://www.unishivaji.ac.in",
+          "body": {
+            "en": "Affiliating university for the district.",
+            "mr": "जिल्ह्याचे संलग्नता विद्यापीठ.",
+            "hi": "ज़िले का संबद्धता विश्वविद्यालय।"
+          }
+        }
+      ]
+    }
+  ]
+}

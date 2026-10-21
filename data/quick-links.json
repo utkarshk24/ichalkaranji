@@ -1,0 +1,79 @@
+[
+  {
+    "id": "corporation",
+    "icon": "building",
+    "href": "https://ichalkaranjimnp.in",
+    "title": { "en": "Municipal Corporation", "mr": "महानगरपालिका", "hi": "महानगरपालिका" },
+    "body": {
+      "en": "Property tax, water charges, birth and death certificates, notices.",
+      "mr": "मालमत्ता कर, पाणीपट्टी, जन्म-मृत्यू दाखले, सूचना.",
+      "hi": "संपत्ति कर, जल शुल्क, जन्म-मृत्यु प्रमाणपत्र, सूचनाएँ।"
+    }
+  },
+  {
+    "id": "aaple-sarkar",
+    "icon": "file",
+    "href": "https://aaplesarkar.mahaonline.gov.in",
+    "title": { "en": "Aaple Sarkar services", "mr": "आपले सरकार सेवा", "hi": "आपले सरकार सेवाएँ" },
+    "body": {
+      "en": "State certificates and services under the Right to Public Services Act.",
+      "mr": "लोकसेवा हक्क कायद्यांतर्गत राज्य शासनाचे दाखले व सेवा.",
+      "hi": "लोक सेवा अधिकार अधिनियम के तहत राज्य के प्रमाणपत्र व सेवाएँ।"
+    }
+  },
+  {
+    "id": "grievance",
+    "icon": "message",
+    "href": "https://grievances.maharashtra.gov.in",
+    "title": { "en": "File a grievance", "mr": "तक्रार नोंदवा", "hi": "शिकायत दर्ज करें" },
+    "body": {
+      "en": "Government of Maharashtra public grievance portal.",
+      "mr": "महाराष्ट्र शासनाचे सार्वजनिक तक्रार निवारण पोर्टल.",
+      "hi": "महाराष्ट्र सरकार का जन शिकायत पोर्टल।"
+    }
+  },
+  {
+    "id": "electricity",
+    "icon": "zap",
+    "href": "https://wss.mahadiscom.in",
+    "title": { "en": "Electricity bill", "mr": "वीज बिल", "hi": "बिजली बिल" },
+    "body": {
+      "en": "View and pay MSEDCL (Mahavitaran) bills.",
+      "mr": "महावितरण बिल पाहा व भरा.",
+      "hi": "महावितरण (MSEDCL) बिल देखें और भरें।"
+    }
+  },
+  {
+    "id": "tenders",
+    "icon": "gavel",
+    "href": "https://mahatenders.gov.in",
+    "title": { "en": "Tenders", "mr": "निविदा", "hi": "निविदाएँ" },
+    "body": {
+      "en": "Maharashtra government e-tendering portal.",
+      "mr": "महाराष्ट्र शासनाचे ई-निविदा पोर्टल.",
+      "hi": "महाराष्ट्र सरकार का ई-निविदा पोर्टल।"
+    }
+  },
+  {
+    "id": "rti",
+    "icon": "search",
+    "href": "https://rtionline.maharashtra.gov.in",
+    "title": { "en": "RTI online", "mr": "माहितीचा अधिकार", "hi": "आरटीआई ऑनलाइन" },
+    "body": {
+      "en": "File a Right to Information request with state bodies.",
+      "mr": "राज्य संस्थांकडे माहितीच्या अधिकाराचा अर्ज करा.",
+      "hi": "राज्य निकायों से सूचना का अधिकार आवेदन करें।"
+    }
+  },
+  {
+    "id": "udyam",
+    "icon": "briefcase",
+    "href": "https://udyamregistration.gov.in",
+    "title": { "en": "Business registration", "mr": "उद्योग नोंदणी", "hi": "व्यवसाय पंजीकरण" },
+    "body": {
+      "en": "Udyam registration for micro, small and medium enterprises.",
+      "mr": "सूक्ष्म, लघु व मध्यम उद्योगांसाठी उद्यम नोंदणी.",
+      "hi": "सूक्ष्म, लघु और मध्यम उद्यमों के लिए उद्यम पंजीकरण।"
+    }
+  }
+]

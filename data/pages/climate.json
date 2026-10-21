@@ -1,0 +1,216 @@
+{
+  "route": "climate",
+  "summary": {
+    "en": "Ichalkaranji has a warm tropical climate with a June–September monsoon. No city weather station publishes normals, so long-term figures here come from the Kolhapur station.",
+    "mr": "इचलकरंजीचे हवामान उष्ण कटिबंधीय असून जून–सप्टेंबर पावसाळा असतो. शहरासाठी सरासरी हवामान प्रसिद्ध करणारे केंद्र नसल्याने दीर्घकालीन आकडे कोल्हापूर केंद्राचे आहेत.",
+    "hi": "इचलकरंजी की जलवायु गर्म उष्णकटिबंधीय है और जून–सितंबर में मानसून रहता है। शहर का कोई मौसम केंद्र औसत आँकड़े प्रकाशित नहीं करता, इसलिए दीर्घकालिक आँकड़े कोल्हापुर केंद्र के हैं।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "weather",
+      "id": "forecast",
+      "title": {
+        "en": "This week",
+        "mr": "या आठवड्यात",
+        "hi": "इस सप्ताह"
+      }
+    },
+    {
+      "type": "facts",
+      "id": "normals",
+      "title": {
+        "en": "Climate at a glance (Kolhapur station)",
+        "mr": "हवामान एका दृष्टिक्षेपात (कोल्हापूर केंद्र)",
+        "hi": "जलवायु एक नज़र में (कोल्हापुर केंद्र)"
+      },
+      "rows": [
+        {
+          "label": {
+            "en": "Annual rainfall (district normal)",
+            "mr": "वार्षिक पाऊस (जिल्हा सरासरी)",
+            "hi": "वार्षिक वर्षा (जिला सामान्य)"
+          },
+          "value": {
+            "en": "1,019.5 mm",
+            "mr": "1,019.5 मिमी",
+            "hi": "1,019.5 मिमी"
+          },
+          "status": "official",
+          "source": "ICAR-CRIDA district contingency plan",
+          "sourceUrl": "https://www.icar-crida.res.in/CP/Maharastra/MPKVV,%20Rahuri/MH5-%20KOLHAPUR%2031.03.2011.pdf"
+        },
+        {
+          "label": {
+            "en": "Mean annual temperature",
+            "mr": "सरासरी वार्षिक तापमान",
+            "hi": "औसत वार्षिक तापमान"
+          },
+          "value": {
+            "en": "24.8 °C (1970–2000 model normals)",
+            "mr": "24.8 °से (1970–2000 प्रारूप सरासरी)",
+            "hi": "24.8 °से (1970–2000 मॉडल सामान्य)"
+          },
+          "status": "estimate",
+          "source": "WorldClim 2.1 via PopulationReview",
+          "sourceUrl": "https://www.populationreview.org/climate/india/kolhapur"
+        },
+        {
+          "label": {
+            "en": "Hottest and coolest months",
+            "mr": "सर्वांत उष्ण व थंड महिने",
+            "hi": "सबसे गर्म और ठंडे महीने"
+          },
+          "value": {
+            "en": "April and December",
+            "mr": "एप्रिल व डिसेंबर",
+            "hi": "अप्रैल और दिसंबर"
+          },
+          "status": "estimate",
+          "source": "WorldClim 2.1 via PopulationReview",
+          "sourceUrl": "https://www.populationreview.org/climate/india/kolhapur"
+        },
+        {
+          "label": {
+            "en": "Record high",
+            "mr": "विक्रमी कमाल",
+            "hi": "रिकॉर्ड अधिकतम"
+          },
+          "value": {
+            "en": "About 40.6 °C (May 2016)",
+            "mr": "सुमारे 40.6 °से (मे 2016)",
+            "hi": "लगभग 40.6 °से (मई 2016)"
+          },
+          "status": "secondary",
+          "source": "Climate-Zone (Kolhapur station records)",
+          "sourceUrl": "https://www.climate-zone.com/climate/in/kolhapur/records/"
+        },
+        {
+          "label": {
+            "en": "Wettest day on record",
+            "mr": "सर्वाधिक पावसाचा दिवस",
+            "hi": "सबसे अधिक वर्षा का दिन"
+          },
+          "value": {
+            "en": "About 181 mm on 24 July 2021",
+            "mr": "24 जुलै 2021 रोजी सुमारे 181 मिमी",
+            "hi": "24 जुलाई 2021 को लगभग 181 मिमी"
+          },
+          "status": "secondary",
+          "source": "Climate-Zone (Kolhapur station records)",
+          "sourceUrl": "https://www.climate-zone.com/climate/in/kolhapur/records/"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "seasons",
+      "title": {
+        "en": "Seasons",
+        "mr": "ऋतू",
+        "hi": "ऋतुएँ"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Summer · March–May",
+            "mr": "उन्हाळा · मार्च–मे",
+            "hi": "गर्मी · मार्च–मई"
+          },
+          "body": {
+            "en": "Hot days, with April the warmest month.",
+            "mr": "उष्ण दिवस; एप्रिल सर्वांत उष्ण.",
+            "hi": "गर्म दिन; अप्रैल सबसे गर्म।"
+          }
+        },
+        {
+          "title": {
+            "en": "Monsoon · June–September",
+            "mr": "पावसाळा · जून–सप्टेंबर",
+            "hi": "मानसून · जून–सितंबर"
+          },
+          "body": {
+            "en": "Most of the year's rain; the river can flood after heavy spells.",
+            "mr": "वर्षातील बहुतेक पाऊस; जोरदार पावसानंतर नदीला पूर येऊ शकतो.",
+            "hi": "साल की अधिकांश वर्षा; भारी बारिश के बाद नदी में बाढ़ आ सकती है।"
+          }
+        },
+        {
+          "title": {
+            "en": "Post-monsoon and winter · October–February",
+            "mr": "पावसाळ्यानंतर व हिवाळा · ऑक्टोबर–फेब्रुवारी",
+            "hi": "मानसून के बाद व सर्दी · अक्टूबर–फरवरी"
+          },
+          "body": {
+            "en": "Mild and mostly dry; December to February is the most comfortable time to visit.",
+            "mr": "सौम्य व बहुतांश कोरडे; डिसेंबर ते फेब्रुवारी भेटीसाठी सर्वांत सुखद.",
+            "hi": "हल्का और ज़्यादातर सूखा; दिसंबर से फरवरी घूमने का सबसे अच्छा समय।"
+          }
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "official",
+      "title": {
+        "en": "Official forecasts and warnings",
+        "mr": "अधिकृत अंदाज व इशारे",
+        "hi": "आधिकारिक पूर्वानुमान और चेतावनियाँ"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "IMD: Kolhapur city weather",
+            "mr": "भारतीय हवामान विभाग: कोल्हापूर",
+            "hi": "भारत मौसम विज्ञान विभाग: कोल्हापुर"
+          },
+          "href": "https://city.imd.gov.in/citywx/city_weather_test_try.php?id=43157",
+          "body": {
+            "en": "Daily observations and 7-day forecast.",
+            "mr": "दैनंदिन निरीक्षणे व 7 दिवसांचा अंदाज.",
+            "hi": "दैनिक अवलोकन और 7 दिन का पूर्वानुमान।"
+          }
+        },
+        {
+          "title": {
+            "en": "IMD: national warnings",
+            "mr": "भारतीय हवामान विभाग: राष्ट्रीय इशारे",
+            "hi": "भारत मौसम विज्ञान विभाग: राष्ट्रीय चेतावनियाँ"
+          },
+          "href": "https://mausam.imd.gov.in",
+          "body": {
+            "en": "Heat, rain and storm alerts.",
+            "mr": "उष्णता, पाऊस व वादळाचे इशारे.",
+            "hi": "गर्मी, वर्षा और तूफ़ान अलर्ट।"
+          }
+        }
+      ]
+    },
+    {
+      "type": "awaited",
+      "id": "awaited",
+      "title": {
+        "en": "Being added",
+        "mr": "जोडले जात आहे",
+        "hi": "जोड़ा जा रहा है"
+      },
+      "items": [
+        {
+          "en": "Monthly temperature, rainfall and humidity normals (IMD 1991–2020)",
+          "mr": "मासिक तापमान, पाऊस व आर्द्रता सरासरी (IMD 1991–2020)",
+          "hi": "मासिक तापमान, वर्षा और नमी सामान्य (IMD 1991–2020)"
+        },
+        {
+          "en": "Flood-prone zones",
+          "mr": "पूरप्रवण क्षेत्रे",
+          "hi": "बाढ़-प्रवण क्षेत्र"
+        },
+        {
+          "en": "Heat action plan",
+          "mr": "उष्णता कृती आराखडा",
+          "hi": "हीट एक्शन प्लान"
+        }
+      ]
+    }
+  ]
+}

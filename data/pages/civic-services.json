@@ -1,0 +1,207 @@
+{
+  "route": "civic-services",
+  "summary": {
+    "en": "Pay taxes, apply for certificates and file complaints on the official government portals linked below. This independent portal never takes payments or personal details.",
+    "mr": "कर भरणे, दाखल्यांसाठी अर्ज आणि तक्रारी खाली दिलेल्या अधिकृत शासकीय पोर्टलवर करा. हे स्वतंत्र पोर्टल कधीही पैसे किंवा वैयक्तिक माहिती घेत नाही.",
+    "hi": "कर भुगतान, प्रमाणपत्र आवेदन और शिकायतें नीचे दिए आधिकारिक सरकारी पोर्टलों पर करें। यह स्वतंत्र पोर्टल कभी भुगतान या व्यक्तिगत जानकारी नहीं लेता।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "callout",
+      "id": "independent",
+      "tone": "warning",
+      "body": {
+        "en": "Pay only on official government websites. Check the address bar before entering any details; this portal will never ask for payments, passwords or ID numbers.",
+        "mr": "पैसे केवल अधिकृत शासकीय संकेतस्थळांवरच भरा. कोणतीही माहिती भरण्यापूर्वी पत्ता तपासा; हे पोर्टल कधीही पैसे, पासवर्ड किंवा ओळख क्रमांक मागणार नाही.",
+        "hi": "भुगतान केवल आधिकारिक सरकारी वेबसाइटों पर करें। कोई जानकारी भरने से पहले पता जाँचें; यह पोर्टल कभी भुगतान, पासवर्ड या पहचान संख्या नहीं माँगेगा।"
+      }
+    },
+    {
+      "type": "quicklinks",
+      "id": "portals",
+      "title": {
+        "en": "Official portals",
+        "mr": "अधिकृत पोर्टल",
+        "hi": "आधिकारिक पोर्टल"
+      }
+    },
+    {
+      "type": "table",
+      "id": "where",
+      "title": {
+        "en": "Where to go for common tasks",
+        "mr": "नेहमीच्या कामांसाठी कुठे जावे",
+        "hi": "आम कामों के लिए कहाँ जाएँ"
+      },
+      "columns": [
+        {
+          "en": "Task",
+          "mr": "काम",
+          "hi": "काम"
+        },
+        {
+          "en": "Where",
+          "mr": "कुठे",
+          "hi": "कहाँ"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Property tax, water bills, trade licence, birth and death certificates",
+            "mr": "मालमत्ता कर, पाणीपट्टी, व्यापार परवाना, जन्म-मृत्यू दाखले",
+            "hi": "संपत्ति कर, पानी बिल, व्यापार लाइसेंस, जन्म-मृत्यु प्रमाणपत्र"
+          },
+          {
+            "en": "Ichalkaranji Municipal Corporation website or ward office",
+            "mr": "इचलकरंजी महानगरपालिका संकेतस्थळ किंवा प्रभाग कार्यालय",
+            "hi": "इचलकरंजी महानगरपालिका वेबसाइट या वार्ड कार्यालय"
+          }
+        ],
+        [
+          {
+            "en": "Income, caste, domicile and other state certificates",
+            "mr": "उत्पन्न, जात, अधिवास व इतर शासकीय दाखले",
+            "hi": "आय, जाति, अधिवास और अन्य राज्य प्रमाणपत्र"
+          },
+          {
+            "en": "Aaple Sarkar portal or a Seva Kendra",
+            "mr": "आपले सरकार पोर्टल किंवा सेवा केंद्र",
+            "hi": "आपले सरकार पोर्टल या सेवा केंद्र"
+          }
+        ],
+        [
+          {
+            "en": "Electricity bills and new connections",
+            "mr": "वीज देयके व नवीन जोडणी",
+            "hi": "बिजली बिल और नया कनेक्शन"
+          },
+          {
+            "en": "MSEDCL (Mahavitaran)",
+            "mr": "महावितरण (MSEDCL)",
+            "hi": "महावितरण (MSEDCL)"
+          }
+        ],
+        [
+          {
+            "en": "Complaints about state departments",
+            "mr": "राज्य विभागांविषयी तक्रारी",
+            "hi": "राज्य विभागों से जुड़ी शिकायतें"
+          },
+          {
+            "en": "Maharashtra grievance portal",
+            "mr": "महाराष्ट्र तक्रार निवारण पोर्टल",
+            "hi": "महाराष्ट्र शिकायत पोर्टल"
+          }
+        ],
+        [
+          {
+            "en": "Right to Information requests",
+            "mr": "माहिती अधिकार अर्ज",
+            "hi": "सूचना का अधिकार आवेदन"
+          },
+          {
+            "en": "RTI Online, Maharashtra",
+            "mr": "माहिती अधिकार ऑनलाइन, महाराष्ट्र",
+            "hi": "आरटीआई ऑनलाइन, महाराष्ट्र"
+          }
+        ],
+        [
+          {
+            "en": "Government tenders",
+            "mr": "शासकीय निविदा",
+            "hi": "सरकारी निविदाएँ"
+          },
+          {
+            "en": "Maharashtra e-Tendering",
+            "mr": "महाराष्ट्र ई-निविदा",
+            "hi": "महाराष्ट्र ई-निविदा"
+          }
+        ],
+        [
+          {
+            "en": "MSME (Udyam) registration for loom owners and units",
+            "mr": "यंत्रमागधारक व उद्योगांसाठी उद्यम नोंदणी",
+            "hi": "करघा मालिकों और इकाइयों के लिए उद्यम पंजीकरण"
+          },
+          {
+            "en": "Udyam Registration portal",
+            "mr": "उद्यम नोंदणी पोर्टल",
+            "hi": "उद्यम पंजीकरण पोर्टल"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "facts",
+      "id": "utilities",
+      "title": {
+        "en": "Utilities",
+        "mr": "उपयुक्त सेवा",
+        "hi": "उपयोगी सेवाएँ"
+      },
+      "rows": [
+        {
+          "label": {
+            "en": "Electricity",
+            "mr": "वीज",
+            "hi": "बिजली"
+          },
+          "value": {
+            "en": "Maharashtra State Electricity Distribution Co. (MSEDCL)",
+            "mr": "महाराष्ट्र राज्य वीज वितरण कंपनी (महावितरण)",
+            "hi": "महाराष्ट्र राज्य विद्युत वितरण कंपनी (महावितरण)"
+          },
+          "status": "official",
+          "source": "MSEDCL",
+          "sourceUrl": "https://www.mahadiscom.in"
+        },
+        {
+          "label": {
+            "en": "Water supply",
+            "mr": "पाणीपुरवठा",
+            "hi": "जलापूर्ति"
+          },
+          "value": {
+            "en": "Corporation schemes drawing on the Krishna (45 MLD) and Panchganga (18 MLD)",
+            "mr": "कृष्णा (45 दशलक्ष लिटर/दिवस) व पंचगंगा (18 दशलक्ष लिटर/दिवस) नदीवरील महापालिका योजना",
+            "hi": "कृष्णा (45 एमएलडी) और पंचगंगा (18 एमएलडी) पर महानगरपालिका योजनाएँ"
+          },
+          "status": "official",
+          "source": "MPCB affidavit to NGT, 2023",
+          "sourceUrl": "https://www.greentribunal.gov.in/sites/default/files/news_updates/Affidavit%20in%20Reply%20by%20MPCB%20in%20EA%20No.23-2023%20(page%20nos.191-225).pdf"
+        },
+        {
+          "label": {
+            "en": "Sewage treatment",
+            "mr": "सांडपाणी प्रक्रिया",
+            "hi": "सीवेज उपचार"
+          },
+          "value": {
+            "en": "20 MLD treatment capacity listed",
+            "mr": "20 दशलक्ष लिटर/दिवस प्रक्रिया क्षमता नोंदलेली",
+            "hi": "20 एमएलडी उपचार क्षमता दर्ज"
+          },
+          "status": "official",
+          "source": "MPCB action plan 2025",
+          "sourceUrl": "https://mpcb.gov.in/sites/default/files/Establishment%20of%20MPCB/Seniority%20list/2014/Panchaganga%20River%206.0_%20Action%20Plan%202025.pdf"
+        },
+        {
+          "label": {
+            "en": "Waste collection schedule",
+            "mr": "कचरा संकलन वेळापत्रक",
+            "hi": "कचरा संग्रह समय-सारिणी"
+          },
+          "value": {
+            "en": "Awaited",
+            "mr": "प्रतीक्षेत",
+            "hi": "प्रतीक्षित"
+          },
+          "status": "awaited",
+          "source": "Ichalkaranji Municipal Corporation"
+        }
+      ]
+    }
+  ]
+}

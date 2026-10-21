@@ -1,0 +1,126 @@
+{
+  "route": "health",
+  "summary": {
+    "en": "Hospital and clinic details for Ichalkaranji could not yet be verified, so this page lists only emergency numbers and official health portals for now.",
+    "mr": "इचलकरंजीतील रुग्णालये व दवाखान्यांची माहिती अद्याप पडताळता आली नाही; त्यामुळे सध्या या पानावर केवळ आपत्कालीन क्रमांक व अधिकृत आरोग्य पोर्टल दिले आहेत.",
+    "hi": "इचलकरंजी के अस्पतालों और क्लीनिकों की जानकारी अभी सत्यापित नहीं हो सकी, इसलिए फ़िलहाल इस पृष्ठ पर केवल आपातकालीन नंबर और आधिकारिक स्वास्थ्य पोर्टल हैं।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "emergency",
+      "id": "numbers",
+      "title": {
+        "en": "In an emergency",
+        "mr": "आपत्कालीन स्थितीत",
+        "hi": "आपात स्थिति में"
+      },
+      "lead": {
+        "en": "Call 108 for an ambulance or 112 for any emergency. Calls are free.",
+        "mr": "रुग्णवाहिकेसाठी 108 किंवा कोणत्याही आपत्कालीन स्थितीसाठी 112 वर कॉल करा. कॉल मोफत आहेत.",
+        "hi": "एम्बुलेंस के लिए 108 या किसी भी आपात स्थिति के लिए 112 पर कॉल करें। कॉल निःशुल्क हैं।"
+      }
+    },
+    {
+      "type": "awaited",
+      "id": "facilities",
+      "title": {
+        "en": "Facilities being verified",
+        "mr": "पडताळणीतील सुविधा",
+        "hi": "सत्यापनाधीन सुविधाएँ"
+      },
+      "lead": {
+        "en": "From the corporation and the Kolhapur district health office.",
+        "mr": "महापालिका व कोल्हापूर जिल्हा आरोग्य कार्यालयाकडून.",
+        "hi": "महानगरपालिका और कोल्हापुर ज़िला स्वास्थ्य कार्यालय से।"
+      },
+      "items": [
+        {
+          "en": "Indira Gandhi Memorial (IGM) hospital: ownership, departments and beds",
+          "mr": "इंदिरा गांधी स्मृती (IGM) रुग्णालय: मालकी, विभाग व खाटा",
+          "hi": "इंदिरा गांधी स्मृति (IGM) अस्पताल: स्वामित्व, विभाग और बिस्तर"
+        },
+        {
+          "en": "Municipal hospitals and urban health posts",
+          "mr": "महापालिका रुग्णालये व नागरी आरोग्य केंद्रे",
+          "hi": "नगर निगम अस्पताल और शहरी स्वास्थ्य केंद्र"
+        },
+        {
+          "en": "Private hospitals and blood banks",
+          "mr": "खासगी रुग्णालये व रक्तपेढ्या",
+          "hi": "निजी अस्पताल और ब्लड बैंक"
+        },
+        {
+          "en": "24-hour pharmacies",
+          "mr": "24 तास औषधालये",
+          "hi": "24 घंटे दवा दुकानें"
+        },
+        {
+          "en": "Vaccination centres",
+          "mr": "लसीकरण केंद्रे",
+          "hi": "टीकाकरण केंद्र"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "official",
+      "title": {
+        "en": "Official health services",
+        "mr": "अधिकृत आरोग्य सेवा",
+        "hi": "आधिकारिक स्वास्थ्य सेवाएँ"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Public Health Department, Maharashtra",
+            "mr": "सार्वजनिक आरोग्य विभाग, महाराष्ट्र",
+            "hi": "सार्वजनिक स्वास्थ्य विभाग, महाराष्ट्र"
+          },
+          "href": "https://arogya.maharashtra.gov.in",
+          "body": {
+            "en": "State health schemes and facilities.",
+            "mr": "राज्य आरोग्य योजना व सुविधा.",
+            "hi": "राज्य स्वास्थ्य योजनाएँ और सुविधाएँ।"
+          }
+        },
+        {
+          "title": {
+            "en": "Ayushman Bharat (PM-JAY)",
+            "mr": "आयुष्मान भारत (PM-JAY)",
+            "hi": "आयुष्मान भारत (PM-JAY)"
+          },
+          "href": "https://pmjay.gov.in",
+          "body": {
+            "en": "Check eligibility and empanelled hospitals.",
+            "mr": "पात्रता व संलग्न रुग्णालये तपासा.",
+            "hi": "पात्रता और सूचीबद्ध अस्पताल देखें।"
+          }
+        },
+        {
+          "title": {
+            "en": "CoWIN / U-WIN vaccination",
+            "mr": "CoWIN / U-WIN लसीकरण",
+            "hi": "CoWIN / U-WIN टीकाकरण"
+          },
+          "href": "https://uwin.mohfw.gov.in",
+          "body": {
+            "en": "Vaccination records and centres.",
+            "mr": "लसीकरण नोंदी व केंद्रे.",
+            "hi": "टीकाकरण रिकॉर्ड और केंद्र।"
+          }
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "note",
+      "tone": "info",
+      "body": {
+        "en": "This portal does not give medical advice. For health concerns, speak to a qualified doctor.",
+        "mr": "हे पोर्टल वैद्यकीय सल्ला देत नाही. आरोग्याच्या प्रश्नांसाठी पात्र डॉक्टरांचा सल्ला घ्या.",
+        "hi": "यह पोर्टल चिकित्सा सलाह नहीं देता। स्वास्थ्य संबंधी चिंता के लिए योग्य डॉक्टर से बात करें।"
+      }
+    }
+  ]
+}

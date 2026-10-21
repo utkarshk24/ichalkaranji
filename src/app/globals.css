@@ -1,0 +1,236 @@
+@import "tailwindcss";
+
+/* next-themes toggles the `dark` class on <html>. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------------------------------------------------------------------------
+   Design tokens
+   Brand: Deep Royal Blue (civic), Textile Gold (powerloom heritage),
+   Emerald (Panchganga), on warm sand / terracotta neutrals.
+   Text-on-background pairs below meet WCAG 2.1 AA (≥ 4.5:1) in both themes.
+--------------------------------------------------------------------------- */
+:root {
+  --brand-blue: #1e3a8a;
+  --brand-gold: #d97706;
+  --brand-emerald: #059669;
+  --brand-terracotta: #b4532a;
+
+  --bg: #fbf8f3;
+  --surface: #ffffff;
+  --surface-2: #f4ede1;
+  --fg: #16182a;
+  --fg-muted: #4b5066;
+  --border: #e4dccd;
+  --ring: #2b4fbf;
+
+  --primary: #1e3a8a;
+  --primary-hover: #172e70;
+  --primary-fg: #ffffff;
+  --gold: #b45309; /* text-safe gold (5.0:1 on white) */
+  --gold-soft: #fdf0dc;
+  --emerald: #047857;
+  --emerald-soft: #e3f5ee;
+  --danger: #b42318;
+  --danger-soft: #fdecea;
+
+  /* Chart series colour, validated (lightness band, chroma, contrast) against the light surface. */
+  --chart-1: #3a5bd0;
+  --chart-grid: #ece5d8;
+
+  --header-h: 4rem;
+  --ticker-h: 2.25rem;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #0b1020;
+  --surface: #121a33;
+  --surface-2: #1a2342;
+  --fg: #e9ecf5;
+  --fg-muted: #a8b0c7;
+  --border: #29345a;
+  --ring: #8fa8f0;
+
+  --primary: #8fa8f0;
+  --primary-hover: #a9bdf5;
+  --primary-fg: #0b1020;
+  --gold: #f2a33a;
+  --gold-soft: #33260f;
+  --emerald: #34d399;
+  --emerald-soft: #0f2c25;
+  --danger: #f97066;
+  --danger-soft: #3a1714;
+  --chart-1: #6b87e6;
+  --chart-grid: #222c4e;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-fg: var(--primary-fg);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-emerald: var(--emerald);
+  --color-emerald-soft: var(--emerald-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-chart-1: var(--chart-1);
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-emerald: var(--brand-emerald);
+  --color-brand-terracotta: var(--brand-terracotta);
+
+  --font-sans: "Inter Variable", "Noto Sans Devanagari Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-deva: "Noto Sans Devanagari Variable", "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* ---------------------------------------------------------------------------
+   Base
+--------------------------------------------------------------------------- */
+html {
+  scroll-padding-top: calc(var(--header-h) + 1rem);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Devanagari needs a little more vertical room for matras and conjuncts. */
+html[lang^="mr"] body,
+html[lang^="hi"] body {
+  font-family: var(--font-deva);
+  line-height: 1.75;
+}
+
+/* Letter-spacing breaks Devanagari conjuncts and matras: neutralise tracking utilities. */
+html[lang^="mr"] [class*="tracking-"],
+html[lang^="hi"] [class*="tracking-"] {
+  letter-spacing: normal;
+}
+
+:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* The search row draws its own focus underline (see SearchDialog). */
+.search-input:focus-visible {
+  outline: none;
+}
+
+::selection {
+  background: var(--gold-soft);
+  color: var(--fg);
+}
+
+/* ---------------------------------------------------------------------------
+   Signature motif: a woven-thread band (warp in blue, weft in gold).
+--------------------------------------------------------------------------- */
+.loom-band {
+  height: 6px;
+  background-image:
+    repeating-linear-gradient(90deg, var(--brand-blue) 0 6px, transparent 6px 12px),
+    repeating-linear-gradient(90deg, transparent 0 6px, var(--brand-gold) 6px 12px);
+  background-size: 12px 3px, 12px 3px;
+  background-position: 0 0, 6px 3px;
+  background-repeat: repeat-x;
+}
+
+.loom-texture {
+  background-image:
+    repeating-linear-gradient(0deg, color-mix(in oklab, var(--fg) 4%, transparent) 0 1px, transparent 1px 8px),
+    repeating-linear-gradient(90deg, color-mix(in oklab, var(--fg) 4%, transparent) 0 1px, transparent 1px 8px);
+}
+
+/* Emergency ticker marquee (paused for reduced motion and on hover/focus). */
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.ticker-track {
+  animation: ticker 40s linear infinite;
+}
+/* Wide screens have room for every number: no marquee. */
+@media (min-width: 1024px) {
+  .ticker-track { animation: none; }
+}
+.ticker:hover .ticker-track,
+.ticker:focus-within .ticker-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .ticker-track {
+    animation: none;
+    transform: none;
+  }
+}
+
+/* Print / "Download as PDF": hide chrome, keep content and sources. */
+@media print {
+  header[data-site-header],
+  nav[data-mobile-nav],
+  [data-ticker],
+  [data-no-print] {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+    color: #000;
+  }
+  /* Scroll-reveal animations never fire for print; show everything. */
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    overflow-wrap: anywhere;
+  }
+  /* Let printed source links and their URLs wrap inside cards instead of overflowing. */
+  a[href^="http"].inline-flex,
+  a[href^="http"].flex {
+    display: inline !important;
+  }
+  [class*="line-clamp-"] {
+    -webkit-line-clamp: unset !important;
+    display: inline !important;
+    overflow: visible !important;
+  }
+}
+
+/* Native popovers (source details) sit centred above everything, as a small card. */
+[popover].source-popover {
+  margin: auto;
+  inset: 0;
+  max-width: min(26rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 4rem);
+  overflow: auto;
+}
+[popover].source-popover::backdrop {
+  background: rgb(0 0 0 / 0.35);
+}

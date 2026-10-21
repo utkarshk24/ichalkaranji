@@ -1,0 +1,325 @@
+{
+  "route": "governance",
+  "summary": {
+    "en": "Ichalkaranji became a municipal corporation in 2022 and held its first corporation election in January 2026. Office-bearers below are listed with the source and date of each record.",
+    "mr": "इचलकरंजी 2022 मध्ये महानगरपालिका झाली आणि जानेवारी 2026 मध्ये पहिली निवडणूक झाली. खालील पदाधिकाऱ्यांची नोंद स्रोत व दिनांकासह दिली आहे.",
+    "hi": "इचलकरंजी 2022 में महानगरपालिका बनी और जनवरी 2026 में इसका पहला चुनाव हुआ। नीचे पदाधिकारियों को स्रोत और तारीख के साथ सूचीबद्ध किया गया है।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "facts",
+      "id": "offices",
+      "title": {
+        "en": "Who represents the city",
+        "mr": "शहराचे प्रतिनिधी",
+        "hi": "शहर के प्रतिनिधि"
+      },
+      "rows": [
+        {
+          "label": {
+            "en": "Municipal corporation",
+            "mr": "महानगरपालिका",
+            "hi": "महानगरपालिका"
+          },
+          "value": {
+            "en": "Formed by state government resolution of 5 May 2022; the municipal council dated from 1904; run by an appointed administrator until 2026",
+            "mr": "5 मे 2022 च्या शासन निर्णयाने स्थापना; नगरपरिषद 1904 पासून; 2026 पर्यंत नियुक्त प्रशासकाद्वारे कारभार",
+            "hi": "5 मई 2022 के शासन निर्णय से गठित; नगर परिषद 1904 से; 2026 तक नियुक्त प्रशासक द्वारा संचालन"
+          },
+          "status": "official",
+          "source": "Wikipedia: Ichalkaranji Municipal Corporation",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji_Municipal_Corporation"
+        },
+        {
+          "label": {
+            "en": "Mayor",
+            "mr": "महापौर",
+            "hi": "महापौर"
+          },
+          "value": {
+            "en": "Uday Dhatunde (BJP), first mayor, elected unopposed, February 2026",
+            "mr": "उदय धातुंडे (भाजप), पहिले महापौर, बिनविरोध, फेब्रुवारी 2026",
+            "hi": "उदय धातुंडे (भाजपा), पहले महापौर, निर्विरोध, फरवरी 2026"
+          },
+          "status": "secondary",
+          "source": "Lokmat",
+          "sourceUrl": "https://www.lokmat.com/topics/ichalkaranji-municipal-corporation-election"
+        },
+        {
+          "label": {
+            "en": "Deputy mayor",
+            "mr": "उपमहापौर",
+            "hi": "उपमहापौर"
+          },
+          "value": {
+            "en": "Anil Dalya, elected unopposed, February 2026",
+            "mr": "अनिल डाल्या, बिनविरोध, फेब्रुवारी 2026",
+            "hi": "अनिल डाल्या, निर्विरोध, फरवरी 2026"
+          },
+          "status": "secondary",
+          "source": "Lokmat",
+          "sourceUrl": "https://www.lokmat.com/topics/ichalkaranji-municipal-corporation-election"
+        },
+        {
+          "label": {
+            "en": "Municipal commissioner",
+            "mr": "महापालिका आयुक्त",
+            "hi": "नगर आयुक्त"
+          },
+          "value": {
+            "en": "Pallavi Patil, as named in a June 2025 state filing; current holder to be confirmed",
+            "mr": "पल्लवी पाटील, जून 2025 च्या शासकीय कागदपत्रानुसार; सध्याच्या पदाधिकाऱ्याची खात्री बाकी",
+            "hi": "पल्लवी पाटिल, जून 2025 के राज्य दस्तावेज़ अनुसार; वर्तमान पदधारक की पुष्टि बाकी"
+          },
+          "status": "secondary",
+          "source": "NGT: Chief Secretary quarterly report",
+          "sourceUrl": "https://www.greentribunal.gov.in/sites/default/files/news_updates/Quarterly%20Report%20by%20Chief%20Secretary%20in%20EA%20No.23-2023%20(page%20nos.510-535).pdf"
+        },
+        {
+          "label": {
+            "en": "MLA, Ichalkaranji (Assembly seat 279)",
+            "mr": "आमदार, इचलकरंजी (विधानसभा 279)",
+            "hi": "विधायक, इचलकरंजी (विधानसभा 279)"
+          },
+          "value": {
+            "en": "Rahul Prakash Awade (BJP), elected November 2024",
+            "mr": "राहुल प्रकाश आवाडे (भाजप), नोव्हेंबर 2024",
+            "hi": "राहुल प्रकाश आवाडे (भाजपा), नवंबर 2024 में निर्वाचित"
+          },
+          "status": "official",
+          "source": "Election Commission of India",
+          "sourceUrl": "https://results.eci.gov.in/ResultAcGenNov2024/RoundwiseS13279.htm"
+        },
+        {
+          "label": {
+            "en": "MP, Hatkanangle (Lok Sabha)",
+            "mr": "खासदार, हातकणंगले (लोकसभा)",
+            "hi": "सांसद, हातकणंगले (लोकसभा)"
+          },
+          "value": {
+            "en": "Dhairyasheel Mane (Shiv Sena), re-elected June 2024",
+            "mr": "धैर्यशील माने (शिवसेना), जून 2024 मध्ये पुन्हा निवड",
+            "hi": "धैर्यशील माने (शिवसेना), जून 2024 में पुनः निर्वाचित"
+          },
+          "status": "official",
+          "source": "Aaj Tak (ECI results)",
+          "sourceUrl": "https://www.aajtak.in/elections/lok-sabha-election-2024/maharashtra/hatkanangle-constituency-result-13548"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "results",
+      "title": {
+        "en": "Recent election results",
+        "mr": "अलीकडील निवडणूक निकाल",
+        "hi": "हाल के चुनाव परिणाम"
+      },
+      "columns": [
+        {
+          "en": "Election",
+          "mr": "निवडणूक",
+          "hi": "चुनाव"
+        },
+        {
+          "en": "Result",
+          "mr": "निकाल",
+          "hi": "परिणाम"
+        },
+        {
+          "en": "Date",
+          "mr": "दिनांक",
+          "hi": "तारीख"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Corporation, 65 seats",
+            "mr": "महानगरपालिका, 65 जागा",
+            "hi": "महानगरपालिका, 65 सीटें"
+          },
+          {
+            "en": "Mahayuti alliance 47; Congress-backed Shiv–Shahu Aghadi 17",
+            "mr": "महायुती 47; काँग्रेस-समर्थित शिव–शाहू आघाडी 17",
+            "hi": "महायुति 47; कांग्रेस समर्थित शिव–शाहू आघाड़ी 17"
+          },
+          {
+            "en": "15–16 Jan 2026",
+            "mr": "15–16 जानेवारी 2026",
+            "hi": "15–16 जनवरी 2026"
+          }
+        ],
+        [
+          {
+            "en": "Corporation, counting-day leads",
+            "mr": "महानगरपालिका, मतमोजणीतील आघाडी",
+            "hi": "महानगरपालिका, मतगणना के रुझान"
+          },
+          {
+            "en": "BJP 43, Shiv–Shahu Vikas Aghadi 17, Shiv Sena 3, Shiv Sena (UBT) 1, NCP 1 (leads, not final)",
+            "mr": "भाजप 43, शिव–शाहू विकास आघाडी 17, शिवसेना 3, शिवसेना (उबाठा) 1, राष्ट्रवादी 1 (आघाडी, अंतिम नव्हे)",
+            "hi": "भाजपा 43, शिव–शाहू विकास आघाड़ी 17, शिवसेना 3, शिवसेना (उबाठा) 1, राकांपा 1 (रुझान, अंतिम नहीं)"
+          },
+          {
+            "en": "16 Jan 2026",
+            "mr": "16 जानेवारी 2026",
+            "hi": "16 जनवरी 2026"
+          }
+        ],
+        [
+          {
+            "en": "Assembly, Ichalkaranji",
+            "mr": "विधानसभा, इचलकरंजी",
+            "hi": "विधानसभा, इचलकरंजी"
+          },
+          {
+            "en": "Rahul Prakash Awade (BJP) 1,31,919 votes (60.27%); margin 56,811 over Madan Karande (NCP-SP)",
+            "mr": "राहुल प्रकाश आवाडे (भाजप) 1,31,919 मते (60.27%); मदन कारंडे (राष्ट्रवादी-शप) यांच्यावर 56,811 मताधिक्य",
+            "hi": "राहुल प्रकाश आवाडे (भाजपा) 1,31,919 मत (60.27%); मदन कारंडे (राकांपा-शप) पर 56,811 का अंतर"
+          },
+          {
+            "en": "Nov 2024",
+            "mr": "नोव्हेंबर 2024",
+            "hi": "नवंबर 2024"
+          }
+        ],
+        [
+          {
+            "en": "Lok Sabha, Hatkanangle",
+            "mr": "लोकसभा, हातकणंगले",
+            "hi": "लोकसभा, हातकणंगले"
+          },
+          {
+            "en": "Dhairyasheel Mane (Shiv Sena) 5,20,190 votes; margin 13,426 over Satyajeet Patil (UBT); Raju Shetti third",
+            "mr": "धैर्यशील माने (शिवसेना) 5,20,190 मते; सत्यजीत पाटील (उबाठा) यांच्यावर 13,426 मताधिक्य; राजू शेट्टी तिसरे",
+            "hi": "धैर्यशील माने (शिवसेना) 5,20,190 मत; सत्यजीत पाटिल (उबाठा) पर 13,426 का अंतर; राजू शेट्टी तीसरे"
+          },
+          {
+            "en": "Jun 2024",
+            "mr": "जून 2024",
+            "hi": "जून 2024"
+          }
+        ]
+      ],
+      "cite": {
+        "source": "UNI; AIR News; ECI; Aaj Tak",
+        "sourceUrl": "https://www.uniindia.com/news/states/west/page-5/"
+      }
+    },
+    {
+      "type": "list",
+      "id": "history",
+      "title": {
+        "en": "Assembly seat: winning party by year",
+        "mr": "विधानसभा: वर्षनिहाय विजयी पक्ष",
+        "hi": "विधानसभा: वर्षवार विजयी दल"
+      },
+      "items": [
+        {
+          "en": "1978 — CPI(M)",
+          "mr": "1978 — माकप",
+          "hi": "1978 — माकपा"
+        },
+        {
+          "en": "1980 — INC(U)",
+          "mr": "1980 — काँग्रेस (यू)",
+          "hi": "1980 — कांग्रेस (यू)"
+        },
+        {
+          "en": "1985 — INC",
+          "mr": "1985 — काँग्रेस",
+          "hi": "1985 — कांग्रेस"
+        },
+        {
+          "en": "1990 — CPI(M)",
+          "mr": "1990 — माकप",
+          "hi": "1990 — माकपा"
+        },
+        {
+          "en": "1995–2004 — INC",
+          "mr": "1995–2004 — काँग्रेस",
+          "hi": "1995–2004 — कांग्रेस"
+        },
+        {
+          "en": "2009, 2014 — BJP",
+          "mr": "2009, 2014 — भाजप",
+          "hi": "2009, 2014 — भाजपा"
+        },
+        {
+          "en": "2019 — Independent (Prakash Awade)",
+          "mr": "2019 — अपक्ष (प्रकाश आवाडे)",
+          "hi": "2019 — निर्दलीय (प्रकाश आवाडे)"
+        },
+        {
+          "en": "2024 — BJP",
+          "mr": "2024 — भाजप",
+          "hi": "2024 — भाजपा"
+        }
+      ],
+      "lead": {
+        "en": "Source: IndiaVotes and Wikipedia.",
+        "mr": "स्रोत: इंडियाव्होट्स व विकिपीडिया.",
+        "hi": "स्रोत: इंडियावोट्स और विकिपीडिया।"
+      }
+    },
+    {
+      "type": "prose",
+      "id": "issues",
+      "title": {
+        "en": "Issues on the civic agenda",
+        "mr": "नागरी प्रश्न",
+        "hi": "नागरिक मुद्दे"
+      },
+      "paragraphs": [
+        {
+          "en": "Recurring local issues include a permanent drinking-water source, pollution of the Panchganga river and the competitiveness of the textile sector. This portal reports what officials and documents say; it does not take political positions.",
+          "mr": "कायमस्वरूपी पिण्याच्या पाण्याचा स्रोत, पंचगंगेचे प्रदूषण आणि वस्त्रोद्योगाची स्पर्धात्मकता हे सतत चर्चेतील स्थानिक प्रश्न आहेत. हे पोर्टल अधिकारी व कागदपत्रे काय सांगतात ते मांडते; कोणतीही राजकीय भूमिका घेत नाही.",
+          "hi": "स्थायी पेयजल स्रोत, पंचगंगा नदी का प्रदूषण और वस्त्र उद्योग की प्रतिस्पर्धा बार-बार उठने वाले स्थानीय मुद्दे हैं। यह पोर्टल बताता है कि अधिकारी और दस्तावेज़ क्या कहते हैं; यह कोई राजनीतिक पक्ष नहीं लेता।"
+        }
+      ]
+    },
+    {
+      "type": "awaited",
+      "id": "awaited",
+      "title": {
+        "en": "Being added",
+        "mr": "जोडले जात आहे",
+        "hi": "जोड़ा जा रहा है"
+      },
+      "items": [
+        {
+          "en": "Ward map and list of corporators",
+          "mr": "प्रभाग नकाशा व नगरसेवकांची यादी",
+          "hi": "वार्ड नक्शा और पार्षदों की सूची"
+        },
+        {
+          "en": "Standing committee members",
+          "mr": "स्थायी समिती सदस्य",
+          "hi": "स्थायी समिति सदस्य"
+        },
+        {
+          "en": "Department heads",
+          "mr": "विभागप्रमुख",
+          "hi": "विभाग प्रमुख"
+        },
+        {
+          "en": "Corporation budgets 2023–27",
+          "mr": "महापालिका अर्थसंकल्प 2023–27",
+          "hi": "महानगरपालिका बजट 2023–27"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "recheck",
+      "tone": "warning",
+      "body": {
+        "en": "Political data reflects records up to February 2026. Check the corporation's website for the current office-bearers.",
+        "mr": "राजकीय माहिती फेब्रुवारी 2026 पर्यंतच्या नोंदींवर आधारित आहे. सध्याच्या पदाधिकाऱ्यांसाठी महापालिकेचे संकेतस्थळ पाहा.",
+        "hi": "राजनीतिक जानकारी फरवरी 2026 तक के अभिलेखों पर आधारित है। वर्तमान पदाधिकारियों के लिए महानगरपालिका की वेबसाइट देखें।"
+      }
+    }
+  ]
+}

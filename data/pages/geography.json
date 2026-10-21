@@ -1,0 +1,154 @@
+{
+  "route": "geography",
+  "summary": {
+    "en": "Ichalkaranji is inland on the Deccan Plateau, east of the Western Ghats. Its main environmental issue is sewage and textile effluent reaching the Panchganga river.",
+    "mr": "इचलकरंजी पश्चिम घाटाच्या पूर्वेस, दख्खनच्या पठारावरील अंतर्गत भागात आहे. सांडपाणी व वस्त्रोद्योगाचे दूषित पाणी पंचगंगेत मिसळणे हा येथील मुख्य पर्यावरणीय प्रश्न आहे.",
+    "hi": "इचलकरंजी पश्चिमी घाट के पूर्व में दक्कन पठार के भीतरी भाग में है। सीवेज और वस्त्र उद्योग का दूषित जल पंचगंगा नदी में पहुँचना यहाँ का मुख्य पर्यावरणीय मुद्दा है।"
+  },
+  "updated": "2026-10-21",
+  "blocks": [
+    {
+      "type": "facts",
+      "id": "land",
+      "title": {
+        "en": "Land and river",
+        "mr": "भूमी आणि नदी",
+        "hi": "भूमि और नदी"
+      },
+      "rows": [
+        {
+          "label": {
+            "en": "Terrain",
+            "mr": "भूरचना",
+            "hi": "भू-भाग"
+          },
+          "value": {
+            "en": "Deccan Plateau, on the plateau side of the Western Ghats; no mountains within the city",
+            "mr": "दख्खनचे पठार, पश्चिम घाटाच्या पठारी बाजूस; शहरात डोंगर नाहीत",
+            "hi": "दक्कन पठार, पश्चिमी घाट की पठारी ओर; शहर में कोई पहाड़ नहीं"
+          },
+          "status": "secondary",
+          "source": "Wikipedia: Ichalkaranji",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji"
+        },
+        {
+          "label": {
+            "en": "Coast",
+            "mr": "किनारा",
+            "hi": "तट"
+          },
+          "value": {
+            "en": "None — Ichalkaranji is inland. The nearest coast is in Sindhudurg district, across the Ghats (distance awaited).",
+            "mr": "नाही — इचलकरंजी अंतर्गत भागात आहे. सर्वांत जवळचा किनारा घाटापलीकडील सिंधुदुर्ग जिल्ह्यात (अंतर प्रतीक्षेत).",
+            "hi": "कोई नहीं — इचलकरंजी भीतरी भाग में है। निकटतम तट घाट के पार सिंधुदुर्ग जिले में है (दूरी प्रतीक्षित)।"
+          },
+          "status": "secondary",
+          "source": "Wikipedia: Ichalkaranji",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji"
+        },
+        {
+          "label": {
+            "en": "Panchganga river",
+            "mr": "पंचगंगा नदी",
+            "hi": "पंचगंगा नदी"
+          },
+          "value": {
+            "en": "Tributary of the Krishna; rises at Prayag Sangam in the Sahyadris and runs about 80 km",
+            "mr": "कृष्णेची उपनदी; सह्याद्रीतील प्रयाग संगम येथे उगम, सुमारे 80 किमी लांबी",
+            "hi": "कृष्णा की सहायक नदी; सह्याद्रि के प्रयाग संगम से निकलकर लगभग 80 किमी बहती है"
+          },
+          "status": "secondary",
+          "source": "Drishti IAS",
+          "sourceUrl": "https://www.drishtiias.com/state-pcs-current-affairs/panchaganga-river/print_manually"
+        },
+        {
+          "label": {
+            "en": "Polluted stretch",
+            "mr": "प्रदूषित पट्टा",
+            "hi": "प्रदूषित हिस्सा"
+          },
+          "value": {
+            "en": "Shirol–Kolhapur, 67 km, 21 major drains; Priority V (2019), Priority IV per a 2024 study",
+            "mr": "शिरोळ–कोल्हापूर, 67 किमी, 21 प्रमुख नाले; प्राधान्य V (2019), 2024 च्या अभ्यासानुसार प्राधान्य IV",
+            "hi": "शिरोल–कोल्हापुर, 67 किमी, 21 प्रमुख नाले; प्राथमिकता V (2019), 2024 के अध्ययन अनुसार प्राथमिकता IV"
+          },
+          "status": "official",
+          "source": "MPCB action plans 2019 and 2025",
+          "sourceUrl": "https://mpcb.gov.in/sites/default/files/Establishment%20of%20MPCB/Seniority%20list/2014/Panchaganga%20River%206.0_%20Action%20Plan%202025.pdf"
+        },
+        {
+          "label": {
+            "en": "Sewage treatment",
+            "mr": "सांडपाणी प्रक्रिया",
+            "hi": "सीवेज उपचार"
+          },
+          "value": {
+            "en": "STP capacity listed at 20 MLD; a draft MPCB plan reported about 45 million litres a day reaching the river untreated",
+            "mr": "प्रक्रिया केंद्र क्षमता 20 दशलक्ष लिटर/दिवस; सुमारे 45 दशलक्ष लिटर सांडपाणी प्रक्रियेशिवाय नदीत जात असल्याचे मंडळाच्या मसुद्यात नमूद",
+            "hi": "उपचार संयंत्र क्षमता 20 एमएलडी; बोर्ड के मसौदे के अनुसार लगभग 45 मिलियन लीटर प्रतिदिन बिना उपचार नदी में"
+          },
+          "status": "official",
+          "source": "MPCB action plan 2025",
+          "sourceUrl": "https://mpcb.gov.in/sites/default/files/Establishment%20of%20MPCB/Seniority%20list/2014/Panchaganga%20River%206.0_%20Action%20Plan%202025.pdf"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "river",
+      "title": {
+        "en": "The Panchganga under watch",
+        "mr": "पंचगंगेवर देखरेख",
+        "hi": "पंचगंगा पर निगरानी"
+      },
+      "paragraphs": [
+        {
+          "en": "River pollution is the subject of National Green Tribunal proceedings. On 16 June 2025 the state Urban Development department reviewed sewage generation and treatment in Ichalkaranji, Kolhapur and nearby towns. In 2025 the state also set up a panel to investigate the causes of pollution and fish deaths.",
+          "mr": "नदी प्रदूषणाचे प्रकरण राष्ट्रीय हरित लवादासमोर आहे. 16 जून 2025 रोजी नगरविकास विभागाने इचलकरंजी, कोल्हापूर व परिसरातील शहरांमधील सांडपाणी निर्मिती व प्रक्रियेचा आढावा घेतला. प्रदूषण व माशांच्या मृत्यूची कारणे शोधण्यासाठी 2025 मध्ये राज्याने समितीही नेमली.",
+          "hi": "नदी प्रदूषण का मामला राष्ट्रीय हरित अधिकरण में है। 16 जून 2025 को नगर विकास विभाग ने इचलकरंजी, कोल्हापुर और आसपास के शहरों में सीवेज उत्पादन व उपचार की समीक्षा की। 2025 में राज्य ने प्रदूषण और मछलियों की मौत के कारणों की जाँच के लिए समिति भी बनाई।"
+        }
+      ]
+    },
+    {
+      "type": "awaited",
+      "id": "awaited",
+      "title": {
+        "en": "Still being verified",
+        "mr": "अद्याप पडताळणी सुरू",
+        "hi": "अभी सत्यापन जारी"
+      },
+      "items": [
+        {
+          "en": "Soil type",
+          "mr": "मातीचा प्रकार",
+          "hi": "मिट्टी का प्रकार"
+        },
+        {
+          "en": "Forest and green cover",
+          "mr": "वन व हरित आच्छादन",
+          "hi": "वन और हरित आवरण"
+        },
+        {
+          "en": "Birds and wildlife records",
+          "mr": "पक्षी व वन्यजीव नोंदी",
+          "hi": "पक्षी व वन्यजीव अभिलेख"
+        },
+        {
+          "en": "Flood maps for 2019 and 2021",
+          "mr": "2019 व 2021 चे पूर नकाशे",
+          "hi": "2019 और 2021 के बाढ़ नक्शे"
+        },
+        {
+          "en": "Air-quality monitoring station data",
+          "mr": "हवा गुणवत्ता केंद्राची आकडेवारी",
+          "hi": "वायु गुणवत्ता केंद्र के आँकड़े"
+        },
+        {
+          "en": "Parks and lakes",
+          "mr": "उद्याने व तलाव",
+          "hi": "उद्यान और झीलें"
+        }
+      ]
+    }
+  ]
+}
