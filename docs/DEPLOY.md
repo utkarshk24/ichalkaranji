@@ -27,6 +27,9 @@ The repository includes `.github/workflows/pages.yml`, which builds a static exp
 3. Optional: add a repository variable `CONTACT_EMAIL` (Settings → Secrets and variables → Actions → Variables)
    to switch on the contact form.
 
+If the deploy step fails with `Failed to create deployment (status: 404) … Ensure GitHub Pages has been enabled`,
+Pages is either off or set to **Deploy from a branch**. Set the source to **GitHub Actions** and re-run the workflow.
+
 How the static build differs from the Node build:
 
 - It is built with `GITHUB_PAGES=true` and `NEXT_PUBLIC_BASE_PATH=/<repo>`; every URL ends in `/`.
