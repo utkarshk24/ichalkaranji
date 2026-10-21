@@ -124,7 +124,7 @@ export function LayeredMap({
 
           {showDownload && (
             <div className="border-t border-border pt-4">
-              <a href="/geo/places.geojson" download className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">
+              <a href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/geo/places.geojson`} download className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline">
                 <Download className="h-4 w-4" aria-hidden="true" />
                 {t("download")}
               </a>

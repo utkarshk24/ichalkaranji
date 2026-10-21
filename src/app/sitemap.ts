@@ -3,6 +3,8 @@ import { routing } from "@/i18n/routing";
 import { absoluteUrl, languageAlternates } from "@/lib/seo";
 import { sectionRoutes, siteConfig } from "@/lib/site";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const paths = ["/", ...sectionRoutes.map((r) => `/${r}`)];
   const lastModified = new Date(siteConfig.dataLastUpdated);

@@ -12,18 +12,20 @@ export async function GET(_req: Request, { params }: { params: Promise<{ locale:
   const { locale } = await params;
   const l = (routing.locales as readonly string[]).includes(locale) ? (locale as Locale) : routing.defaultLocale;
   const t = await getTranslations({ locale: l });
+  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  const slash = process.env.NEXT_PUBLIC_STATIC_EXPORT === "true" ? "/" : "";
   const manifest = {
     name: t("site.fullName"),
     short_name: t("site.name"),
     description: t("seo.homeDescription"),
     lang: localeLabels[l].htmlLang,
     dir: "ltr",
-    start_url: `/${l}`,
-    scope: `/${l}`,
+    start_url: `${base}/${l}${slash}`,
+    scope: `${base}/${l}${slash}`,
     display: "standalone",
     background_color: "#fbf8f3",
     theme_color: "#1e3a8a",
-    icons: [{ src: "/icon.svg", sizes: "any", type: "image/svg+xml" }],
+    icons: [{ src: `${base}/icon.svg`, sizes: "any", type: "image/svg+xml" }],
   };
   return new Response(JSON.stringify(manifest), { headers: { "Content-Type": "application/manifest+json; charset=utf-8" } });
 }

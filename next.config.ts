@@ -3,6 +3,16 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
+/**
+ * Two build modes:
+ * - default: a Node server (Vercel, VPS) with the locale-redirect proxy and HTTP security headers;
+ * - GITHUB_PAGES=true: a fully static export for GitHub Pages, served under NEXT_PUBLIC_BASE_PATH
+ *   (e.g. /ichalkaranji). Pages can't run the proxy or send headers, so the root page redirects by
+ *   browser language and the CSP is delivered as a <meta> tag instead.
+ */
+const isPages = process.env.GITHUB_PAGES === "true";
+const basePath = isPages ? (process.env.NEXT_PUBLIC_BASE_PATH ?? "").replace(/\/$/, "") : "";
+
 const securityHeaders = [
   { key: "X-Content-Type-Options", value: "nosniff" },
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
@@ -36,16 +46,28 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   // Inline the (small) stylesheet into the HTML so first paint doesn't wait on a CSS request.
   experimental: { inlineCss: true },
+  // Exposed to client and server code (canonical URLs, asset links, the root redirect).
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+    NEXT_PUBLIC_STATIC_EXPORT: isPages ? "true" : "false",
+    NEXT_PUBLIC_CSP: csp,
+  },
   images: {
     formats: ["image/avif", "image/webp"],
+    // Static hosting has no image optimiser.
+    unoptimized: isPages,
     remotePatterns: [
       // Licensed photographs (data/media.json) are expected from Wikimedia Commons.
       { protocol: "https", hostname: "upload.wikimedia.org" },
     ],
   },
-  async headers() {
-    return [{ source: "/:path*", headers: securityHeaders }];
-  },
+  ...(isPages
+    ? { output: "export" as const, basePath, trailingSlash: true }
+    : {
+        async headers() {
+          return [{ source: "/:path*", headers: securityHeaders }];
+        },
+      }),
 };
 
 export default withNextIntl(nextConfig);

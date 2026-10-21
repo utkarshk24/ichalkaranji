@@ -17,6 +17,10 @@ export function LanguageSwitcher() {
     if (next === locale) return;
     const hash = typeof window !== "undefined" ? window.location.hash : "";
     startTransition(() => {
+      // Remembered for the static build's "/" redirect (the Node build uses the ICH_LOCALE cookie).
+      try {
+        localStorage.setItem("ICH_LOCALE", next);
+      } catch {}
       router.replace(`${pathname}${hash}`, { locale: next, scroll: false });
     });
   }

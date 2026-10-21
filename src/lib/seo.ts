@@ -3,10 +3,13 @@ import { getTranslations } from "next-intl/server";
 import { localeLabels, routing, type Locale } from "@/i18n/routing";
 import { siteConfig, type SectionRoute } from "@/lib/site";
 
+/** The static (GitHub Pages) build serves every page as a folder, so its URLs end in "/". */
+const trailing = process.env.NEXT_PUBLIC_STATIC_EXPORT === "true" ? "/" : "";
+
 /** Absolute URL for a locale + locale-less path ("/" or "/history"). */
 export function absoluteUrl(locale: Locale, path = "/") {
   const clean = path === "/" ? "" : path;
-  return `${siteConfig.url}/${locale}${clean}`;
+  return `${siteConfig.url}/${locale}${clean}${trailing}`;
 }
 
 /** hreflang map for one page across all locales, plus x-default → English. */

@@ -16,7 +16,36 @@ Node 20.9+ host works.
 
 All of them are read at **build** time, so change them in the host's settings and redeploy.
 
-## 2. Vercel (simplest)
+## 2. GitHub Pages (static, free)
+
+The repository includes `.github/workflows/pages.yml`, which builds a static export and publishes it at
+`https://<owner>.github.io/<repo>/` (here: **https://utkarshk24.github.io/ichalkaranji/**) on every push to `main`.
+
+1. One time only: in the repository, open **Settings → Pages → Build and deployment** and set **Source** to
+   **GitHub Actions**.
+2. Push to `main` (or run the workflow from the **Actions** tab). The site URL appears on the workflow run.
+3. Optional: add a repository variable `CONTACT_EMAIL` (Settings → Secrets and variables → Actions → Variables)
+   to switch on the contact form.
+
+How the static build differs from the Node build:
+
+- It is built with `GITHUB_PAGES=true` and `NEXT_PUBLIC_BASE_PATH=/<repo>`; every URL ends in `/`.
+- There is no server, so `/` is a small page that sends visitors to `/en/`, `/mr/` or `/hi/` — their last choice in
+  the language switcher, else the browser's language.
+- Pages can't send HTTP headers: the Content Security Policy is included as a `<meta>` tag, and GitHub provides
+  HTTPS. `X-Frame-Options` and `frame-ancestors` aren't available on Pages.
+- `robots.txt` and `sitemap.xml` are published under `/<repo>/`. Search engines only read `robots.txt` at the
+  domain root, so submit the sitemap URL directly in Search Console.
+
+To test the static build locally:
+
+```bash
+GITHUB_PAGES=true NEXT_PUBLIC_BASE_PATH=/ichalkaranji NEXT_PUBLIC_SITE_URL=https://utkarshk24.github.io/ichalkaranji npm run build
+mkdir -p /tmp/site && rm -rf /tmp/site/ichalkaranji && cp -r out /tmp/site/ichalkaranji
+cd /tmp/site && python3 -m http.server 3200   # open http://localhost:3200/ichalkaranji/
+```
+
+## 3. Vercel (Node, with HTTP security headers)
 
 1. Push the repository to GitHub.
 2. In Vercel, **Add New → Project**, import the repository. The framework is detected as Next.js; keep the default
@@ -24,7 +53,7 @@ All of them are read at **build** time, so change them in the host's settings an
 3. Add the environment variables above for *Production* (and *Preview* if you want previews to work the same).
 4. Deploy, then add your domain under **Settings → Domains**. Set `NEXT_PUBLIC_SITE_URL` to that domain and redeploy.
 
-## 3. Any Node host (VPS, Render, Railway, etc.)
+## 4. Any Node host (VPS, Render, Railway, etc.)
 
 ```bash
 git clone <repo> ichalkaranji-portal && cd ichalkaranji-portal
@@ -37,7 +66,7 @@ npm start -- -p 3000                     # or run under pm2 / systemd
 Put a reverse proxy (Nginx, Caddy) in front for HTTPS. The app already sends HSTS, CSP, `X-Content-Type-Options`,
 `Referrer-Policy`, `X-Frame-Options` and `Permissions-Policy`; don't add conflicting copies at the proxy.
 
-## 4. After deploying — checklist
+## 5. After deploying — checklist
 
 - [ ] Open `/`, `/mr` and `/hi`; the language switcher keeps you on the same page.
 - [ ] View source on any page: `<link rel="canonical">` and `og:url` use your real domain.
@@ -48,12 +77,12 @@ Put a reverse proxy (Nginx, Caddy) in front for HTTPS. The app already sends HST
 - [ ] Submit the sitemap in Google Search Console and Bing Webmaster Tools.
 - [ ] If `NEXT_PUBLIC_CONTACT_EMAIL` is set, the /contact form opens your mail app with the message filled in.
 
-## 5. Continuous integration
+## 6. Continuous integration
 
 `.github/workflows/ci.yml` runs on every push and pull request: type check, the translation/data/glossary checks
 (`npm run check:messages`) and a production build. Keep it green before merging.
 
-## 6. Changing the Content Security Policy
+## 7. Changing the Content Security Policy
 
 The policy lives in `next.config.ts`. If you add a new third-party service (analytics, a video embed, a new tile
 provider), add its domain to the matching directive (`connect-src`, `img-src`, `frame-src`…) or the browser will

@@ -68,6 +68,12 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={localeLabels[locale].htmlLang} className={`${inter.variable} ${notoDevanagari.variable}`} suppressHydrationWarning>
+      {process.env.NEXT_PUBLIC_STATIC_EXPORT === "true" && (
+        <head>
+          {/* Static hosting can't send headers; deliver the CSP as a meta tag (frame-ancestors isn't allowed there). */}
+          <meta httpEquiv="Content-Security-Policy" content={(process.env.NEXT_PUBLIC_CSP ?? "").replace(/;\s*frame-ancestors[^;]*/, "")} />
+        </head>
+      )}
       <body className="min-h-dvh">
         <NextIntlClientProvider>
           <Providers>
