@@ -52,11 +52,13 @@ export async function FeaturedGrid({ items }: { items: FeaturedItem[] }) {
                 </Link>
                 {item.sourceUrl ? (
                   <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer" className={feature ? "text-white/70 hover:underline" : "text-fg-muted hover:underline"}>
-                    {t("common.source")}: {item.source}
+                    {t("common.source")}: <span lang="en">{item.source}</span>
                   </a>
-                ) : (
-                  <span className={feature ? "text-white/70" : "text-fg-muted"}>{item.source}</span>
-                )}
+                ) : item.source ? (
+                  <span lang="en" className={feature ? "text-white/70" : "text-fg-muted"}>
+                    {item.source}
+                  </span>
+                ) : null}
               </div>
             </article>
           </li>

@@ -13,8 +13,8 @@ type Entry = { route: SectionRoute; title: string; description: string; haystack
 const normalise = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "");
 
 /**
- * Site search over page titles and descriptions in the active language (plus the English route slug,
- * so "textile" also finds वस्त्रोद्योग). Phase 5 swaps this index for Pagefind over full page text.
+ * Site search over page titles, short and long (search-snippet) descriptions in the active language, plus the
+ * English route slug, so "textile" also finds वस्त्रोद्योग and "पावरलूम" finds the textile and economy pages.
  */
 export function SearchDialog() {
   const t = useTranslations();
@@ -31,7 +31,8 @@ export function SearchDialog() {
       sectionRoutes.map((route) => {
         const title = t(`routes.${route}.title`);
         const description = t(`routes.${route}.description`);
-        return { route, title, description, haystack: normalise(`${title} ${description} ${route.replace("-", " ")}`) };
+        const snippet = t(`seo.routes.${route}`);
+        return { route, title, description, haystack: normalise(`${title} ${description} ${snippet} ${route.replace("-", " ")}`) };
       }),
     [t],
   );

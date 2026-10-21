@@ -317,10 +317,11 @@ export function DataDashboard({
 }
 
 function SourceLink({ row, externalLink }: { row: DashboardRow; externalLink: string }) {
-  if (!row.sourceUrl) return <span className="text-fg-muted">{row.source}</span>;
+  if (!row.source) return <span className="text-fg-muted">—</span>;
+  if (!row.sourceUrl) return <span lang="en" className="text-fg-muted">{row.source}</span>;
   return (
     <a href={row.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-start gap-1 text-primary hover:underline">
-      <span className="line-clamp-2">{row.source}</span>
+      <span lang="en" className="line-clamp-2">{row.source}</span>
       <ExternalLink className="mt-0.5 h-3.5 w-3.5 shrink-0" aria-hidden="true" />
       <span className="sr-only">({externalLink})</span>
     </a>

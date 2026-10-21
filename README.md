@@ -3,9 +3,9 @@
 Independent, trilingual (English / मराठी / हिंदी) city information portal for Ichalkaranji, Kolhapur district.
 Not affiliated with Ichalkaranji Municipal Corporation; citizen services link out to official portals.
 
-**Status:** Phase 5 of 7 — all 28 section routes and the home page are live in all three languages (94 static pages).
-Phase 6 completes translation review and localized metadata; Phase 7 is the quality pass (accessibility, Lighthouse,
-schema validation, link audit, deploy and editor guides).
+**Status:** Phase 6 of 7 — all 28 section routes and the home page are live in all three languages, with localized
+titles, search descriptions, social cards and web app manifests (96 static outputs). Phase 7 is the quality pass
+(accessibility, Lighthouse, schema validation, link audit, deploy and editor guides).
 
 ## Quick start
 
@@ -18,10 +18,11 @@ npm run dev                  # http://localhost:3000 → redirects to /en
 | Script | What it does |
 | --- | --- |
 | `npm run dev` | Development server |
-| `npm run build` / `npm start` | Production build (94 static pages) and server |
+| `npm run build` / `npm start` | Production build (96 static outputs) and server |
 | `npm run typecheck` | TypeScript check |
-| `npm run check:messages` | Fails if `mr.json` / `hi.json` miss a key or placeholder, if any data/ text lacks mr or hi, or if Devanagari digits appear |
+| `npm run check:messages` | Fails if `mr.json` / `hi.json` miss a key or placeholder, if any data/ text lacks mr or hi, if Devanagari digits or ICU `#` appear, or if a glossary-checked spelling is wrong |
 | `python3 scripts/content/<file>.py` | Regenerates `data/pages/*.json` or `data/projects.json` from the trilingual content scripts |
+| `python3 scripts/og/make_og.py` | Re-renders the social cards `public/og/{en,mr,hi}.png` from the message files (needs Playwright + Chromium) |
 
 Requires Node 20.9+. Deploys to Vercel or any Node host as-is.
 
@@ -46,7 +47,8 @@ data/itineraries.json     suggested tourism itineraries (stops reference place i
 data/projects.json        civic projects tracker (status, cost only when sourced, source, as-of date)
 data/pages/<route>.json   trilingual content blocks for the 18 content-driven routes (see src/types/content.ts)
 scripts/content/          Python sources for data/pages and data/projects (one L(en, mr, hi) per string)
-public/                   icon.svg, og-default.png
+public/                   icon.svg; og/{en,mr,hi}.png social cards
+docs/glossary.md          agreed English / मराठी / हिंदी terms and spelling rules
 scripts/check-messages.mjs
 src/
   proxy.ts                locale detection and /{en,mr,hi} redirects (Next 16 "proxy", formerly middleware)
@@ -97,7 +99,19 @@ create the folder and move the route from `contentRoutes` to `dedicatedRoutes`. 
   "Data awaited"; never invent or interpolate values.
 - Marathi and Hindi use Western digits with Indian grouping (3,50,000). Do not apply letter-spacing to Devanagari
   (the stylesheet neutralises `tracking-*` utilities in `mr` and `hi`).
-- Translations are marked `pending native-speaker review` in each file's `_meta` until reviewed.
+- Translations are marked `pending native-speaker review` in each file's `_meta` until reviewed; terminology follows
+  `docs/glossary.md`.
+- `method` on a data point is trilingual (how a figure was derived, or why it is awaited); `source` is the citation
+  only, kept as published and rendered with `lang="en"` so screen readers switch pronunciation.
+
+## Localization and SEO
+
+- Each page has a localized `<title>` (`routes.<route>.title` + `seo.titleTemplate`) and a 110–150 character search
+  description (`seo.routes.<route>`), canonical URL and hreflang links for en-IN, mr-IN, hi-IN and x-default.
+- Open Graph / Twitter cards use the localized site name (`seo.siteName`), alt text (`seo.ogAlt`) and the locale's
+  card `/og/<locale>.png`.
+- `/<locale>/manifest.webmanifest` names an installed app in the language it was installed from.
+- Site search matches page titles, short descriptions and the longer search descriptions in the active language.
 
 ## Live data on the home page
 

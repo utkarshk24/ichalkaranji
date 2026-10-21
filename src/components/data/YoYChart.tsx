@@ -89,7 +89,7 @@ export function YoYChart({ points, labels, locale }: { points: ChartPoint[]; lab
                     <p className="font-semibold text-fg">{p.year}</p>
                     <p className="text-fg tabular-nums">{nf.format(p.value as number)}</p>
                     <p className="text-fg-muted">{p.statusLabel}</p>
-                    <p className="max-w-[14rem] text-fg-muted">{p.source}</p>
+                    <p className="max-w-[14rem] text-fg-muted"><span lang="en">{p.source}</span></p>
                   </div>
                 );
               }}
@@ -150,7 +150,7 @@ export function YoYChart({ points, labels, locale }: { points: ChartPoint[]; lab
                 <th scope="row" className="py-1.5 pr-3 font-medium">{p.year}</th>
                 <td className="py-1.5 pr-3 tabular-nums">{p.value === null ? "—" : nf.format(p.value)}</td>
                 <td className="py-1.5 pr-3">{p.statusLabel}</td>
-                <td className="py-1.5 text-fg-muted">{p.source}</td>
+                <td className="py-1.5 text-fg-muted"><span lang="en">{p.source}</span></td>
               </tr>
             ))}
           </tbody>

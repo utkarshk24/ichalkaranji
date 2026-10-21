@@ -46,7 +46,7 @@ export async function NewsCard({ item }: { item: NewsItem }) {
         rel="noopener noreferrer"
         className="mt-auto inline-flex items-center gap-1 pt-4 text-sm font-medium text-primary hover:underline"
       >
-        {t("home.news.readSource")}: {item.source}
+        {t("home.news.readSource")}: <span lang="en">{item.source}</span>
         <ExternalLink className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
         <span className="sr-only">({t("footer.externalLink")})</span>
       </a>

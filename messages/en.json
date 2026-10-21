@@ -1,7 +1,8 @@
 {
   "_meta": {
     "locale": "en",
-    "reviewStatus": "source language"
+    "reviewStatus": "source language",
+    "glossaryCheck": "2026-10-21 (docs/glossary.md)"
   },
   "site": {
     "name": "Ichalkaranji",
@@ -39,7 +40,7 @@
     },
     "map": {
       "title": "Interactive Map",
-      "description": "Wards, river, roads, landmarks and services."
+      "description": "Landmarks, stations, places to visit and neighbourhoods."
     },
     "demographics": {
       "title": "Demographics",
@@ -91,7 +92,7 @@
     },
     "health": {
       "title": "Health",
-      "description": "Hospitals, health posts and public health."
+      "description": "Emergency care, official health services and facilities."
     },
     "civic-services": {
       "title": "Civic Services",
@@ -106,12 +107,12 @@
       "description": "Year-on-year indicators with sources."
     },
     "directory": {
-      "title": "Business Directory",
-      "description": "Verified local business listings."
+      "title": "Public Directory",
+      "description": "Public offices and where to find their contacts."
     },
     "news": {
       "title": "News & Notices",
-      "description": "Announcements, notices and events."
+      "description": "Dated summaries of published reports, with sources."
     },
     "gallery": {
       "title": "Photo Gallery",
@@ -337,7 +338,39 @@
     "homeTitle": "Ichalkaranji — The Manchester of Maharashtra | City Portal",
     "homeDescription": "Independent trilingual guide to Ichalkaranji, Kolhapur district: history, powerloom and textile industry, demographics, governance, tourism and sourced city data.",
     "titleTemplate": "%s | Ichalkaranji City Portal",
-    "keywords": "Ichalkaranji, Manchester of Maharashtra, powerloom, textile cluster, Kolhapur, Panchganga, Ichalkaranji Municipal Corporation"
+    "keywords": "Ichalkaranji, Manchester of Maharashtra, powerloom, textile cluster, Kolhapur, Panchganga, Ichalkaranji Municipal Corporation",
+    "routes": {
+      "about": "Ichalkaranji at a glance: location in Kolhapur district, area, elevation, civic status, PIN code and road distances, each with its source.",
+      "history": "From a Ghorpade jagir to a powerloom hub: the 1904 first powerloom, the cooperative era, Gwalior gharana music and a sourced timeline.",
+      "map": "Interactive map of Ichalkaranji and nearby places: landmarks, stations, the airport, river ghats and temples, with a text list for every pin.",
+      "demographics": "Ichalkaranji population from the 2011 Census: 2,87,570 in the city, 3,25,709 in the urban area, literacy 85.98%, sex ratio 921, with sources.",
+      "geography": "Ichalkaranji's land and river: the Deccan Plateau setting, the Panchganga river, its polluted stretch and sewage treatment under tribunal watch.",
+      "climate": "Ichalkaranji weather this week, seasons, monsoon and the best time to visit, with Kolhapur station climate records and official IMD links.",
+      "economy": "Ichalkaranji's economy: the powerloom cluster, spinning, sizing and processing units, cooperatives, policy context and what data is still missing.",
+      "textile": "Inside the Manchester of Maharashtra: over 1.5 lakh powerlooms, the yarn-to-fabric value chain, shuttleless looms and the cluster's challenges.",
+      "tourism": "Places to visit in and around Ichalkaranji: the Rajwada, Panchganga ghats, Narsobawadi, Kolhapur's Mahalaxmi temple, Panhala and day-trip plans.",
+      "culture": "Ichalkaranji's culture: the Gwalior gharana legacy of Balakrishnabuwa Ichalkaranjikar, Marathi language, Kolhapur-region food and dress.",
+      "festivals": "Festivals and fairs in Ichalkaranji: Shahapur's Mhasoba fair after Gudi Padwa, Ganesh Utsav, Navratri, Diwali, Eid and more through the year.",
+      "transport": "How to reach Ichalkaranji: Hatkanangale station 7–8 km away, Kolhapur Airport about 30 km, MSRTC buses and road distances to major cities.",
+      "governance": "Who governs Ichalkaranji: the municipal corporation formed in 2022, its first election in 2026, the mayor, MLA and MP, with dated sources.",
+      "projects": "Tracker of civic projects affecting Ichalkaranji: drinking water schemes, sewage treatment, textile parks and the airport, with status and sources.",
+      "education": "Education in Ichalkaranji: the DKTE Textile & Engineering Institute, schools and colleges, literacy rate and links to official education portals.",
+      "health": "Health services for Ichalkaranji: ambulance and emergency numbers, official state health schemes, and hospital details being verified.",
+      "civic-services": "Where to pay property tax, get certificates, pay electricity bills and file complaints in Ichalkaranji: links to official government portals only.",
+      "emergency": "Emergency numbers for Ichalkaranji: 112, police 100, fire 101, ambulance 108, women 181, child 1098, plus disaster, cyber crime and other helplines.",
+      "news": "Latest on Ichalkaranji: water supply, civic elections and the Panchganga river, as dated summaries that link to each published report.",
+      "data": "Ichalkaranji city data dashboard: population, area, powerlooms and more, with previous figures, change, status and source. Download as CSV.",
+      "directory": "Public offices for Ichalkaranji — municipal corporation, district collectorate, tahsil, police, electricity and post — and where to find contacts.",
+      "gallery": "Photo gallery of Ichalkaranji, showing only openly licensed, credited photographs. See what a photo needs and where to find free images.",
+      "faq": "Answers to common questions about Ichalkaranji: population, nearest station and airport, best time to visit, and how this independent portal works.",
+      "sources": "Every source cited on the Ichalkaranji portal, the pages that use it and how figures are labelled official, secondary, estimate or awaited.",
+      "privacy": "Privacy on the Ichalkaranji portal: no accounts, payments or tracking — only a language cookie and theme setting. What third parties see.",
+      "terms": "Terms of use for the independent Ichalkaranji portal: information as-is, links to official sites, and licences for map, weather and text.",
+      "accessibility": "Accessibility statement for the Ichalkaranji portal: WCAG 2.1 AA target in English, Marathi and Hindi, built-in features and known limits.",
+      "contact": "Contact the team behind the independent Ichalkaranji portal about corrections or accessibility, and find official portals for civic complaints."
+    },
+    "siteName": "Ichalkaranji City Portal",
+    "ogAlt": "Ichalkaranji — The Manchester of Maharashtra. Independent trilingual city portal."
   },
   "weather": {
     "codes": {

@@ -73,22 +73,24 @@ export function SourceBadge({ id, title, details, labels }: { id: string; title:
         </div>
 
         <dl className="mt-4 space-y-3 text-sm">
+          {details.source && (
           <div>
             <dt className="text-xs font-semibold uppercase tracking-wide text-fg-muted">{labels.source}</dt>
             <dd className="mt-0.5">
               {details.sourceUrl ? (
                 <a href={details.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-start gap-1 text-primary underline-offset-2 hover:underline">
-                  <span>{details.source}</span>
+                  <span lang="en">{details.source}</span>
                   <ExternalLink className="mt-0.5 h-3.5 w-3.5 shrink-0" aria-hidden="true" />
                   <span className="sr-only">({labels.externalLink})</span>
                 </a>
               ) : (
                 <span>
-                  {details.source} <span className="text-fg-muted">· {labels.noLink}</span>
+                  <span lang="en">{details.source}</span> <span className="text-fg-muted">· {labels.noLink}</span>
                 </span>
               )}
             </dd>
           </div>
+          )}
           {details.method && (
             <div>
               <dt className="text-xs font-semibold uppercase tracking-wide text-fg-muted">{labels.method}</dt>

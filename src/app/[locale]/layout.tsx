@@ -32,12 +32,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "seo" });
 
   return {
-    ...buildMetadata({ locale, path: "/", title: t("homeTitle"), description: t("homeDescription") }),
+    ...buildMetadata({
+      locale,
+      path: "/",
+      title: t("homeTitle"),
+      description: t("homeDescription"),
+      siteName: t("siteName"),
+      imageAlt: t("ogAlt"),
+    }),
     metadataBase: new URL(siteConfig.url),
     // Set after the spread so child pages inherit the "%s | City Portal" template.
     title: { default: t("homeTitle"), template: t("titleTemplate") },
     keywords: t("keywords").split(",").map((k) => k.trim()),
-    applicationName: "Ichalkaranji City Portal",
+    applicationName: t("siteName"),
+    manifest: `/${locale}/manifest.webmanifest`,
     formatDetection: { telephone: false },
   };
 }
@@ -57,7 +65,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale, namespace: "seo" });
-  const jsonLd = siteJsonLd(locale as Locale, t("homeTitle"), t("homeDescription"));
+  const jsonLd = siteJsonLd(locale as Locale, t("homeTitle"), t("homeDescription"), t("siteName"));
 
   return (
     <html lang={localeLabels[locale].htmlLang} suppressHydrationWarning>

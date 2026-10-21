@@ -5,7 +5,11 @@
     "label": "c. 1708",
     "era": "princely",
     "status": "unverified",
-    "title": { "en": "Naro Mahadev makes Ichalkaranji his seat", "mr": "नारो महादेव यांनी इचलकरंजीला मुख्य ठिकाण केले", "hi": "नारो महादेव ने इचलकरंजी को अपना मुख्यालय बनाया" },
+    "title": {
+      "en": "Naro Mahadev makes Ichalkaranji his seat",
+      "mr": "नारो महादेव यांनी इचलकरंजीला मुख्य ठिकाण केले",
+      "hi": "नारो महादेव ने इचलकरंजी को अपना मुख्यालय बनाया"
+    },
     "body": {
       "en": "The founder of the Ichalkaranji Ghorpade line is said to have made the town the capital of his estates. The year comes from a secondary source and awaits confirmation in the Kolhapur District Gazetteer.",
       "mr": "इचलकरंजीच्या घोरपडे घराण्याच्या संस्थापकांनी हे गाव आपल्या जहागिरीची राजधानी केल्याचे सांगितले जाते. हे वर्ष दुय्यम स्रोतातून घेतले असून कोल्हापूर जिल्हा गॅझेटियरमधून पडताळणी बाकी आहे.",
@@ -20,7 +24,11 @@
     "label": "1849",
     "era": "culture",
     "status": "secondary",
-    "title": { "en": "Balakrishnabuwa Ichalkaranjikar is born", "mr": "बाळकृष्णबुवा इचलकरंजीकर यांचा जन्म", "hi": "बालकृष्णबुवा इचलकरंजीकर का जन्म" },
+    "title": {
+      "en": "Balakrishnabuwa Ichalkaranjikar is born",
+      "mr": "बाळकृष्णबुवा इचलकरंजीकर यांचा जन्म",
+      "hi": "बालकृष्णबुवा इचलकरंजीकर का जन्म"
+    },
     "body": {
       "en": "The khayal singer who later brought the Gwalior gharana to Maharashtra (d. 1926). Sources differ on whether he was born in the town or in nearby Bedag.",
       "mr": "पुढे ग्वाल्हेर घराणे महाराष्ट्रात आणणारे ख्याल गायक (मृत्यू 1926). त्यांचा जन्म गावात की जवळच्या बेडग येथे, याबाबत स्रोतांत मतभेद आहेत.",
@@ -35,7 +43,11 @@
     "label": "1892",
     "era": "princely",
     "status": "secondary",
-    "title": { "en": "Narayanrao Babasaheb Ghorpade becomes chief", "mr": "नारायणराव बाबासाहेब घोरपडे जहागीरदार बनले", "hi": "नारायणराव बाबासाहेब घोरपड़े शासक बने" },
+    "title": {
+      "en": "Narayanrao Babasaheb Ghorpade becomes chief",
+      "mr": "नारायणराव बाबासाहेब घोरपडे जहागीरदार बनले",
+      "hi": "नारायणराव बाबासाहेब घोरपड़े शासक बने"
+    },
     "body": {
       "en": "His rule (1892–1943) is credited with encouraging trade, industry and the cooperative movement.",
       "mr": "त्यांच्या कारकिर्दीत (1892–1943) व्यापार, उद्योग आणि सहकार चळवळीला प्रोत्साहन मिळाल्याचे मानले जाते.",
@@ -50,7 +62,11 @@
     "label": "1893 / 1904",
     "era": "civic",
     "status": "disputed",
-    "title": { "en": "Municipal council founded", "mr": "नगरपरिषदेची स्थापना", "hi": "नगर परिषद की स्थापना" },
+    "title": {
+      "en": "Municipal council founded",
+      "mr": "नगरपरिषदेची स्थापना",
+      "hi": "नगर परिषद की स्थापना"
+    },
     "body": {
       "en": "Most sources give 1904; one gives 1893. Shown as disputed until the corporation's own history confirms the year.",
       "mr": "बहुतेक स्रोत 1904 सांगतात; एक स्रोत 1893. महानगरपालिकेच्या अधिकृत इतिहासातून निश्चिती होईपर्यंत वादग्रस्त म्हणून दाखवले आहे.",
@@ -65,7 +81,11 @@
     "label": "1904",
     "era": "industry",
     "status": "secondary",
-    "title": { "en": "The first powerloom", "mr": "पहिला यंत्रमाग", "hi": "पहला पावरलूम" },
+    "title": {
+      "en": "The first powerloom",
+      "mr": "पहिला यंत्रमाग",
+      "hi": "पहला पावरलूम"
+    },
     "body": {
       "en": "Vitthalrao Datar installs the town's first powerloom with the ruler's support — the start of the textile city.",
       "mr": "विठ्ठलराव दातार यांनी जहागीरदारांच्या पाठिंब्याने गावातील पहिला यंत्रमाग बसवला — वस्त्रनगरीची सुरुवात.",
@@ -80,7 +100,11 @@
     "label": "1929",
     "era": "culture",
     "status": "official",
-    "title": { "en": "\"The Story of Ichalkaranji\" is published", "mr": "'द स्टोरी ऑफ इचलकरंजी' प्रकाशित", "hi": "'द स्टोरी ऑफ़ इचलकरंजी' प्रकाशित" },
+    "title": {
+      "en": "\"The Story of Ichalkaranji\" is published",
+      "mr": "'द स्टोरी ऑफ इचलकरंजी' प्रकाशित",
+      "hi": "'द स्टोरी ऑफ़ इचलकरंजी' प्रकाशित"
+    },
     "body": {
       "en": "H. G. Franks's history of the town, now freely readable online — a primary reference for this page.",
       "mr": "एच. जी. फ्रँक्स यांचा गावाचा इतिहास, आता ऑनलाइन मोफत वाचता येतो — या पानाचा प्राथमिक संदर्भ.",
@@ -95,7 +119,11 @@
     "label": "1930",
     "era": "culture",
     "status": "secondary",
-    "title": { "en": "A state music school opens", "mr": "संस्थानाची संगीत शाळा सुरू", "hi": "राज्य संगीत विद्यालय की स्थापना" },
+    "title": {
+      "en": "A state music school opens",
+      "mr": "संस्थानाची संगीत शाळा सुरू",
+      "hi": "राज्य संगीत विद्यालय की स्थापना"
+    },
     "body": {
       "en": "Founded by Narayanrao Ghorpade. Keshavbuwa Ingale served as court singer and taught there from 1931 to 1950.",
       "mr": "नारायणराव घोरपडे यांनी स्थापन केली. केशवबुवा इंगळे 1931 ते 1950 दरबार गायक होते व येथे शिकवत.",
@@ -110,7 +138,11 @@
     "label": "1949",
     "era": "princely",
     "status": "secondary",
-    "title": { "en": "The jagir joins the Indian Union", "mr": "जहागीर भारतीय संघराज्यात विलीन", "hi": "जागीर भारतीय संघ में विलय" },
+    "title": {
+      "en": "The jagir joins the Indian Union",
+      "mr": "जहागीर भारतीय संघराज्यात विलीन",
+      "hi": "जागीर भारतीय संघ में विलय"
+    },
     "body": {
       "en": "Ghorpade rule over Ichalkaranji ends with the merger of the princely territories.",
       "mr": "संस्थानांच्या विलीनीकरणासोबत इचलकरंजीवरील घोरपडे राजवट संपली.",
@@ -125,7 +157,11 @@
     "label": "1954",
     "era": "industry",
     "status": "secondary",
-    "title": { "en": "\"Little Manchester of Maharashtra\"", "mr": "'महाराष्ट्राचे छोटे मँचेस्टर'", "hi": "'महाराष्ट्र का छोटा मैनचेस्टर'" },
+    "title": {
+      "en": "\"Little Manchester of Maharashtra\"",
+      "mr": "'महाराष्ट्राचे छोटे मँचेस्टर'",
+      "hi": "'महाराष्ट्र का छोटा मैनचेस्टर'"
+    },
     "body": {
       "en": "The town counts 1,521 powerlooms and 1,409 handlooms and is already known by the nickname.",
       "mr": "गावात 1,521 यंत्रमाग आणि 1,409 हातमाग; हे टोपणनाव तेव्हाच रूढ झाले होते.",
@@ -140,7 +176,11 @@
     "label": "1962",
     "era": "industry",
     "status": "official",
-    "title": { "en": "Cooperative bank and spinning mill", "mr": "सहकारी बँक आणि सूतगिरणी", "hi": "सहकारी बैंक और कताई मिल" },
+    "title": {
+      "en": "Cooperative bank and spinning mill",
+      "mr": "सहकारी बँक आणि सूतगिरणी",
+      "hi": "सहकारी बैंक और कताई मिल"
+    },
     "body": {
       "en": "Dattajirao Kadam's Ichalkaranji Janata Sahakari Bank is registered on 5 November. The Deccan Co-operative Spinning Mill is founded the same year; the claim that it was Asia's first is unverified, and a university study records its later closure.",
       "mr": "दत्ताजीराव कदम यांच्या इचलकरंजी जनता सहकारी बँकेची 5 नोव्हेंबर रोजी नोंदणी. त्याच वर्षी डेक्कन को-ऑपरेटिव्ह स्पिनिंग मिलची स्थापना; ती आशियातील पहिली असल्याचा दावा अपडताळलेला असून विद्यापीठ अभ्यासात तिच्या नंतरच्या बंद पडण्याची नोंद आहे.",
@@ -155,7 +195,11 @@
     "label": "1978",
     "era": "civic",
     "status": "official",
-    "title": { "en": "Ichalkaranji assembly seat created", "mr": "इचलकरंजी विधानसभा मतदारसंघ स्थापन", "hi": "इचलकरंजी विधानसभा क्षेत्र का गठन" },
+    "title": {
+      "en": "Ichalkaranji assembly seat created",
+      "mr": "इचलकरंजी विधानसभा मतदारसंघ स्थापन",
+      "hi": "इचलकरंजी विधानसभा क्षेत्र का गठन"
+    },
     "body": {
       "en": "The constituency elects its first MLA in 1978.",
       "mr": "मतदारसंघाने 1978 मध्ये पहिले आमदार निवडले.",
@@ -170,7 +214,11 @@
     "label": "1981–82",
     "era": "industry",
     "status": "secondary",
-    "title": { "en": "DKTE textile institute opens", "mr": "डीकेटीई वस्त्र संस्था सुरू", "hi": "डीकेटीई वस्त्र संस्थान की शुरुआत" },
+    "title": {
+      "en": "DKTE textile institute opens",
+      "mr": "डीकेटीई वस्त्र संस्था सुरू",
+      "hi": "डीकेटीई वस्त्र संस्थान की शुरुआत"
+    },
     "body": {
       "en": "Local cooperatives form the Dattajirao Kadam education society in 1981; its Textile & Engineering Institute starts a textile diploma in 1982. Shahapur is merged into the municipal area the same year.",
       "mr": "स्थानिक सहकारी संस्थांनी 1981 मध्ये दत्ताजीराव कदम शिक्षण संस्था स्थापन केली; तिच्या वस्त्र व अभियांत्रिकी संस्थेत 1982 मध्ये वस्त्र पदविका सुरू झाली. त्याच वर्षी शहापूर नगरपरिषद हद्दीत समाविष्ट झाले.",
@@ -185,7 +233,11 @@
     "label": "2018",
     "era": "industry",
     "status": "secondary",
-    "title": { "en": "Over 1.5 lakh powerlooms", "mr": "1.5 लाखांहून अधिक यंत्रमाग", "hi": "1.5 लाख से अधिक पावरलूम" },
+    "title": {
+      "en": "Over 1.5 lakh powerlooms",
+      "mr": "1.5 लाखांहून अधिक यंत्रमाग",
+      "hi": "1.5 लाख से अधिक पावरलूम"
+    },
     "body": {
       "en": "The powerloom export council puts the cluster at over 150,000 looms and 35 spinning mills.",
       "mr": "यंत्रमाग निर्यात प्रोत्साहन परिषदेनुसार क्लस्टरमध्ये 1,50,000 हून अधिक माग आणि 35 सूतगिरण्या.",
@@ -200,14 +252,18 @@
     "label": "2022",
     "era": "civic",
     "status": "official",
-    "title": { "en": "Upgraded to a Municipal Corporation", "mr": "महानगरपालिकेचा दर्जा", "hi": "महानगरपालिका का दर्जा" },
+    "title": {
+      "en": "Upgraded to a Municipal Corporation",
+      "mr": "महानगरपालिकेचा दर्जा",
+      "hi": "महानगरपालिका का दर्जा"
+    },
     "body": {
       "en": "A state government resolution of 5 May 2022 makes Ichalkaranji a municipal corporation, run by an appointed commissioner until elections.",
       "mr": "5 मे 2022 च्या शासन निर्णयाने इचलकरंजी महानगरपालिका झाली; निवडणुकीपर्यंत कारभार नियुक्त आयुक्तांकडे.",
       "hi": "5 मई 2022 के राज्य शासन निर्णय से इचलकरंजी महानगरपालिका बनी; चुनाव तक प्रशासन नियुक्त आयुक्त के पास रहा।"
     },
     "source": "Wikipedia: Ichalkaranji (citing state GR)",
-    "sourceUrl": "https://www.Wikipedia.com/wiki/Ichalkaranji"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji"
   },
   {
     "id": "2026-election",
@@ -215,7 +271,11 @@
     "label": "2026",
     "era": "civic",
     "status": "official",
-    "title": { "en": "First corporation election and first mayor", "mr": "महानगरपालिकेची पहिली निवडणूक व पहिले महापौर", "hi": "महानगरपालिका का पहला चुनाव और पहले महापौर" },
+    "title": {
+      "en": "First corporation election and first mayor",
+      "mr": "महानगरपालिकेची पहिली निवडणूक व पहिले महापौर",
+      "hi": "महानगरपालिका का पहला चुनाव और पहले महापौर"
+    },
     "body": {
       "en": "Polling on 15 January; the BJP-led Mahayuti wins 47 of 65 seats. Uday Dhatunde (BJP) is elected the first mayor, unopposed, in February.",
       "mr": "15 जानेवारीला मतदान; भाजपप्रणीत महायुतीला 65 पैकी 47 जागा. फेब्रुवारीत उदय धातुंडे (भाजप) पहिले महापौर म्हणून बिनविरोध निवडले गेले.",

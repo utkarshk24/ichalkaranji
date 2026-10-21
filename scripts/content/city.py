@@ -108,7 +108,7 @@ page("education",
      "items": [L("Schools by medium (Marathi, English, Urdu, Kannada)", "माध्यमनिहाय शाळा (मराठी, इंग्रजी, उर्दू, कन्नड)", "माध्यमवार स्कूल (मराठी, अंग्रेज़ी, उर्दू, कन्नड़)"), L("Arts, science and commerce colleges", "कला, विज्ञान व वाणिज्य महाविद्यालये", "कला, विज्ञान और वाणिज्य कॉलेज"), L("Law college", "विधी महाविद्यालय", "विधि महाविद्यालय"), L("ITIs and polytechnics", "आयटीआय व तंत्रनिकेतने", "आईटीआई और पॉलिटेक्निक"), L("Public libraries", "सार्वजनिक ग्रंथालये", "सार्वजनिक पुस्तकालय")]},
     {"type": "links", "id": "official", "title": L("Official education portals", "अधिकृत शिक्षण पोर्टल", "आधिकारिक शिक्षा पोर्टल"), "items": [
       {"title": L("UDISE+ school directory", "UDISE+ शाळा निर्देशिका", "UDISE+ स्कूल निर्देशिका"), "href": "https://udiseplus.gov.in", "body": L("National school data.", "राष्ट्रीय शाळा माहिती.", "राष्ट्रीय स्कूल आँकड़े।")},
-      {"title": L("Shivaji University, Kolhapur", "शिवाजी विद्यापीठ, कोल्हापूर", "शिवाजी विश्वविद्यालय, कोल्हापुर"), "href": "https://www.unishivaji.ac.in", "body": L("Affiliating university for the district.", "जिल्ह्याचे संलग्नता विद्यापीठ.", "ज़िले का संबद्धता विश्वविद्यालय।")},
+      {"title": L("Shivaji University, Kolhapur", "शिवाजी विद्यापीठ, कोल्हापूर", "शिवाजी विश्वविद्यालय, कोल्हापुर"), "href": "https://www.unishivaji.ac.in", "body": L("Affiliating university for the district.", "जिल्ह्याचे संलग्नता विद्यापीठ.", "जिले का संबद्धता विश्वविद्यालय।")},
     ]},
   ])
 
@@ -120,8 +120,8 @@ page("health",
   [
     {"type": "emergency", "id": "numbers", "title": L("In an emergency", "आपत्कालीन स्थितीत", "आपात स्थिति में"), "lead": L("Call 108 for an ambulance or 112 for any emergency. Calls are free.", "रुग्णवाहिकेसाठी 108 किंवा कोणत्याही आपत्कालीन स्थितीसाठी 112 वर कॉल करा. कॉल मोफत आहेत.", "एम्बुलेंस के लिए 108 या किसी भी आपात स्थिति के लिए 112 पर कॉल करें। कॉल निःशुल्क हैं।")},
     {"type": "awaited", "id": "facilities", "title": L("Facilities being verified", "पडताळणीतील सुविधा", "सत्यापनाधीन सुविधाएँ"),
-     "lead": L("From the corporation and the Kolhapur district health office.", "महापालिका व कोल्हापूर जिल्हा आरोग्य कार्यालयाकडून.", "महानगरपालिका और कोल्हापुर ज़िला स्वास्थ्य कार्यालय से।"),
-     "items": [L("Indira Gandhi Memorial (IGM) hospital: ownership, departments and beds", "इंदिरा गांधी स्मृती (IGM) रुग्णालय: मालकी, विभाग व खाटा", "इंदिरा गांधी स्मृति (IGM) अस्पताल: स्वामित्व, विभाग और बिस्तर"), L("Municipal hospitals and urban health posts", "महापालिका रुग्णालये व नागरी आरोग्य केंद्रे", "नगर निगम अस्पताल और शहरी स्वास्थ्य केंद्र"), L("Private hospitals and blood banks", "खासगी रुग्णालये व रक्तपेढ्या", "निजी अस्पताल और ब्लड बैंक"), L("24-hour pharmacies", "24 तास औषधालये", "24 घंटे दवा दुकानें"), L("Vaccination centres", "लसीकरण केंद्रे", "टीकाकरण केंद्र")]},
+     "lead": L("From the corporation and the Kolhapur district health office.", "महापालिका व कोल्हापूर जिल्हा आरोग्य कार्यालयाकडून.", "महानगरपालिका और कोल्हापुर जिला स्वास्थ्य कार्यालय से।"),
+     "items": [L("Indira Gandhi Memorial (IGM) hospital: ownership, departments and beds", "इंदिरा गांधी स्मृती (IGM) रुग्णालय: मालकी, विभाग व खाटा", "इंदिरा गांधी स्मृति (IGM) अस्पताल: स्वामित्व, विभाग और बिस्तर"), L("Municipal hospitals and urban health posts", "महापालिका रुग्णालये व नागरी आरोग्य केंद्रे", "महानगरपालिका अस्पताल और शहरी स्वास्थ्य केंद्र"), L("Private hospitals and blood banks", "खासगी रुग्णालये व रक्तपेढ्या", "निजी अस्पताल और ब्लड बैंक"), L("24-hour pharmacies", "24 तास औषधालये", "24 घंटे दवा दुकानें"), L("Vaccination centres", "लसीकरण केंद्रे", "टीकाकरण केंद्र")]},
     {"type": "links", "id": "official", "title": L("Official health services", "अधिकृत आरोग्य सेवा", "आधिकारिक स्वास्थ्य सेवाएँ"), "items": [
       {"title": L("Public Health Department, Maharashtra", "सार्वजनिक आरोग्य विभाग, महाराष्ट्र", "सार्वजनिक स्वास्थ्य विभाग, महाराष्ट्र"), "href": "https://arogya.maharashtra.gov.in", "body": L("State health schemes and facilities.", "राज्य आरोग्य योजना व सुविधा.", "राज्य स्वास्थ्य योजनाएँ और सुविधाएँ।")},
       {"title": L("Ayushman Bharat (PM-JAY)", "आयुष्मान भारत (PM-JAY)", "आयुष्मान भारत (PM-JAY)"), "href": "https://pmjay.gov.in", "body": L("Check eligibility and empanelled hospitals.", "पात्रता व संलग्न रुग्णालये तपासा.", "पात्रता और सूचीबद्ध अस्पताल देखें।")},
@@ -168,7 +168,7 @@ page("emergency",
      "columns": [L("Service", "सेवा", "सेवा"), L("Number", "क्रमांक", "नंबर")],
      "rows": [
        [L("Women's helpline (police)", "महिला हेल्पलाइन (पोलीस)", "महिला हेल्पलाइन (पुलिस)"), L("1091", "1091", "1091")],
-       [L("Disaster management (district control room)", "आपत्ती व्यवस्थापन (जिल्हा नियंत्रण कक्ष)", "आपदा प्रबंधन (ज़िला नियंत्रण कक्ष)"), L("1077", "1077", "1077")],
+       [L("Disaster management (district control room)", "आपत्ती व्यवस्थापन (जिल्हा नियंत्रण कक्ष)", "आपदा प्रबंधन (जिला नियंत्रण कक्ष)"), L("1077", "1077", "1077")],
        [L("Senior citizens' helpline", "ज्येष्ठ नागरिक हेल्पलाइन", "वरिष्ठ नागरिक हेल्पलाइन"), L("14567", "14567", "14567")],
        [L("Cyber crime", "सायबर गुन्हे", "साइबर अपराध"), L("1930", "1930", "1930")],
        [L("Medical advice (Government of Maharashtra)", "वैद्यकीय सल्ला (महाराष्ट्र शासन)", "चिकित्सा सलाह (महाराष्ट्र सरकार)"), L("104", "104", "104")],
@@ -178,5 +178,5 @@ page("emergency",
     {"type": "awaited", "id": "local", "title": L("Local numbers being verified", "पडताळणीतील स्थानिक क्रमांक", "सत्यापनाधीन स्थानीय नंबर"),
      "lead": L("Until verified, use 112 or the corporation's official website.", "पडताळणी होईपर्यंत 112 किंवा महापालिकेचे अधिकृत संकेतस्थळ वापरा.", "सत्यापन तक 112 या महानगरपालिका की आधिकारिक वेबसाइट का उपयोग करें।"),
      "items": [L("Police stations in the city", "शहरातील पोलीस ठाणी", "शहर के पुलिस थाने"), L("Corporation fire station", "महापालिका अग्निशमन केंद्र", "महानगरपालिका अग्निशमन केंद्र"), L("Flood control room", "पूर नियंत्रण कक्ष", "बाढ़ नियंत्रण कक्ष"), L("Hospitals with 24-hour casualty", "24 तास अपघात विभाग असलेली रुग्णालये", "24 घंटे आपातकालीन विभाग वाले अस्पताल")]},
-    {"type": "callout", "id": "flood", "tone": "warning", "body": L("During monsoon floods on the Panchganga, follow instructions from the district administration and avoid river ghats and low-lying roads.", "पंचगंगेच्या पावसाळी पुराच्या वेळी जिल्हा प्रशासनाच्या सूचनांचे पालन करा आणि नदीघाट व सखल रस्ते टाळा.", "पंचगंगा में मानसूनी बाढ़ के दौरान ज़िला प्रशासन के निर्देशों का पालन करें और नदी घाटों व निचली सड़कों से बचें।")},
+    {"type": "callout", "id": "flood", "tone": "warning", "body": L("During monsoon floods on the Panchganga, follow instructions from the district administration and avoid river ghats and low-lying roads.", "पंचगंगेच्या पावसाळी पुराच्या वेळी जिल्हा प्रशासनाच्या सूचनांचे पालन करा आणि नदीघाट व सखल रस्ते टाळा.", "पंचगंगा में मानसूनी बाढ़ के दौरान जिला प्रशासन के निर्देशों का पालन करें और नदी घाटों व निचली सड़कों से बचें।")},
   ])

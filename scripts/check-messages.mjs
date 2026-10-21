@@ -44,6 +44,11 @@ for (const file of [...scan("../messages/"), ...scan("../data/")]) {
     console.error(`${file.replace("../", "")}: uses Devanagari digits — use Western digits (0-9)`);
     failed = true;
   }
+  // Glossary spellings (docs/glossary.md): Hindi "जिला", not "ज़िला".
+  if (/ज़िल/.test(text)) {
+    console.error(`${file.replace("../", "")}: use "जिला/जिले" (docs/glossary.md), not "ज़िला"`);
+    failed = true;
+  }
   // ICU "#" is formatted with the locale's own numerals (Devanagari for mr); write {count} instead.
   if (file.includes("messages/") && /plural,[^"]*#/.test(text)) {
     console.error(`${file.replace("../", "")}: plural uses "#" — write {count} so digits stay Western`);

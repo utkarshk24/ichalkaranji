@@ -104,7 +104,7 @@ export default function LeafletLayers({
               <p className="mt-1 text-[11px]">
                 {labels.source}:{" "}
                 <a href={p.sourceUrl} target="_blank" rel="noopener noreferrer">
-                  {p.source}
+                  <span lang="en">{p.source}</span>
                 </a>
               </p>
             </div>

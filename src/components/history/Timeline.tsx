@@ -112,7 +112,7 @@ export function Timeline({ items }: { items: TimelineItem[] }) {
                   rel="noopener noreferrer"
                   className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-primary hover:underline"
                 >
-                  {item.source}
+                  <span lang="en">{item.source}</span>
                   <ExternalLink className="h-3 w-3" aria-hidden="true" />
                   <span className="sr-only">({tFooter("externalLink")})</span>
                 </a>

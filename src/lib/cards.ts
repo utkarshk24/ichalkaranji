@@ -43,7 +43,7 @@ export async function indicatorCard(id: string, locale: Locale, year?: number): 
       scope,
       source: point.source,
       sourceUrl: point.sourceUrl,
-      method: point.method || undefined,
+      method: point.method?.[locale],
       note: indicator.note?.[locale],
       checked: t("common.retrieved", { date: formatDate(point.retrieved, locale) }),
     },

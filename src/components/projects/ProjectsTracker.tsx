@@ -122,7 +122,7 @@ export function ProjectsTracker({ projects, labels }: { projects: TrackerProject
                 <div className="mt-auto pt-3 text-xs">
                   {p.sourceUrl ? (
                     <a href={p.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 font-medium text-primary hover:underline">
-                      {labels.source}: {p.source}
+                      {labels.source}: <span lang="en">{p.source}</span>
                       <ExternalLink className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
                       <span className="sr-only">({labels.externalLink})</span>
                     </a>

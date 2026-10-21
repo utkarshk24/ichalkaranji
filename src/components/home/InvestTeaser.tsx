@@ -53,7 +53,7 @@ export async function InvestTeaser() {
                 </span>
                 {point.sourceUrl && (
                   <a href={point.sourceUrl} target="_blank" rel="noopener noreferrer" className="mt-1 block text-[11px] text-white/60 hover:underline">
-                    {t("common.source")}: {point.source}
+                    {t("common.source")}: <span lang="en">{point.source}</span>
                   </a>
                 )}
               </dd>

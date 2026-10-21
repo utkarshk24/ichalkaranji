@@ -18,13 +18,13 @@ function CiteLink({ cite, label, external }: { cite: Partial<Cite>; label: strin
   if (!cite.source) return null;
   return cite.sourceUrl ? (
     <a href={cite.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs text-fg-muted hover:underline">
-      {label}: {cite.source}
+      {label}: <span lang="en">{cite.source}</span>
       <ExternalLink className="h-3 w-3" aria-hidden="true" />
       <span className="sr-only">({external})</span>
     </a>
   ) : (
     <span className="text-xs text-fg-muted">
-      {label}: {cite.source}
+      {label}: <span lang="en">{cite.source}</span>
     </span>
   );
 }

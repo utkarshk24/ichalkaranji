@@ -22,14 +22,19 @@ type PageMetaInput = {
   path: string;
   title: string;
   description: string;
+  /** Localized portal name for og:site_name (seo.siteName). */
+  siteName: string;
+  /** Alt text for the social image (seo.ogAlt). */
+  imageAlt: string;
   /** Use the title as-is, without the site-wide "%s | …" template (home page). */
   absoluteTitle?: boolean;
+  /** Defaults to the locale's social card, /og/<locale>.png. */
   image?: string;
 };
 
-export function buildMetadata({ locale, path, title, description, absoluteTitle, image }: PageMetaInput): Metadata {
+export function buildMetadata({ locale, path, title, description, siteName, imageAlt, absoluteTitle, image }: PageMetaInput): Metadata {
   const url = absoluteUrl(locale, path);
-  const ogImage = image ?? `${siteConfig.url}/og-default.png`;
+  const ogImage = image ?? `${siteConfig.url}/og/${locale}.png`;
   return {
     title: absoluteTitle ? { absolute: title } : title,
     description,
@@ -39,23 +44,24 @@ export function buildMetadata({ locale, path, title, description, absoluteTitle,
       url,
       title,
       description,
-      siteName: "Ichalkaranji City Portal",
+      siteName,
       locale: localeLabels[locale].ogLocale,
       alternateLocale: routing.locales.filter((l) => l !== locale).map((l) => localeLabels[l].ogLocale),
-      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: imageAlt }],
     },
-    twitter: { card: "summary_large_image", title, description, images: [ogImage] },
+    twitter: { card: "summary_large_image", title, description, images: [{ url: ogImage, alt: imageAlt }] },
   };
 }
 
 /** Site-wide JSON-LD: the portal is an independent Organization, not a GovernmentOrganization. */
-export function siteJsonLd(locale: Locale, name: string, description: string) {
+export function siteJsonLd(locale: Locale, name: string, description: string, siteName: string) {
   return [
     {
       "@context": "https://schema.org",
       "@type": "Organization",
       "@id": `${siteConfig.url}/#organization`,
       name: "Ichalkaranji City Portal",
+      alternateName: siteName === "Ichalkaranji City Portal" ? undefined : siteName,
       url: siteConfig.url,
       logo: `${siteConfig.url}/icon.svg`,
       description,
@@ -95,8 +101,15 @@ export function cityJsonLd(locale: Locale, name: string, description: string) {
   };
 }
 
-/** Metadata for a section route from its routes.<route> title/description in the active locale. */
+/** Metadata for a section route: routes.<route>.title plus the longer seo.routes.<route> search description. */
 export async function routeMetadata(locale: Locale, route: SectionRoute): Promise<Metadata> {
-  const t = await getTranslations({ locale, namespace: "routes" });
-  return buildMetadata({ locale, path: `/${route}`, title: t(`${route}.title`), description: t(`${route}.description`) });
+  const t = await getTranslations({ locale });
+  return buildMetadata({
+    locale,
+    path: `/${route}`,
+    title: t(`routes.${route}.title`),
+    description: t(`seo.routes.${route}`),
+    siteName: t("seo.siteName"),
+    imageAlt: t("seo.ogAlt"),
+  });
 }

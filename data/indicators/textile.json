@@ -19,7 +19,7 @@
         "status": "secondary",
         "source": "Arthavijnana journal: The Weaving Industry of Ichalkaranji",
         "sourceUrl": "https://www.i-scholar.in/index.php/ArthaVij/article/view/116972",
-        "method": "",
+        "method": null,
         "retrieved": "2026-10-21"
       },
       {
@@ -28,7 +28,11 @@
         "status": "estimate",
         "source": "PDEXCIL via Textile Excellence",
         "sourceUrl": "https://news.textileexcellence.com/iitexpo-ichalkaranji-2018-to-promote-textile-requirements",
-        "method": "Industry body figure stated as 'over 150,000'.",
+        "method": {
+          "en": "Industry body figure, stated as “over 1,50,000”.",
+          "mr": "उद्योग संस्थेचा आकडा, “1,50,000 हून अधिक” असा नमूद.",
+          "hi": "उद्योग संगठन का आँकड़ा, “1,50,000 से अधिक” के रूप में बताया गया।"
+        },
         "retrieved": "2026-10-21"
       }
     ],
@@ -58,7 +62,7 @@
         "status": "official",
         "source": "Lok Sabha, matter raised by MP Dhairyasheel Mane",
         "sourceUrl": "https://eparlib.sansad.in/bitstream/123456789/1039638/1/8393.pdf",
-        "method": "",
+        "method": null,
         "retrieved": "2026-10-21"
       }
     ]
@@ -83,7 +87,7 @@
         "status": "secondary",
         "source": "PDEXCIL via Textile Excellence",
         "sourceUrl": "https://news.textileexcellence.com/iitexpo-ichalkaranji-2018-to-promote-textile-requirements",
-        "method": "",
+        "method": null,
         "retrieved": "2026-10-21"
       }
     ]
@@ -108,7 +112,11 @@
         "status": "estimate",
         "source": "Apparel Resources",
         "sourceUrl": "https://apparelresources.com/business-news/manufacturing/ichalkaranjis-big-shift-greige-hub-value-added-powerhouse/",
-        "method": "Trade press figure; reference year approximate.",
+        "method": {
+          "en": "Trade press figure; reference year approximate.",
+          "mr": "व्यापार नियतकालिकातील आकडा; संदर्भ वर्ष अंदाजे.",
+          "hi": "व्यापार पत्रिका का आँकड़ा; संदर्भ वर्ष अनुमानित।"
+        },
         "retrieved": "2026-10-21"
       }
     ]
@@ -131,9 +139,13 @@
         "year": 2025,
         "value": null,
         "status": "awaited",
-        "source": "No official city-level estimate",
+        "source": "",
         "sourceUrl": "",
-        "method": "",
+        "method": {
+          "en": "No official city-level estimate of economic output exists.",
+          "mr": "शहराच्या आर्थिक उत्पादनाचा अधिकृत अंदाज उपलब्ध नाही.",
+          "hi": "शहर के आर्थिक उत्पादन का कोई आधिकारिक अनुमान उपलब्ध नहीं है।"
+        },
         "retrieved": "2026-10-21"
       }
     ],
@@ -162,7 +174,7 @@
         "status": "official",
         "source": "Lok Sabha, matter raised by MP Dhairyasheel Mane",
         "sourceUrl": "https://eparlib.sansad.in/bitstream/123456789/1039638/1/8393.pdf",
-        "method": "",
+        "method": null,
         "retrieved": "2026-10-21"
       }
     ]
@@ -187,7 +199,7 @@
         "status": "official",
         "source": "Lok Sabha, matter raised by MP Dhairyasheel Mane",
         "sourceUrl": "https://eparlib.sansad.in/bitstream/123456789/1039638/1/8393.pdf",
-        "method": "",
+        "method": null,
         "retrieved": "2026-10-21"
       }
     ]

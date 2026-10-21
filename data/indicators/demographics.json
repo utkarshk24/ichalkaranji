@@ -19,7 +19,11 @@
         "status": "awaited",
         "source": "Census of India 2001",
         "sourceUrl": "https://censusindia.gov.in",
-        "method": "Secondary sources disagree (257,572 vs 307,572); awaiting the census table.",
+        "method": {
+          "en": "Secondary sources disagree (2,57,572 vs 3,07,572); awaiting the census table.",
+          "mr": "दुय्यम स्रोतांत मतभेद (2,57,572 विरुद्ध 3,07,572); जनगणना तक्त्याची प्रतीक्षा.",
+          "hi": "द्वितीयक स्रोतों में मतभेद (2,57,572 बनाम 3,07,572); जनगणना तालिका की प्रतीक्षा।"
+        },
         "retrieved": "2026-10-21"
       },
       {
@@ -28,7 +32,7 @@
         "status": "official",
         "source": "Census of India 2011 (provisional)",
         "sourceUrl": "https://censusindia.gov.in",
-        "method": "",
+        "method": null,
         "retrieved": "2026-10-21"
       },
       {
@@ -37,7 +41,11 @@
         "status": "estimate",
         "source": "MPCB Panchganga River Action Plan 2025",
         "sourceUrl": "https://mpcb.gov.in/sites/default/files/Establishment%20of%20MPCB/Seniority%20list/2014/Panchaganga%20River%206.0_%20Action%20Plan%202025.pdf",
-        "method": "Planning figure used by MPCB; method not stated.",
+        "method": {
+          "en": "Planning figure used by the pollution control board; method not stated.",
+          "mr": "प्रदूषण नियंत्रण मंडळाने वापरलेला नियोजन आकडा; पद्धत नमूद नाही.",
+          "hi": "प्रदूषण नियंत्रण बोर्ड द्वारा प्रयुक्त योजना आँकड़ा; पद्धति नहीं बताई गई।"
+        },
         "retrieved": "2026-10-21"
       }
     ],
@@ -71,7 +79,7 @@
         "status": "official",
         "source": "Census of India 2011 (provisional)",
         "sourceUrl": "https://censusindia.gov.in",
-        "method": "",
+        "method": null,
         "retrieved": "2026-10-21"
       }
     ]
@@ -94,9 +102,13 @@
         "year": 2011,
         "value": 921,
         "status": "official",
-        "source": "Derived from Census of India 2011 male and female counts",
+        "source": "Census of India 2011 (provisional)",
         "sourceUrl": "https://censusindia.gov.in",
-        "method": "137,879 females ÷ 149,691 males × 1,000",
+        "method": {
+          "en": "Derived from census counts: 1,37,879 females ÷ 1,49,691 males × 1,000.",
+          "mr": "जनगणनेतील संख्यांवरून काढलेले: 1,37,879 स्त्रिया ÷ 1,49,691 पुरुष × 1,000.",
+          "hi": "जनगणना की संख्या से निकाला गया: 1,37,879 महिलाएँ ÷ 1,49,691 पुरुष × 1,000।"
+        },
         "retrieved": "2026-10-21"
       }
     ]
@@ -121,7 +133,7 @@
         "status": "official",
         "source": "Census of India 2011",
         "sourceUrl": "https://censusindia.gov.in",
-        "method": "",
+        "method": null,
         "retrieved": "2026-10-21"
       }
     ]
@@ -144,9 +156,13 @@
         "year": 2011,
         "value": 29.84,
         "status": "secondary",
-        "source": "Municipal limits before the 2022 corporation upgrade",
+        "source": "Wikipedia: Ichalkaranji",
         "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji",
-        "method": "",
+        "method": {
+          "en": "Municipal limits before the 2022 corporation upgrade; current limits awaited.",
+          "mr": "2022 मधील महानगरपालिका दर्जापूर्वीची हद्द; सध्याची हद्द प्रतीक्षेत.",
+          "hi": "2022 में महानगरपालिका बनने से पहले की सीमा; वर्तमान सीमा प्रतीक्षित।"
+        },
         "retrieved": "2026-10-21"
       }
     ],
@@ -174,9 +190,13 @@
         "year": 2011,
         "value": 9637,
         "status": "official",
-        "source": "Derived from Census of India 2011 population and municipal area",
+        "source": "Census of India 2011 (provisional); Wikipedia: Ichalkaranji (area)",
         "sourceUrl": "https://censusindia.gov.in",
-        "method": "287,570 ÷ 29.84 sq km",
+        "method": {
+          "en": "Derived: 2,87,570 persons ÷ 29.84 sq km.",
+          "mr": "काढलेले: 2,87,570 व्यक्ती ÷ 29.84 चौ. किमी.",
+          "hi": "निकाला गया: 2,87,570 व्यक्ति ÷ 29.84 वर्ग किमी।"
+        },
         "retrieved": "2026-10-21"
       }
     ]

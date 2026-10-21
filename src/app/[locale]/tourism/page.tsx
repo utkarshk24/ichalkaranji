@@ -66,7 +66,7 @@ export default async function TourismPage({ params }: Props) {
       </p>
       <p className="mt-3 text-sm text-fg-muted">{place.description[locale]}</p>
       <a href={place.sourceUrl} target="_blank" rel="noopener noreferrer" className="mt-auto inline-flex items-center gap-1 pt-4 text-xs text-fg-muted hover:underline">
-        {t("common.source")}: {place.source}
+        {t("common.source")}: <span lang="en">{place.source}</span>
         <ExternalLink className="h-3 w-3" aria-hidden="true" />
       </a>
     </article>

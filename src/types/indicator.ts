@@ -13,8 +13,8 @@ export interface DataPoint {
   status: DataStatus;
   source: string;
   sourceUrl: string;
-  /** One line explaining how an estimate or derived value was produced. */
-  method: string;
+  /** How an estimate or derived value was produced, or why a figure is awaited (null when a plain count). */
+  method: LocalizedText | null;
   /** ISO date the value was last checked against its source. */
   retrieved: string;
 }

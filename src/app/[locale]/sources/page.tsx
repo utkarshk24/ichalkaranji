@@ -41,13 +41,13 @@ export default async function SourcesPage({ params }: Props) {
         <th scope="row" className="px-4 py-3 font-medium">
           {s.url ? (
             <a href={s.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-start gap-1 text-primary hover:underline">
-              <span>{s.name}</span>
+              <span lang="en">{s.name}</span>
               <ExternalLink className="mt-0.5 h-3.5 w-3.5 shrink-0" aria-hidden="true" />
               <span className="sr-only">({t("footer.externalLink")})</span>
             </a>
           ) : (
             <span>
-              {s.name} <span className="text-xs font-normal text-fg-muted">({t("sourcesPage.noLink")})</span>
+              <span lang="en">{s.name}</span> <span className="text-xs font-normal text-fg-muted">({t("sourcesPage.noLink")})</span>
             </span>
           )}
           {s.url && <span className="mt-0.5 block break-all text-xs font-normal text-fg-muted">{new URL(s.url).hostname.replace(/^www\./, "")}</span>}

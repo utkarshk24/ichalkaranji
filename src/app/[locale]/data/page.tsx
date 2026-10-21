@@ -68,7 +68,7 @@ async function buildRow(indicator: Indicator, locale: Locale): Promise<Dashboard
     change,
     csv: [...indicator.series]
       .sort((a, b) => a.year - b.year)
-      .map((p) => [indicator.id, label, unit, indicator.scope, p.year, p.value ?? "", p.status, p.source, p.sourceUrl, p.method, p.retrieved]),
+      .map((p) => [indicator.id, label, unit, indicator.scope, p.year, p.value ?? "", p.status, p.source, p.sourceUrl, p.method?.[locale] ?? "", p.retrieved]),
     chart,
   };
 }
