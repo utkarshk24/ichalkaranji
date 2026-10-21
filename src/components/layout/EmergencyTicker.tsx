@@ -17,7 +17,6 @@ export async function EmergencyTicker() {
       <a
         href={`tel:${number}`}
         className="inline-flex items-center gap-1.5 rounded px-1 font-medium hover:underline"
-        aria-label={t("call", { name: t(`items.${key}`), number })}
       >
         <span className="text-white/80">{t(`items.${key}`)}</span>
         <span className="font-semibold tabular-nums">{number}</span>
@@ -26,18 +25,18 @@ export async function EmergencyTicker() {
   ));
 
   return (
-    <div data-ticker className="bg-[#7f1d1d] text-white dark:bg-[#5c1414]">
+    <aside data-ticker aria-label={t("label")} className="bg-[#7f1d1d] text-white dark:bg-[#5c1414]">
       <div className="mx-auto flex h-[var(--ticker-h)] max-w-7xl items-center gap-3 px-4 text-xs sm:text-sm">
         <span className="hidden shrink-0 items-center gap-1.5 font-semibold md:inline-flex">
           <PhoneCall className="h-4 w-4" aria-hidden="true" />
           {t("label")}
         </span>
 
-        <nav aria-label={t("label")} className="ticker relative min-w-0 flex-1 overflow-hidden">
+        <nav aria-label={t("numbersLabel")} className="ticker relative min-w-0 flex-1 overflow-hidden">
           {/* Two copies make the marquee seamless; the second is hidden from assistive tech. */}
           <div className="ticker-track flex w-max gap-6 lg:animate-none">
             <ul className="flex gap-6">{items}</ul>
-            <ul className="flex gap-6 lg:hidden" aria-hidden="true">
+            <ul className="flex gap-6 lg:hidden" aria-hidden="true" inert>
               {items}
             </ul>
           </div>
@@ -50,6 +49,6 @@ export async function EmergencyTicker() {
       <p className="border-t border-white/10 bg-black/20 px-4 py-1 text-center text-[11px] text-white/90 sm:text-xs">
         {tSite("independentNotice")}
       </p>
-    </div>
+    </aside>
   );
 }

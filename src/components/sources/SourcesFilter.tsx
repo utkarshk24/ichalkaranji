@@ -37,7 +37,7 @@ export function SourcesFilter({
           ))}
         </div>
       </fieldset>
-      <div className="overflow-x-auto rounded-2xl border border-border bg-surface">
+      <div tabIndex={0} role="group" aria-label={labels.caption} className="overflow-x-auto rounded-2xl border border-border bg-surface">
         <table className="w-full min-w-[640px] text-left text-sm">
           <caption className="sr-only">{labels.caption}</caption>
           {head}

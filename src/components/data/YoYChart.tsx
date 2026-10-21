@@ -1,8 +1,11 @@
 "use client";
 
-import { useId, useState } from "react";
-import { Bar, BarChart, CartesianGrid, Cell, LabelList, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import dynamic from "next/dynamic";
+import { useEffect, useId, useRef, useState } from "react";
 import type { DataStatus } from "@/types/indicator";
+
+// Recharts is loaded only when a chart nears the viewport, keeping it off the critical path.
+const YoYChartPlot = dynamic(() => import("./YoYChartPlot"), { ssr: false });
 
 export type ChartPoint = {
   year: number;
@@ -38,21 +41,27 @@ export function YoYChart({ points, labels, locale }: { points: ChartPoint[]; lab
   const [showTable, setShowTable] = useState(false);
   const data = points.filter((p) => p.value !== null).sort((a, b) => a.year - b.year);
   const hasEstimate = data.some((p) => isEstimate(p.status));
+  const plotRef = useRef<HTMLDivElement>(null);
+  const [inView, setInView] = useState(false);
+
+  useEffect(() => {
+    const el = plotRef.current;
+    if (!el || inView) return;
+    if (!("IntersectionObserver" in window)) return setInView(true);
+    // Draw every chart before printing / "Download as PDF", even ones never scrolled to.
+    const onPrint = () => setInView(true);
+    window.addEventListener("beforeprint", onPrint);
+    window.addEventListener("portal:prepare-print", onPrint);
+    const io = new IntersectionObserver((entries) => entries.some((e) => e.isIntersecting) && setInView(true), { rootMargin: "300px" });
+    io.observe(el);
+    return () => {
+      io.disconnect();
+      window.removeEventListener("beforeprint", onPrint);
+      window.removeEventListener("portal:prepare-print", onPrint);
+    };
+  }, [inView]);
 
   const nf = new Intl.NumberFormat(`${locale}-IN-u-nu-latn`);
-  const intlCompact = new Intl.NumberFormat(`${locale}-IN-u-nu-latn`, { notation: "compact", maximumFractionDigits: 1 });
-  // en-IN abbreviates thousand as "T"; use the familiar K / L (lakh) / Cr instead. mr/hi words read fine.
-  const compact = {
-    format(v: number) {
-      if (locale !== "en") return intlCompact.format(v);
-      const abs = Math.abs(v);
-      const fmt = (n: number, suffix: string) => `${Number(n.toFixed(1))}${suffix}`;
-      if (abs >= 1e7) return fmt(v / 1e7, "Cr");
-      if (abs >= 1e5) return fmt(v / 1e5, "L");
-      if (abs >= 1e3) return fmt(v / 1e3, "K");
-      return String(v);
-    },
-  };
 
   return (
     <figure className="flex h-full flex-col rounded-2xl border border-border bg-surface p-5">
@@ -61,53 +70,17 @@ export function YoYChart({ points, labels, locale }: { points: ChartPoint[]; lab
         <p className="text-sm text-fg-muted">{labels.subtitle}</p>
       </figcaption>
 
-      <div className="mt-4 h-56" role="img" aria-label={labels.chartLabel}>
-        <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={data} margin={{ top: 24, right: 8, bottom: 0, left: 0 }} barCategoryGap="30%">
-            <defs>
-              <pattern id={`hatch-${uid}`} patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
-                <rect width="6" height="6" fill="var(--chart-1)" opacity="0.25" />
-                <line x1="0" y1="0" x2="0" y2="6" stroke="var(--chart-1)" strokeWidth="3" />
-              </pattern>
-            </defs>
-            <CartesianGrid vertical={false} stroke="var(--chart-grid)" />
-            <XAxis dataKey="year" tickLine={false} axisLine={{ stroke: "var(--border)" }} tick={{ fill: "var(--fg-muted)", fontSize: 12 }} />
-            <YAxis
-              width={locale === "en" ? 44 : 68}
-              tickLine={false}
-              axisLine={false}
-              tick={{ fill: "var(--fg-muted)", fontSize: 12 }}
-              tickFormatter={(v: number) => compact.format(v)}
-            />
-            <Tooltip
-              cursor={{ fill: "var(--surface-2)" }}
-              content={({ active, payload }) => {
-                if (!active || !payload?.length) return null;
-                const p = payload[0].payload as ChartPoint;
-                return (
-                  <div className="rounded-lg border border-border bg-surface px-3 py-2 text-xs shadow-lg">
-                    <p className="font-semibold text-fg">{p.year}</p>
-                    <p className="text-fg tabular-nums">{nf.format(p.value as number)}</p>
-                    <p className="text-fg-muted">{p.statusLabel}</p>
-                    <p className="max-w-[14rem] text-fg-muted"><span lang="en">{p.source}</span></p>
-                  </div>
-                );
-              }}
-            />
-            <Bar dataKey="value" radius={[4, 4, 0, 0]} maxBarSize={24} isAnimationActive={false}>
-              {data.map((p) => (
-                <Cell key={p.year} fill={isEstimate(p.status) ? `url(#hatch-${uid})` : "var(--chart-1)"} />
-              ))}
-              <LabelList
-                dataKey="value"
-                position="top"
-                offset={8}
-                className="fill-fg-muted text-[11px] tabular-nums"
-                formatter={(v: unknown) => (typeof v === "number" ? nf.format(v) : "")}
-              />
-            </Bar>
-          </BarChart>
-        </ResponsiveContainer>
+      {/* Hatch pattern shared by the bars and the legend swatch. */}
+      <svg width="0" height="0" className="absolute" aria-hidden="true" focusable="false">
+        <defs>
+          <pattern id={`hatch-${uid}`} patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+            <rect width="6" height="6" fill="var(--chart-1)" opacity="0.25" />
+            <line x1="0" y1="0" x2="0" y2="6" stroke="var(--chart-1)" strokeWidth="3" />
+          </pattern>
+        </defs>
+      </svg>
+      <div ref={plotRef} className="mt-4 h-56" role="img" aria-label={labels.chartLabel}>
+        {inView && <YoYChartPlot data={data} uid={uid} locale={locale} />}
       </div>
 
       <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs text-fg-muted">
@@ -133,7 +106,7 @@ export function YoYChart({ points, labels, locale }: { points: ChartPoint[]; lab
         </button>
       </div>
 
-      <div id={`table-${uid}`} hidden={!showTable} className="mt-3 overflow-x-auto">
+      <div id={`table-${uid}`} hidden={!showTable} tabIndex={0} role="group" aria-label={labels.title} className="mt-3 overflow-x-auto">
         <table className="w-full text-left text-xs">
           <caption className="sr-only">{labels.chartLabel}</caption>
           <thead className="text-fg-muted">

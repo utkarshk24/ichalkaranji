@@ -3,9 +3,16 @@
 Independent, trilingual (English / मराठी / हिंदी) city information portal for Ichalkaranji, Kolhapur district.
 Not affiliated with Ichalkaranji Municipal Corporation; citizen services link out to official portals.
 
-**Status:** Phase 6 of 7 — all 28 section routes and the home page are live in all three languages, with localized
-titles, search descriptions, social cards and web app manifests (96 static outputs). Phase 7 is the quality pass
-(accessibility, Lighthouse, schema validation, link audit, deploy and editor guides).
+**Status:** v1.0 — all 7 phases complete. 28 section routes plus the home page in English, मराठी and हिंदी
+(87 pages), with localized metadata, social cards and manifests. Zero axe accessibility violations; Lighthouse
+accessibility 100 and SEO 100 (with the real domain set). See [docs/QA-REPORT.md](docs/QA-REPORT.md).
+
+| Guide | For |
+| --- | --- |
+| [docs/DEPLOY.md](docs/DEPLOY.md) | Environment variables, Vercel / Node hosting, post-deploy checklist, CI, CSP |
+| [docs/EDITING.md](docs/EDITING.md) | Updating statistics, news, projects, page content, places, photos and translations |
+| [docs/glossary.md](docs/glossary.md) | Agreed English / मराठी / हिंदी terms |
+| [docs/QA-REPORT.md](docs/QA-REPORT.md) | Accessibility, Lighthouse, structured-data and source-link audit results |
 
 ## Quick start
 
@@ -19,6 +26,7 @@ npm run dev                  # http://localhost:3000 → redirects to /en
 | --- | --- |
 | `npm run dev` | Development server |
 | `npm run build` / `npm start` | Production build (96 static outputs) and server |
+| `npm run check` | Type check + translation/data/glossary rules (run before every commit; CI runs it too) |
 | `npm run typecheck` | TypeScript check |
 | `npm run check:messages` | Fails if `mr.json` / `hi.json` miss a key or placeholder, if any data/ text lacks mr or hi, if Devanagari digits or ICU `#` appear, or if a glossary-checked spelling is wrong |
 | `python3 scripts/content/<file>.py` | Regenerates `data/pages/*.json` or `data/projects.json` from the trilingual content scripts |
@@ -29,7 +37,7 @@ Requires Node 20.9+. Deploys to Vercel or any Node host as-is.
 ## Stack
 
 Next.js 16 (App Router, TypeScript, static generation) · Tailwind CSS 4 · next-intl 4 · next-themes ·
-Lucide icons · Inter + Noto Sans Devanagari (self-hosted via Fontsource) · Leaflet, Recharts and
+Lucide icons · Inter + Noto Sans Devanagari (self-hosted via next/font from the Fontsource files) · Leaflet, Recharts and
 Framer Motion.
 
 ## Structure

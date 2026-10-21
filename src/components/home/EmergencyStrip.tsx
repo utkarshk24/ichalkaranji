@@ -37,7 +37,6 @@ export async function EmergencyNumbers() {
         <li key={key}>
           <a
             href={`tel:${number}`}
-            aria-label={t("emergency.call", { name: t(`emergency.items.${key}`), number })}
             className="flex h-full flex-col rounded-2xl border border-danger/20 bg-surface p-4 transition-colors hover:border-danger/60"
           >
             <Icon className="h-5 w-5 text-danger" aria-hidden="true" />

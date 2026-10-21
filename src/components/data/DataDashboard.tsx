@@ -27,6 +27,8 @@ export type DashboardRow = {
 };
 
 type Labels = {
+  /** Visually hidden h2 above the indicator cards/table (keeps the heading outline h1 → h2 → h3). */
+  listTitle: string;
   filters: string;
   topic: string;
   topics: Record<"all" | IndicatorTopic, string>;
@@ -218,6 +220,7 @@ export function DataDashboard({
         <p id={`${uid}-csv`}>{labels.csvNote}</p>
       </div>
 
+      <h2 className="sr-only">{labels.listTitle}</h2>
       {shown.length === 0 ? (
         <div className="mt-8 rounded-2xl border border-dashed border-border p-10 text-center">
           <p className="text-fg-muted">{labels.empty}</p>
@@ -244,7 +247,7 @@ export function DataDashboard({
           ))}
         </ul>
       ) : (
-        <div className="mt-6 overflow-x-auto rounded-2xl border border-border bg-surface">
+        <div tabIndex={0} role="group" aria-label={labels.listTitle} className="mt-6 overflow-x-auto rounded-2xl border border-border bg-surface">
           <table className="w-full min-w-[760px] text-left text-sm">
             <thead className="bg-surface-2 text-xs text-fg-muted">
               <tr>

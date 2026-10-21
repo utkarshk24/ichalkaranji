@@ -48,6 +48,7 @@ export async function FeaturedGrid({ items }: { items: FeaturedItem[] }) {
               <div className="relative mt-auto flex flex-wrap items-center justify-between gap-2 pt-5 text-xs">
                 <Link href={item.href} className={`inline-flex items-center gap-1 text-sm font-semibold ${feature ? "text-white" : "text-primary"} hover:underline`}>
                   {t("home.featured.learnMore")}
+                  <span className="sr-only">: {item.title[locale]}</span>
                   <ArrowRight className="h-4 w-4" aria-hidden="true" />
                 </Link>
                 {item.sourceUrl ? (

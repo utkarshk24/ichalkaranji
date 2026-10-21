@@ -17,6 +17,7 @@ export type TrackerProject = {
 };
 
 type Labels = {
+  listTitle: string;
   statusFilter: string;
   all: string;
   category: string;
@@ -99,6 +100,7 @@ export function ProjectsTracker({ projects, labels }: { projects: TrackerProject
         {labels.counts[shown.length]}
       </p>
 
+      <h2 className="sr-only">{labels.listTitle}</h2>
       {shown.length === 0 ? (
         <p className="mt-8 rounded-2xl border border-dashed border-border p-10 text-center text-fg-muted">{labels.empty}</p>
       ) : (

@@ -206,7 +206,7 @@ export async function ContentBlocks({ blocks, locale }: { blocks: Block[]; local
             <>
               <BlockTitle id={block.id}>{block.title[locale]}</BlockTitle>
               {block.lead && <p className="mt-2 max-w-3xl text-fg-muted">{block.lead[locale]}</p>}
-              <div className="mt-4 overflow-x-auto rounded-2xl border border-border bg-surface">
+              <div tabIndex={0} role="group" aria-label={block.title[locale]} className="mt-4 overflow-x-auto rounded-2xl border border-border bg-surface">
                 <table className="w-full min-w-[32rem] text-left text-sm">
                   <thead className="bg-surface-2 text-xs text-fg-muted">
                     <tr>
@@ -261,20 +261,6 @@ export async function ContentBlocks({ blocks, locale }: { blocks: Block[]; local
                   </details>
                 ))}
               </div>
-              <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "FAQPage",
-                    mainEntity: block.items.map((item) => ({
-                      "@type": "Question",
-                      name: item.q[locale],
-                      acceptedAnswer: { "@type": "Answer", text: item.a[locale] },
-                    })),
-                  }),
-                }}
-              />
             </>
           );
 
@@ -327,6 +313,9 @@ export async function ContentBlocks({ blocks, locale }: { blocks: Block[]; local
     }),
   );
 
+  // One FAQPage per page, gathering every FAQ block's questions.
+  const faqs = blocks.flatMap((b) => (b.type === "faq" ? b.items : []));
+
   return (
     <div className="mx-auto max-w-7xl space-y-14 px-4 py-12">
       {blocks.map((block, i) => (
@@ -335,6 +324,22 @@ export async function ContentBlocks({ blocks, locale }: { blocks: Block[]; local
           {rendered[i]}
         </section>
       ))}
+      {faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((item) => ({
+                "@type": "Question",
+                name: item.q[locale],
+                acceptedAnswer: { "@type": "Answer", text: item.a[locale] },
+              })),
+            }),
+          }}
+        />
+      )}
     </div>
   );
 }

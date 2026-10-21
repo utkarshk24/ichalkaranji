@@ -160,7 +160,6 @@
   },
   "emergency": {
     "label": "Emergency helplines",
-    "call": "Call {name} on {number}",
     "items": {
       "e112": "Emergency",
       "police": "Police",
@@ -169,7 +168,8 @@
       "women": "Women helpline",
       "child": "Child helpline"
     },
-    "viewAll": "All helplines"
+    "viewAll": "All helplines",
+    "numbersLabel": "Emergency numbers"
   },
   "breadcrumb": {
     "label": "Breadcrumb",
@@ -598,7 +598,7 @@
     "nearbyTitle": "Nearby",
     "distance": "{km} km away (straight line)",
     "noPin": "Position not yet verified",
-    "mapTitle": "Places on the map",
+    "mapTitle": "Tourist map",
     "itinerariesTitle": "Suggested itineraries",
     "itinerariesLead": "Suggested by this portal. Check opening hours and road conditions before you travel.",
     "bestTimeTitle": "Best time to visit",
@@ -654,7 +654,8 @@
       "p1": "“Latest” is the most recent year with a figure. “Previous” is the year before it that also has one, so the gap between them can be many years.",
       "p2": "Estimates and projections are not counts. When a change compares an estimate with an official count, the card says so.",
       "p3": "“Data awaited” means no reliable figure was found. The portal leaves the gap rather than fill it with a guess."
-    }
+    },
+    "listTitle": "All indicators"
   },
   "projectsPage": {
     "summary": "Civic and infrastructure projects that affect Ichalkaranji, with the status each source reports. Costs appear only where a source states them.",
@@ -684,7 +685,8 @@
     "noSource": "No source found yet",
     "empty": "No projects match these filters.",
     "gapsTitle": "What is missing",
-    "gapsBody": "Costs, contractors and progress percentages are missing for most projects. They will be added from corporation tender notices and budget documents, not estimated."
+    "gapsBody": "Costs, contractors and progress percentages are missing for most projects. They will be added from corporation tender notices and budget documents, not estimated.",
+    "listTitle": "Projects"
   },
   "newsPage": {
     "summary": "Dated summaries of published reports about Ichalkaranji, each linked to its source. This portal does not publish its own news.",
@@ -694,7 +696,8 @@
     "empty": "No items in this topic yet.",
     "officialTitle": "Official notices",
     "officialBody": "Tenders, public notices and orders are published by the municipal corporation. Check its website for the full, current list.",
-    "officialCta": "Corporation website"
+    "officialCta": "Corporation website",
+    "listTitle": "Reports"
   },
   "contactPage": {
     "summary": "Write to the team that runs this independent portal about corrections, accessibility or ideas. For civic complaints, use the official portals.",

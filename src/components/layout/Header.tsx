@@ -44,7 +44,7 @@ export function Header() {
     >
       <div ref={navRef} className="relative">
         <div className="mx-auto flex h-[var(--header-h)] max-w-7xl items-center gap-3 px-4">
-          <Link href="/" className="flex shrink-0 items-center gap-2.5 rounded-lg" aria-label={t("site.fullName")}>
+          <Link href="/" className="flex shrink-0 items-center gap-2.5 rounded-lg">
             <LogoMark />
             <span className="flex flex-col leading-tight">
               <span className="text-base font-bold tracking-tight text-fg">{t("site.name")}</span>
@@ -91,12 +91,12 @@ export function Header() {
             <button
               type="button"
               onClick={openSearch}
-              aria-label={t("header.searchLabel")}
+              title={t("header.searchLabel")}
               className="hidden h-10 items-center gap-2 rounded-full border border-border bg-surface px-3 text-sm text-fg-muted transition-colors hover:text-fg md:inline-flex"
             >
               <Search className="h-4 w-4" aria-hidden="true" />
               <span>{t("header.search")}</span>
-              <kbd className="rounded border border-border px-1.5 font-sans text-[10px]">⌘K</kbd>
+              <kbd aria-hidden="true" className="rounded border border-border px-1.5 font-sans text-[10px]">⌘K</kbd>
             </button>
             <button
               type="button"

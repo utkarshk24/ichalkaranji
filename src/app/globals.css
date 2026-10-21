@@ -26,7 +26,7 @@
   --primary: #1e3a8a;
   --primary-hover: #172e70;
   --primary-fg: #ffffff;
-  --gold: #b45309; /* text-safe gold (5.0:1 on white) */
+  --gold: #a1480a; /* text-safe gold (6.1:1 on white, 5.4:1 on gold-soft) */
   --gold-soft: #fdf0dc;
   --emerald: #047857;
   --emerald-soft: #e3f5ee;
@@ -88,8 +88,9 @@
   --color-brand-emerald: var(--brand-emerald);
   --color-brand-terracotta: var(--brand-terracotta);
 
-  --font-sans: "Inter Variable", "Noto Sans Devanagari Variable", ui-sans-serif, system-ui, sans-serif;
-  --font-deva: "Noto Sans Devanagari Variable", "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  /* Faces come from next/font (src/app/fonts.ts); each is limited to its script by unicode-range. */
+  --font-sans: var(--font-inter-face), var(--font-deva-face), ui-sans-serif, system-ui, sans-serif;
+  --font-deva: var(--font-deva-face), var(--font-inter-face), ui-sans-serif, system-ui, sans-serif;
 }
 
 /* ---------------------------------------------------------------------------

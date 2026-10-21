@@ -100,6 +100,7 @@ export default async function DataPage({ params }: Props) {
         locale={locale}
         defaultChart="population_total"
         labels={{
+          listTitle: t("dataPage.listTitle"),
           filters: t("dataPage.filters"),
           topic: t("dataPage.topic"),
           topics: {

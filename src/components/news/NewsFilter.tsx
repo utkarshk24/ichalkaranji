@@ -13,7 +13,7 @@ export function NewsFilter<C extends string>({
 }: {
   items: { id: string; category: C; node: ReactNode }[];
   categories: { key: C; label: string }[];
-  labels: { filter: string; all: string; empty: string; counts: Record<number, string> };
+  labels: { title: string; filter: string; all: string; empty: string; counts: Record<number, string> };
 }) {
   const [active, setActive] = useState<"all" | C>("all");
   const shown = items.filter((i) => active === "all" || i.category === active);
@@ -41,6 +41,7 @@ export function NewsFilter<C extends string>({
       <p className="mt-3 text-sm text-fg-muted" aria-live="polite" data-no-print>
         {labels.counts[shown.length]}
       </p>
+      <h2 className="sr-only">{labels.title}</h2>
       {shown.length === 0 ? (
         <p className="mt-6 rounded-2xl border border-dashed border-border p-10 text-center text-fg-muted">{labels.empty}</p>
       ) : (

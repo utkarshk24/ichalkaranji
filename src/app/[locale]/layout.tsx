@@ -1,5 +1,3 @@
-import "@fontsource-variable/inter";
-import "@fontsource-variable/noto-sans-devanagari";
 import "../globals.css";
 
 import type { Metadata, Viewport } from "next";
@@ -16,6 +14,7 @@ import { MobileTabBar } from "@/components/layout/MobileTabBar";
 import { SearchDialog } from "@/components/layout/SearchDialog";
 import { SkipLink } from "@/components/layout/SkipLink";
 import { Providers } from "@/components/providers/Providers";
+import { inter, notoDevanagari } from "@/app/fonts";
 import { localeLabels, routing, type Locale } from "@/i18n/routing";
 import { buildMetadata, siteJsonLd } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
@@ -68,7 +67,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   const jsonLd = siteJsonLd(locale as Locale, t("homeTitle"), t("homeDescription"), t("siteName"));
 
   return (
-    <html lang={localeLabels[locale].htmlLang} suppressHydrationWarning>
+    <html lang={localeLabels[locale].htmlLang} className={`${inter.variable} ${notoDevanagari.variable}`} suppressHydrationWarning>
       <body className="min-h-dvh">
         <NextIntlClientProvider>
           <Providers>

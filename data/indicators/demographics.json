@@ -42,9 +42,9 @@
         "source": "MPCB Panchganga River Action Plan 2025",
         "sourceUrl": "https://mpcb.gov.in/sites/default/files/Establishment%20of%20MPCB/Seniority%20list/2014/Panchaganga%20River%206.0_%20Action%20Plan%202025.pdf",
         "method": {
-          "en": "Planning figure used by the pollution control board; method not stated.",
-          "mr": "प्रदूषण नियंत्रण मंडळाने वापरलेला नियोजन आकडा; पद्धत नमूद नाही.",
-          "hi": "प्रदूषण नियंत्रण बोर्ड द्वारा प्रयुक्त योजना आँकड़ा; पद्धति नहीं बताई गई।"
+          "en": "Planning figure in the pollution control board's 2025 action plan; method not stated. The same plan's Table 1 lists 2,92,060, so treat with caution.",
+          "mr": "प्रदूषण नियंत्रण मंडळाच्या 2025 कृती आराखड्यातील नियोजन आकडा; पद्धत नमूद नाही. त्याच आराखड्याच्या तक्ता 1 मध्ये 2,92,060 आहे, त्यामुळे सावधपणे वापरा.",
+          "hi": "प्रदूषण नियंत्रण बोर्ड की 2025 कार्ययोजना का योजना आँकड़ा; पद्धति नहीं बताई गई। उसी योजना की तालिका 1 में 2,92,060 है, इसलिए सावधानी से लें।"
         },
         "retrieved": "2026-10-21"
       }
@@ -159,9 +159,9 @@
         "source": "Wikipedia: Ichalkaranji",
         "sourceUrl": "https://en.wikipedia.org/wiki/Ichalkaranji",
         "method": {
-          "en": "Municipal limits before the 2022 corporation upgrade; current limits awaited.",
-          "mr": "2022 मधील महानगरपालिका दर्जापूर्वीची हद्द; सध्याची हद्द प्रतीक्षेत.",
-          "hi": "2022 में महानगरपालिका बनने से पहले की सीमा; वर्तमान सीमा प्रतीक्षित।"
+          "en": "Municipal limits before the 2022 corporation upgrade. Wikipedia's infobox now gives 49.84 sq km, possibly the new limits; not yet confirmed.",
+          "mr": "2022 मधील महानगरपालिका दर्जापूर्वीची हद्द. विकिपीडियाच्या माहितीचौकटीत आता 49.84 चौ. किमी आहे, कदाचित नवी हद्द; अद्याप निश्चित नाही.",
+          "hi": "2022 में महानगरपालिका बनने से पहले की सीमा। विकिपीडिया के सूचना बॉक्स में अब 49.84 वर्ग किमी है, संभवतः नई सीमा; अभी पुष्टि नहीं।"
         },
         "retrieved": "2026-10-21"
       }

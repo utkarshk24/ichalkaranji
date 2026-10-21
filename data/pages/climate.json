@@ -77,9 +77,9 @@
             "hi": "रिकॉर्ड अधिकतम"
           },
           "value": {
-            "en": "About 40.6 °C (May 2016)",
-            "mr": "सुमारे 40.6 °से (मे 2016)",
-            "hi": "लगभग 40.6 °से (मई 2016)"
+            "en": "About 40.6 °C (May 2016); unofficial record, verify against IMD",
+            "mr": "सुमारे 40.6 °से (मे 2016); अनधिकृत नोंद, IMD कडे तपासावी",
+            "hi": "लगभग 40.6 °से (मई 2016); अनौपचारिक रिकॉर्ड, IMD से जाँचें"
           },
           "status": "secondary",
           "source": "Climate-Zone (Kolhapur station records)",
@@ -92,9 +92,9 @@
             "hi": "सबसे अधिक वर्षा का दिन"
           },
           "value": {
-            "en": "About 181 mm on 24 July 2021",
-            "mr": "24 जुलै 2021 रोजी सुमारे 181 मिमी",
-            "hi": "24 जुलाई 2021 को लगभग 181 मिमी"
+            "en": "About 181 mm on 24 July 2021; unofficial record, verify against IMD",
+            "mr": "24 जुलै 2021 रोजी सुमारे 181 मिमी; अनधिकृत नोंद, IMD कडे तपासावी",
+            "hi": "24 जुलाई 2021 को लगभग 181 मिमी; अनौपचारिक रिकॉर्ड, IMD से जाँचें"
           },
           "status": "secondary",
           "source": "Climate-Zone (Kolhapur station records)",

@@ -45,6 +45,7 @@ export default async function NewsPage({ params }: Props) {
           items={news.map((item) => ({ id: item.id, category: item.category, node: <NewsCard item={item} /> }))}
           categories={present.map((key) => ({ key, label: t(`home.news.categories.${key}`) }))}
           labels={{
+            title: t("newsPage.listTitle"),
             filter: t("newsPage.filter"),
             all: t("newsPage.all"),
             empty: t("newsPage.empty"),

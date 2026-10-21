@@ -57,6 +57,7 @@ export default async function ProjectsPage({ params }: Props) {
       <ProjectsTracker
         projects={projects}
         labels={{
+          listTitle: t("projectsPage.listTitle"),
           statusFilter: t("projectsPage.statusFilter"),
           all: t("projectsPage.all"),
           category: t("projectsPage.category"),
